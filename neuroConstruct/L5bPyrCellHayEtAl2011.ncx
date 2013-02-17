@@ -21,9 +21,128 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
    <string>L5bPyrCellHayEtAl2011</string>
   </void>
  </object>
- <object class="ucl.physiol.neuroconstruct.project.RegionsInfo"/>
- <object class="ucl.physiol.neuroconstruct.project.CellGroupsInfo"/>
- <object class="ucl.physiol.neuroconstruct.project.SimPlotInfo"/>
+ <object class="ucl.physiol.neuroconstruct.project.RegionsInfo">
+  <void property="internalData">
+   <void method="get">
+    <string>Name</string>
+    <void method="add">
+     <string>Regions_1</string>
+    </void>
+   </void>
+   <void method="get">
+    <string>Colour</string>
+    <void method="add">
+     <object class="java.awt.Color">
+      <int>255</int>
+      <int>255</int>
+      <int>255</int>
+      <int>255</int>
+     </object>
+    </void>
+   </void>
+   <void method="get">
+    <string>Description</string>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.RectangularBox">
+      <void property="parameterList">
+       <void index="3">
+        <void property="value">
+         <float>120.0</float>
+        </void>
+       </void>
+       <void index="4">
+        <void property="value">
+         <float>50.0</float>
+        </void>
+       </void>
+       <void index="5">
+        <void property="value">
+         <float>120.0</float>
+        </void>
+       </void>
+      </void>
+     </object>
+    </void>
+   </void>
+  </void>
+ </object>
+ <object class="ucl.physiol.neuroconstruct.project.CellGroupsInfo">
+  <void property="internalData">
+   <void method="get">
+    <string>Cell Packing Adapter</string>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.packing.SinglePositionedCellPackingAdapter"/>
+    </void>
+   </void>
+   <void method="get">
+    <string>Cell Type</string>
+    <void method="add">
+     <string>cell2</string>
+    </void>
+   </void>
+   <void method="get">
+    <string>Priority</string>
+    <void method="add">
+     <int>10</int>
+    </void>
+   </void>
+   <void method="get">
+    <string>Colour</string>
+    <void method="add">
+     <object class="java.awt.Color">
+      <int>29</int>
+      <int>14</int>
+      <int>188</int>
+      <int>255</int>
+     </object>
+    </void>
+   </void>
+   <void method="get">
+    <string>Region Name</string>
+    <void method="add">
+     <string>Regions_1</string>
+    </void>
+   </void>
+   <void method="get">
+    <string>Cell Group Name</string>
+    <void method="add">
+     <string>CellGroup_1</string>
+    </void>
+   </void>
+  </void>
+ </object>
+ <object class="ucl.physiol.neuroconstruct.project.SimPlotInfo">
+  <void property="allSimPlots">
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CellGroup_1</string>
+     </void>
+     <void property="cellNumber">
+      <string>*</string>
+     </void>
+     <void property="graphWindow">
+      <string>CellGroup_1_v</string>
+     </void>
+     <void property="maxValue">
+      <float>50.0</float>
+     </void>
+     <void property="minValue">
+      <float>-90.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>CellGroup_1_v</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
  <object class="ucl.physiol.neuroconstruct.project.ProjectProperties">
   <void property="preferredSaveFormat">
    <string>Java Serialized Object Format</string>
@@ -78,11 +197,21 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
   <void property="allSimConfigs">
    <void method="add">
     <object class="ucl.physiol.neuroconstruct.project.SimConfig">
+     <void property="cellGroups">
+      <void method="add">
+       <string>CellGroup_1</string>
+      </void>
+     </void>
      <void property="description">
       <string>This is the default configuration of the Cell Groups, stimulations, plots, etc for this project</string>
      </void>
      <void property="name">
       <string>Default Simulation Configuration</string>
+     </void>
+     <void property="plots">
+      <void method="add">
+       <string>CellGroup_1_v</string>
+      </void>
      </void>
      <void property="simDuration">
       <float>100.0</float>
