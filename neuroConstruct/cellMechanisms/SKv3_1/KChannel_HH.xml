@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channelml xmlns="http://morphml.org/channelml/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:meta="http://morphml.org/metadata/schema" xsi:schemaLocation="http://morphml.org/channelml/schema http://www.neuroml.org/NeuroMLValidator/NeuroMLFiles/Schemata/v1.8.0/Level2/ChannelML_v1.8.0.xsd" units="Physiological Units">
+
+    <meta:notes>ChannelML file containing a single Channel description</meta:notes>
+
+    <channel_type name="SKv3_1">
+
+        <status value="in_progress">
+            <meta:comment>...</meta:comment>
+            <meta:contributor>
+                <meta:name>Padraig Gleeson</meta:name>
+            </meta:contributor>
+        </status>
+
+        <meta:notes>...</meta:notes>
+        
+        <meta:authorList>
+            <meta:modelTranslator>
+                <meta:name>Padraig Gleeson</meta:name>
+                <meta:institution>UCL</meta:institution>    
+                <meta:email>p.gleeson - at - ucl.ac.uk</meta:email>
+            </meta:modelTranslator>
+        </meta:authorList>
+
+        <meta:publication>
+            <meta:fullTitle>....</meta:fullTitle>
+            <meta:pubmedRef>...</meta:pubmedRef>
+        </meta:publication>
+
+        <meta:neuronDBref>
+            <meta:modelName>K channels</meta:modelName>
+            <meta:uri>http://senselab.med.yale.edu/senselab/NeuronDB/channelGene2.htm#table3</meta:uri>
+        </meta:neuronDBref>
+        
+        <current_voltage_relation cond_law="ohmic" ion="k" default_gmax="36" default_erev="-85">
+            
+            <gate name="m" instances="1">
+                <closed_state id="m0"/>
+                <open_state id="m"/>
+
+                <time_course name="tau" from="m0" to="m" expr_form="sigmoid" rate="4" scale="-44.140" midpoint="-46.560"/>
+                <steady_state name="inf" from="m0" to="m" expr_form="sigmoid" rate="1" scale="-9.7" midpoint="18.7"/>
+
+            </gate>
+        </current_voltage_relation>
+
+        <impl_prefs>
+		<table_settings max_v="150" min_v="-150" table_divisions="4000"/>
+	</impl_prefs>
+        
+    </channel_type>
+</channelml>
