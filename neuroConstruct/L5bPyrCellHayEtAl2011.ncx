@@ -79,6 +79,12 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
     <void method="add">
      <object class="ucl.physiol.neuroconstruct.project.packing.RandomCellPackingAdapter"/>
     </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.packing.RandomCellPackingAdapter"/>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.packing.RandomCellPackingAdapter"/>
+    </void>
    </void>
    <void method="get">
     <string>Cell Type</string>
@@ -91,6 +97,12 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
     <void method="add">
      <string>Soma_AllCML</string>
     </void>
+    <void method="add">
+     <string>Soma_Ih_mod</string>
+    </void>
+    <void method="add">
+     <string>Soma_Ih</string>
+    </void>
    </void>
    <void method="get">
     <string>Priority</string>
@@ -102,6 +114,12 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
     </void>
     <void method="add">
      <int>8</int>
+    </void>
+    <void method="add">
+     <int>7</int>
+    </void>
+    <void method="add">
+     <int>6</int>
     </void>
    </void>
    <void method="get">
@@ -130,9 +148,31 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
       <int>255</int>
      </object>
     </void>
+    <void method="add">
+     <object class="java.awt.Color">
+      <int>44</int>
+      <int>43</int>
+      <int>83</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.awt.Color">
+      <int>91</int>
+      <int>200</int>
+      <int>200</int>
+      <int>255</int>
+     </object>
+    </void>
    </void>
    <void method="get">
     <string>Region Name</string>
+    <void method="add">
+     <string>Regions_1</string>
+    </void>
+    <void method="add">
+     <string>Regions_1</string>
+    </void>
     <void method="add">
      <string>Regions_1</string>
     </void>
@@ -153,6 +193,12 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
     </void>
     <void method="add">
      <string>CG_TestCML</string>
+    </void>
+    <void method="add">
+     <string>CGTestOneMod</string>
+    </void>
+    <void method="add">
+     <string>CGTestOneCML</string>
     </void>
    </void>
   </void>
@@ -429,6 +475,124 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
      </void>
     </object>
    </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CGTestOneMod</string>
+     </void>
+     <void property="cellNumber">
+      <string>*</string>
+     </void>
+     <void property="graphWindow">
+      <string>CGTestOneMod_v</string>
+     </void>
+     <void property="maxValue">
+      <float>50.0</float>
+     </void>
+     <void property="minValue">
+      <float>-90.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>CGTestOneMod_v</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CGTestOneCML</string>
+     </void>
+     <void property="cellNumber">
+      <string>*</string>
+     </void>
+     <void property="graphWindow">
+      <string>CGTestOneMod_v</string>
+     </void>
+     <void property="maxValue">
+      <float>50.0</float>
+     </void>
+     <void property="minValue">
+      <float>-90.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>CGTestOneCML_v</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CG_TestMod</string>
+     </void>
+     <void property="cellNumber">
+      <string>0</string>
+     </void>
+     <void property="graphWindow">
+      <string>GraphWin_0</string>
+     </void>
+     <void property="maxValue">
+      <float>1.0</float>
+     </void>
+     <void property="minValue">
+      <float>0.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>Var_6</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+     <void property="valuePlotted">
+      <string>Ih_mod:m</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CG_TestCML</string>
+     </void>
+     <void property="cellNumber">
+      <string>0</string>
+     </void>
+     <void property="graphWindow">
+      <string>GraphWin_0</string>
+     </void>
+     <void property="maxValue">
+      <float>1.0</float>
+     </void>
+     <void property="minValue">
+      <float>0.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>Var_7</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+     <void property="valuePlotted">
+      <string>Ih:m</string>
+     </void>
+    </object>
+   </void>
   </void>
  </object>
  <object class="ucl.physiol.neuroconstruct.project.ProjectProperties">
@@ -461,11 +625,7 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
   </void>
  </object>
  <object class="ucl.physiol.neuroconstruct.neuron.NeuronSettings"/>
- <object class="ucl.physiol.neuroconstruct.genesis.GenesisSettings">
-  <void property="mooseCompatMode">
-   <boolean>true</boolean>
-  </void>
- </object>
+ <object class="ucl.physiol.neuroconstruct.genesis.GenesisSettings"/>
  <object class="ucl.physiol.neuroconstruct.psics.PsicsSettings"/>
  <object class="ucl.physiol.neuroconstruct.simulation.SimulationParameters">
   <void property="dt">
@@ -475,7 +635,7 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
    <float>100.0</float>
   </void>
   <void property="reference">
-   <string>Sim_34</string>
+   <string>Sim_48</string>
   </void>
   <void property="saveCopyGenSimFiles">
    <boolean>true</boolean>
@@ -629,6 +789,118 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
      </void>
     </object>
    </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.simulation.IClampSettings">
+     <void property="amp">
+      <void property="fixedNum">
+       <float>-0.01</float>
+      </void>
+     </void>
+     <void property="cellGroup">
+      <string>CGTestOneMod</string>
+     </void>
+     <void property="del">
+      <void property="fixedNum">
+       <float>100.0</float>
+      </void>
+     </void>
+     <void property="dur">
+      <void property="fixedNum">
+       <float>100.0</float>
+      </void>
+      <void property="numberType">
+       <int>11</int>
+      </void>
+     </void>
+     <void property="reference">
+      <string>Input_5</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.simulation.IClampSettings">
+     <void property="amp">
+      <void property="fixedNum">
+       <float>0.05</float>
+      </void>
+     </void>
+     <void property="cellGroup">
+      <string>CGTestOneMod</string>
+     </void>
+     <void property="del">
+      <void property="fixedNum">
+       <float>300.0</float>
+      </void>
+     </void>
+     <void property="dur">
+      <void property="fixedNum">
+       <float>100.0</float>
+      </void>
+      <void property="numberType">
+       <int>11</int>
+      </void>
+     </void>
+     <void property="reference">
+      <string>Input_6</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.simulation.IClampSettings">
+     <void property="amp">
+      <void property="fixedNum">
+       <float>-0.01</float>
+      </void>
+     </void>
+     <void property="cellGroup">
+      <string>CGTestOneCML</string>
+     </void>
+     <void property="del">
+      <void property="fixedNum">
+       <float>100.0</float>
+      </void>
+     </void>
+     <void property="dur">
+      <void property="fixedNum">
+       <float>100.0</float>
+      </void>
+      <void property="numberType">
+       <int>11</int>
+      </void>
+     </void>
+     <void property="reference">
+      <string>Input_7</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.simulation.IClampSettings">
+     <void property="amp">
+      <void property="fixedNum">
+       <float>0.05</float>
+      </void>
+     </void>
+     <void property="cellGroup">
+      <string>CGTestOneCML</string>
+     </void>
+     <void property="del">
+      <void property="fixedNum">
+       <float>300.0</float>
+      </void>
+     </void>
+     <void property="dur">
+      <void property="fixedNum">
+       <float>100.0</float>
+      </void>
+      <void property="numberType">
+       <int>11</int>
+      </void>
+     </void>
+     <void property="reference">
+      <string>Input_8</string>
+     </void>
+    </object>
+   </void>
   </void>
  </object>
  <object class="ucl.physiol.neuroconstruct.project.SimConfigInfo">
@@ -669,9 +941,6 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
      <void property="cellGroups">
       <void method="add">
        <string>CG_TestCML</string>
-      </void>
-      <void method="add">
-       <string>CG_TestMod</string>
       </void>
      </void>
      <void property="description">
@@ -718,6 +987,55 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
       </void>
       <void method="add">
        <string>Var_5</string>
+      </void>
+      <void method="add">
+       <string>Var_6</string>
+      </void>
+      <void method="add">
+       <string>Var_7</string>
+      </void>
+     </void>
+     <void property="simDuration">
+      <float>600.0</float>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimConfig">
+     <void property="cellGroups">
+      <void method="add">
+       <string>CGTestOneCML</string>
+      </void>
+      <void method="add">
+       <string>CGTestOneMod</string>
+      </void>
+     </void>
+     <void property="description">
+      <string>Test original mod file against ChannelML for one channel</string>
+     </void>
+     <void property="inputs">
+      <void method="add">
+       <string>Input_5</string>
+      </void>
+      <void method="add">
+       <string>Input_6</string>
+      </void>
+      <void method="add">
+       <string>Input_7</string>
+      </void>
+      <void method="add">
+       <string>Input_8</string>
+      </void>
+     </void>
+     <void property="name">
+      <string>TestModCMLOneChannel</string>
+     </void>
+     <void property="plots">
+      <void method="add">
+       <string>CGTestOneCML_v</string>
+      </void>
+      <void method="add">
+       <string>CGTestOneMod_v</string>
       </void>
      </void>
      <void property="simDuration">

@@ -3,7 +3,7 @@
 
     <meta:notes>ChannelML file containing a single Channel description</meta:notes>
 
-    <channel_type name="Im">
+    <channel_type name="Ih">
 
         <status value="in_progress">
             <meta:comment>...</meta:comment>
@@ -32,16 +32,14 @@
             <meta:uri>http://senselab.med.yale.edu/senselab/NeuronDB/channelGene2.htm#table3</meta:uri>
         </meta:neuronDBref>
         
-        <current_voltage_relation cond_law="ohmic" ion="k" default_gmax="36" default_erev="-85">
-
-            <q10_settings q10_factor="2.3" experimental_temp="21"/>
+        <current_voltage_relation cond_law="ohmic" ion="hcn" default_gmax="36" default_erev="-45">
             
             <gate name="m" instances="1">
                 <closed_state id="m0"/>
                 <open_state id="m"/>
                      
-                <transition name="alpha" from="m0" to="m" expr_form="exponential" rate="0.0033" scale="10" midpoint="-35"/>
-                <transition name="beta" from="m" to="m0" expr_form="exponential" rate="0.0033" scale="-10" midpoint="-35"/>
+                <transition name="alpha" from="m0" to="m" expr_form="exp_linear" rate="0.076517" scale="-11.9" midpoint="-154.9"/>
+                <transition name="beta" from="m" to="m0" expr_form="exponential" rate="0.193" scale="33.1" midpoint="0"/>
                     
             </gate>
         </current_voltage_relation>
