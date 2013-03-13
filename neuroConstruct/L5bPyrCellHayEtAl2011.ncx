@@ -77,7 +77,7 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
    <void method="get">
     <string>Cell Type</string>
     <void method="add">
-     <string>cell2</string>
+     <string>L5PCbiophys3_pas</string>
     </void>
    </void>
    <void method="get">
@@ -183,7 +183,7 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
    <float>100.0</float>
   </void>
   <void property="reference">
-   <string>Sim_1</string>
+   <string>Sim_2</string>
   </void>
   <void property="saveCopyGenSimFiles">
    <boolean>true</boolean>
@@ -192,7 +192,38 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
    <int>2</int>
   </void>
  </object>
- <object class="ucl.physiol.neuroconstruct.project.ElecInputInfo"/>
+ <object class="ucl.physiol.neuroconstruct.project.ElecInputInfo">
+  <void property="allStims">
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.simulation.IClampSettings">
+     <void property="amp">
+      <void property="fixedNum">
+       <float>0.7393</float>
+      </void>
+     </void>
+     <void property="cellGroup">
+      <string>CellGroup_1</string>
+     </void>
+     <void property="del">
+      <void property="fixedNum">
+       <float>700.0</float>
+      </void>
+     </void>
+     <void property="dur">
+      <void property="fixedNum">
+       <float>2000.0</float>
+      </void>
+      <void property="numberType">
+       <int>11</int>
+      </void>
+     </void>
+     <void property="reference">
+      <string>Input_0</string>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
  <object class="ucl.physiol.neuroconstruct.project.SimConfigInfo">
   <void property="allSimConfigs">
    <void method="add">
@@ -205,6 +236,11 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
      <void property="description">
       <string>This is the default configuration of the Cell Groups, stimulations, plots, etc for this project</string>
      </void>
+     <void property="inputs">
+      <void method="add">
+       <string>Input_0</string>
+      </void>
+     </void>
      <void property="name">
       <string>Default Simulation Configuration</string>
      </void>
@@ -214,7 +250,7 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
       </void>
      </void>
      <void property="simDuration">
-      <float>100.0</float>
+      <float>3000.0</float>
      </void>
     </object>
    </void>
