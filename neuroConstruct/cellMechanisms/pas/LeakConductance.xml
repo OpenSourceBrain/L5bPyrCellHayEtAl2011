@@ -10,7 +10,7 @@
         <meta:notes>Simple example of a leak/passive conductance. Note: for GENESIS cells with a single leak conductance,
         it is better to use the Rm and Em variables for a passive current.</meta:notes>
 
-        <current_voltage_relation cond_law="ohmic" ion="non_specific" default_erev="-90" default_gmax="5E-10"/>
+        <current_voltage_relation cond_law="ohmic" ion="non_specific" default_erev="-90" default_gmax="3.38E-5"/>
 
     </channel_type>
  
