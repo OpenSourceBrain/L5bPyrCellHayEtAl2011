@@ -3,8 +3,8 @@
 
     <meta:notes>ChannelML file containing a single Channel description</meta:notes>
 
-    <channel_type name="NaTa_t" density="yes">
-        
+    <channel_type name="Ca_HVA" density="yes">
+
         <status value="in_progress">
             <meta:comment>...</meta:comment>
             <meta:contributor>
@@ -17,7 +17,7 @@
         <meta:authorList>
             <meta:modelTranslator>
                 <meta:name>Padraig Gleeson</meta:name>
-                <meta:institution>UCL</meta:institution>
+                <meta:institution>UCL</meta:institution>    
                 <meta:email>p.gleeson - at - ucl.ac.uk</meta:email>
             </meta:modelTranslator>
         </meta:authorList>
@@ -27,29 +27,28 @@
             <meta:pubmedRef>...</meta:pubmedRef>
         </meta:publication>
 
+
         <meta:neuronDBref>
             <meta:modelName>Na channels</meta:modelName>
             <meta:uri>http://senselab.med.yale.edu/senselab/NeuronDB/channelGene2.htm#table2</meta:uri>
         </meta:neuronDBref>
         
-        <current_voltage_relation cond_law="ohmic" ion="na" default_erev="50" default_gmax="120">
-
-            <q10_settings q10_factor="2.3" experimental_temp="21"/>
-
-            <gate name="m" instances="3">
+        <current_voltage_relation cond_law="ohmic" ion="ca" default_erev="110" default_gmax="120" charge="2">
+            
+            <gate name="m" instances="2">
                 <closed_state id="m0"/>
                 <open_state id="m"/>
 
-                <transition name="alpha" from="m0" to="m" expr_form="exp_linear" rate="1.092" scale="6" midpoint="-38"/>
-                <transition name="beta" from="m" to="m0" expr_form="exp_linear" rate="0.744" scale="-6" midpoint="-38"/>
+                <transition name="alpha" from="m0" to="m" expr_form="exp_linear" rate="0.209" scale="3.8" midpoint="-27"/>
+                <transition name="beta" from="m" to="m0" expr_form="exponential" rate="0.94" scale="-17" midpoint="-75"/>
             </gate>
             
             <gate name="h" instances="1">
                 <closed_state id="h0"/>
                 <open_state id="h"/>
 
-                <transition name="alpha" from="h0" to="h" expr_form="exp_linear" rate="0.09" scale="-6" midpoint="-66"/>
-                <transition name="beta" from="h" to="h0" expr_form="exp_linear" rate="0.09" scale="6" midpoint="-66"/>
+                <transition name="alpha" from="h0" to="h" expr_form="exponential" rate="0.000457" scale="-50" midpoint="-13"/>
+                <transition name="beta" from="h" to="h0" expr_form="sigmoid" rate="0.0065" scale="-28" midpoint="-15"/>
             </gate>
             
         </current_voltage_relation>
