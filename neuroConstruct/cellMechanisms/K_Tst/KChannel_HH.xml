@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<channelml xmlns="http://morphml.org/channelml/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:meta="http://morphml.org/metadata/schema"
-xsi:schemaLocation="http://morphml.org/channelml/schema  http://www.neuroml.org/NeuroMLValidator/NeuroMLFiles/Schemata/v1.8.1/Level2/ChannelML_v1.8.1.xsd" units="Physiological Units">
+<channelml xmlns="http://morphml.org/channelml/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:meta="http://morphml.org/metadata/schema" xsi:schemaLocation="http://morphml.org/channelml/schema http://www.neuroml.org/NeuroMLValidator/NeuroMLFiles/Schemata/v1.8.0/Level2/ChannelML_v1.8.0.xsd" units="Physiological Units">
 
     <meta:notes>ChannelML file containing a single Channel description</meta:notes>
 
-    <channel_type name="Ca_HVA" density="yes">
+    <channel_type name="K_Tst">
 
         <status value="in_progress">
             <meta:comment>...</meta:comment>
@@ -28,32 +27,34 @@ xsi:schemaLocation="http://morphml.org/channelml/schema  http://www.neuroml.org/
             <meta:pubmedRef>...</meta:pubmedRef>
         </meta:publication>
 
-
         <meta:neuronDBref>
-            <meta:modelName>Na channels</meta:modelName>
-            <meta:uri>http://senselab.med.yale.edu/senselab/NeuronDB/channelGene2.htm#table2</meta:uri>
+            <meta:modelName>K channels</meta:modelName>
+            <meta:uri>http://senselab.med.yale.edu/senselab/NeuronDB/channelGene2.htm#table3</meta:uri>
         </meta:neuronDBref>
         
-        <current_voltage_relation cond_law="ohmic" ion="ca" default_erev="110" default_gmax="120" charge="2">
-            
-            <gate name="m" instances="2">
+        <current_voltage_relation cond_law="ohmic" ion="k" default_gmax="36" default_erev="-85">
+
+            <q10_settings q10_factor="2.3" experimental_temp="21"/>
+
+            <gate name="m" instances="4">
                 <closed_state id="m0"/>
                 <open_state id="m"/>
 
-                <transition name="alpha" from="m0" to="m" expr_form="exp_linear" rate="0.209" scale="3.8" midpoint="-27"/>
-                <transition name="beta" from="m" to="m0" expr_form="exponential" rate="0.94" scale="-17" midpoint="-75"/>
+                <time_course name="tau" from="m0" to="m" expr_form="generic" expr="0.34 + 0.92 * (exp (-1 *((v+81)/59)^2))" />
+
+                <steady_state name="inf" from="m0" to="m" expr_form="sigmoid" rate="1" scale="-19" midpoint="-10"/>
             </gate>
-            
+
             <gate name="h" instances="1">
                 <closed_state id="h0"/>
                 <open_state id="h"/>
 
-                <transition name="alpha" from="h0" to="h" expr_form="exponential" rate="0.000457" scale="-50" midpoint="-13"/>
-                <transition name="beta" from="h" to="h0" expr_form="sigmoid" rate="0.0065" scale="-28" midpoint="-15"/>
-            </gate>
-            
-        </current_voltage_relation>
+                <time_course name="tau" from="h0" to="h" expr_form="generic" expr="8 + 49 * (exp (-1 * ((v+83)/23)^2))" />
 
+                <steady_state name="inf" from="h0" to="h" expr_form="sigmoid" rate="1" scale="10" midpoint="-76"/>
+            </gate>
+
+        </current_voltage_relation>
         <impl_prefs>
             <table_settings max_v="150" min_v="-150" table_divisions="4000"/>
         </impl_prefs>

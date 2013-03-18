@@ -98,10 +98,10 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
      <string>Soma_AllCML</string>
     </void>
     <void method="add">
-     <string>Soma_Ca_LVAst_mod</string>
+     <string>Soma_K_Tst_mod</string>
     </void>
     <void method="add">
-     <string>Soma_Ca_LVAst</string>
+     <string>Soma_K_Tst</string>
     </void>
    </void>
    <void method="get">
@@ -844,7 +844,7 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
       <string>0</string>
      </void>
      <void property="graphWindow">
-      <string>GraphWin_0</string>
+      <string>GraphWin_4</string>
      </void>
      <void property="maxValue">
       <float>1.0</float>
@@ -875,7 +875,7 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
       <string>0</string>
      </void>
      <void property="graphWindow">
-      <string>GraphWin_0</string>
+      <string>GraphWin_4</string>
      </void>
      <void property="maxValue">
       <float>1.0</float>
@@ -906,7 +906,7 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
       <string>0</string>
      </void>
      <void property="graphWindow">
-      <string>GraphWin_0</string>
+      <string>GraphWin_4</string>
      </void>
      <void property="maxValue">
       <float>1.0</float>
@@ -937,7 +937,7 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
       <string>0</string>
      </void>
      <void property="graphWindow">
-      <string>GraphWin_0</string>
+      <string>GraphWin_4</string>
      </void>
      <void property="maxValue">
       <float>1.0</float>
@@ -968,7 +968,7 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
       <string>0</string>
      </void>
      <void property="graphWindow">
-      <string>GraphWin_0</string>
+      <string>GraphWin_4</string>
      </void>
      <void property="maxValue">
       <float>1.0</float>
@@ -999,7 +999,7 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
       <string>0</string>
      </void>
      <void property="graphWindow">
-      <string>GraphWin_0</string>
+      <string>GraphWin_4</string>
      </void>
      <void property="maxValue">
       <float>1.0</float>
@@ -1030,7 +1030,7 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
       <string>0</string>
      </void>
      <void property="graphWindow">
-      <string>GraphWin_0</string>
+      <string>GraphWin_4</string>
      </void>
      <void property="maxValue">
       <float>1.0</float>
@@ -1061,7 +1061,7 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
       <string>0</string>
      </void>
      <void property="graphWindow">
-      <string>GraphWin_0</string>
+      <string>GraphWin_4</string>
      </void>
      <void property="maxValue">
       <float>1.0</float>
@@ -1080,6 +1080,192 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
      </void>
      <void property="valuePlotted">
       <string>Ca_LVAst:h</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CGTestOneMod</string>
+     </void>
+     <void property="cellNumber">
+      <string>0</string>
+     </void>
+     <void property="graphWindow">
+      <string>GraphWin_5</string>
+     </void>
+     <void property="maxValue">
+      <float>0.001</float>
+     </void>
+     <void property="minValue">
+      <float>0.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>Var_22</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+     <void property="valuePlotted">
+      <string>cai</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CGTestOneCML</string>
+     </void>
+     <void property="cellNumber">
+      <string>0</string>
+     </void>
+     <void property="graphWindow">
+      <string>GraphWin_5</string>
+     </void>
+     <void property="maxValue">
+      <float>0.001</float>
+     </void>
+     <void property="minValue">
+      <float>0.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>Var_23</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+     <void property="valuePlotted">
+      <string>CaDynamics_E2:CONC:ca</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CG_TestMod</string>
+     </void>
+     <void property="cellNumber">
+      <string>0</string>
+     </void>
+     <void property="graphWindow">
+      <string>GraphWin_4</string>
+     </void>
+     <void property="maxValue">
+      <float>1.0</float>
+     </void>
+     <void property="minValue">
+      <float>0.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>Var_24</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+     <void property="valuePlotted">
+      <string>K_Tst_mod:m</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CG_TestMod</string>
+     </void>
+     <void property="cellNumber">
+      <string>0</string>
+     </void>
+     <void property="graphWindow">
+      <string>GraphWin_4</string>
+     </void>
+     <void property="maxValue">
+      <float>1.0</float>
+     </void>
+     <void property="minValue">
+      <float>0.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>Var_25</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+     <void property="valuePlotted">
+      <string>K_Tst_mod:h</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CG_TestCML</string>
+     </void>
+     <void property="cellNumber">
+      <string>0</string>
+     </void>
+     <void property="graphWindow">
+      <string>GraphWin_4</string>
+     </void>
+     <void property="maxValue">
+      <float>1.0</float>
+     </void>
+     <void property="minValue">
+      <float>0.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>Var_26</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+     <void property="valuePlotted">
+      <string>K_Tst:m</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CG_TestCML</string>
+     </void>
+     <void property="cellNumber">
+      <string>0</string>
+     </void>
+     <void property="graphWindow">
+      <string>GraphWin_4</string>
+     </void>
+     <void property="maxValue">
+      <float>1.0</float>
+     </void>
+     <void property="minValue">
+      <float>0.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>Var_27</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+     <void property="valuePlotted">
+      <string>K_Tst:h</string>
      </void>
     </object>
    </void>
@@ -1114,7 +1300,7 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
    <string>Soma solid, neurite lines</string>
   </void>
   <void property="resolution3DElements">
-   <int>8</int>
+   <int>48</int>
   </void>
  </object>
  <object class="ucl.physiol.neuroconstruct.neuron.NeuronSettings"/>
@@ -1132,7 +1318,7 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
    <float>100.0</float>
   </void>
   <void property="reference">
-   <string>Sim_93</string>
+   <string>Sim_135</string>
   </void>
   <void property="saveCopyGenSimFiles">
    <boolean>true</boolean>
@@ -1445,9 +1631,6 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
       <void method="add">
        <string>CG_TestCML</string>
       </void>
-      <void method="add">
-       <string>CG_TestMod</string>
-      </void>
      </void>
      <void property="description">
       <string>Testing matching of original mod files against ChannelML implementation</string>
@@ -1548,9 +1731,6 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
       <void method="add">
        <string>CGTestOneCML</string>
       </void>
-      <void method="add">
-       <string>CGTestOneMod</string>
-      </void>
      </void>
      <void property="description">
       <string>Test original mod file against ChannelML for one channel</string>
@@ -1602,6 +1782,18 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
       </void>
       <void method="add">
        <string>Var_21</string>
+      </void>
+      <void method="add">
+       <string>Var_24</string>
+      </void>
+      <void method="add">
+       <string>Var_25</string>
+      </void>
+      <void method="add">
+       <string>Var_26</string>
+      </void>
+      <void method="add">
+       <string>Var_27</string>
       </void>
      </void>
      <void property="simDuration">
