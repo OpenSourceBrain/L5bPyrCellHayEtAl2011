@@ -34,7 +34,13 @@
         
         <current_voltage_relation cond_law="ohmic" ion="k" default_gmax="36" default_erev="-85">
 
-            <q10_settings q10_factor="2.3" experimental_temp="21"/>
+            <!-- NOTE:  even though form below (where q10 is calculated from celsius) could be used in
+                 simulations setting celsius = 34, the models from ModelDB were run at 6.3, and since this
+                 affects the reversal potential of Ca, the NeuroML/neuroConstruct version of the model
+                 must be run at 6.3 also => use fixed_q10 -->
+            <!--<q10_settings q10_factor="2.3" experimental_temp="21"/>-->
+
+            <q10_settings fixed_q10="2.95288264" experimental_temp="34"/>
             
             <gate name="m" instances="1">
                 <closed_state id="m0"/>

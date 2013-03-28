@@ -15,7 +15,7 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
 </string>
   </void>
   <void property="projectFileVersion">
-   <string>neuroConstruct v1.6.1</string>
+   <string>neuroConstruct v1.7.0</string>
   </void>
   <void property="projectName">
    <string>L5bPyrCellHayEtAl2011</string>
@@ -217,10 +217,10 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
       <string>CellGroup_1_v</string>
      </void>
      <void property="maxValue">
-      <float>50.0</float>
+      <float>40.0</float>
      </void>
      <void property="minValue">
-      <float>-90.0</float>
+      <float>-80.0</float>
      </void>
      <void property="plotAndOrSave">
       <string>Plot and save</string>
@@ -667,10 +667,10 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
       <string>CellGroup_1_v</string>
      </void>
      <void property="maxValue">
-      <float>50.0</float>
+      <float>40.0</float>
      </void>
      <void property="minValue">
-      <float>-90.0</float>
+      <float>-80.0</float>
      </void>
      <void property="plotAndOrSave">
       <string>Plot and save</string>
@@ -695,10 +695,10 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
       <string>CellGroup_1_v</string>
      </void>
      <void property="maxValue">
-      <float>50.0</float>
+      <float>40.0</float>
      </void>
      <void property="minValue">
-      <float>-90.0</float>
+      <float>-80.0</float>
      </void>
      <void property="plotAndOrSave">
       <string>Plot and save</string>
@@ -1551,7 +1551,11 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
    <int>48</int>
   </void>
  </object>
- <object class="ucl.physiol.neuroconstruct.neuron.NeuronSettings"/>
+ <object class="ucl.physiol.neuroconstruct.neuron.NeuronSettings">
+  <void property="varTimeStep">
+   <boolean>true</boolean>
+  </void>
+ </object>
  <object class="ucl.physiol.neuroconstruct.genesis.GenesisSettings"/>
  <object class="ucl.physiol.neuroconstruct.psics.PsicsSettings"/>
  <object class="ucl.physiol.neuroconstruct.simulation.SimulationParameters">
@@ -1561,14 +1565,14 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
   <void property="duration">
    <float>100.0</float>
   </void>
+  <void property="maxElectroLen">
+   <float>0.11</float>
+  </void>
   <void property="reference">
-   <string>Sim_172</string>
+   <string>Sim_188</string>
   </void>
   <void property="saveCopyGenSimFiles">
    <boolean>true</boolean>
-  </void>
-  <void property="temperature">
-   <float>34.0</float>
   </void>
   <void property="whatToRecord">
    <int>2</int>

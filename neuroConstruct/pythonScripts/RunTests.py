@@ -70,8 +70,9 @@ def testAll(argv=None):
 
     # These were discovered using ../../NEURON/test.py WITH DT = 0.001
 
-    spikeTimesToCheck = {'CG_TestCML_0': [305.634, 320.742, 336.731, 353.635, 370.984, 388.52],
-                        'CG_TestMod_0': [305.634, 320.742, 336.731, 353.635, 370.984, 388.52]}
+    times = [305.634, 320.952, 337.187, 354.331, 371.907, 389.661]
+    spikeTimesToCheck = {'CG_TestCML_0': times,
+                        'CG_TestMod_0': times}
     
     spikeTimeAccuracy = 0.01
 

@@ -60,8 +60,7 @@ def testAll(argv=None):
 
     #assert(project.genesisSettings.isPhysiologicalUnits())
 
-
-    assert(project.simulationParameters.getTemperature() == 34)
+    assert((project.simulationParameters.getTemperature() - 6.3) < 1e-6) # Not 34!! This is needed as ModelDB scripts are run at 6.3 and this affects the Ca rev pot
 
     print "\n**************************************"
     print "    All tests passed!"
