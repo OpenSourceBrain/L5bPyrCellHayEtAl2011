@@ -89,7 +89,7 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
    <void method="get">
     <string>Cell Type</string>
     <void method="add">
-     <string>L5PCbiophys3_pas</string>
+     <string>L5PC</string>
     </void>
     <void method="add">
      <string>Soma_AllMod</string>
@@ -98,10 +98,10 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
      <string>Soma_AllCML</string>
     </void>
     <void method="add">
-     <string>Soma_CaDynamics_E2_mod</string>
+     <string>Soma_Ih_mod</string>
     </void>
     <void method="add">
-     <string>Soma_CaDynamics_E2</string>
+     <string>Soma_Ih</string>
     </void>
    </void>
    <void method="get">
@@ -534,7 +534,7 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
    <void method="add">
     <object class="ucl.physiol.neuroconstruct.project.SimPlot">
      <void property="cellGroup">
-      <string>CG_TestMod</string>
+      <string>CGTestOneMod</string>
      </void>
      <void property="cellNumber">
       <string>0</string>
@@ -565,7 +565,7 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
    <void method="add">
     <object class="ucl.physiol.neuroconstruct.project.SimPlot">
      <void property="cellGroup">
-      <string>CG_TestCML</string>
+      <string>CGTestOneCML</string>
      </void>
      <void property="cellNumber">
       <string>0</string>
@@ -1569,7 +1569,7 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
    <float>0.11</float>
   </void>
   <void property="reference">
-   <string>Sim_188</string>
+   <string>Sim_213</string>
   </void>
   <void property="saveCopyGenSimFiles">
    <boolean>true</boolean>
@@ -1584,7 +1584,7 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
     <object class="ucl.physiol.neuroconstruct.simulation.IClampSettings">
      <void property="amp">
       <void property="fixedNum">
-       <float>0.7393</float>
+       <float>0.793</float>
       </void>
      </void>
      <void property="cellGroup">
@@ -2074,12 +2074,6 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
        <string>Var_21</string>
       </void>
       <void method="add">
-       <string>Var_22</string>
-      </void>
-      <void method="add">
-       <string>Var_23</string>
-      </void>
-      <void method="add">
        <string>Var_24</string>
       </void>
       <void method="add">
@@ -2108,6 +2102,12 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
       </void>
       <void method="add">
        <string>Var_33</string>
+      </void>
+      <void method="add">
+       <string>Var_6</string>
+      </void>
+      <void method="add">
+       <string>Var_7</string>
       </void>
      </void>
      <void property="simDuration">

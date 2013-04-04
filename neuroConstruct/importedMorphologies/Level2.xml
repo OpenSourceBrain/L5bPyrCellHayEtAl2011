@@ -90,12 +90,9 @@ Yale University and UCL</meta:notes>
 <!-- Section: L5PCtemplate[0].apic[0] which has 13 3D points, so 12 segment(s)-->
       <segment id="1660" name = "Seg0_apic_0" parent="9" cable = "85">  <!-- Connected at 0.5 on parent section: L5PCtemplate[0].soma[0]  -->
         <proximal x="43.7328" y="27.2771" z="-50.25" diameter="10.8"/>
-        <distal x="43.7328" y="27.2771" z="-50.25" diameter="10.8"/>
-      </segment>
-      <segment id="1661" name = "Seg1_apic_0" parent="1660" cable = "85">
         <distal x="43.2128" y="31.5371" z="-50.13" diameter="8.23"/>
       </segment>
-      <segment id="1662" name = "Seg2_apic_0" parent="1661" cable = "85">
+      <segment id="1662" name = "Seg2_apic_0" parent="1660" cable = "85">
         <distal x="41.9328" y="35.507" z="-50.22" diameter="6.69"/>
       </segment>
       <segment id="1663" name = "Seg3_apic_0" parent="1662" cable = "85">
@@ -14140,8 +14137,9 @@ Yale University and UCL</meta:notes>
         <cable id = "157"/>
         <cable id = "151"/>
         <cable id = "150"/>
-            <inhomogeneous_param name="PathLengthOverApicDends" variable="p">
+            <inhomogeneous_param name="PathLengthOverApicDends" variable="p" >
                 <metric>Path Length from root</metric>
+                <proximal translationStart="0"/>
             </inhomogeneous_param>
       </cablegroup>
       <cablegroup name="soma_group">
@@ -14999,22 +14997,37 @@ Yale University and UCL</meta:notes>
       </bio:mechanism>
       <bio:mechanism name="Ca_HVA" type="Channel Mechanism">
         
-        <bio:parameter name="gmax" value="0.0555">   
-          <bio:group>non_hot_apical_dends</bio:group>
-        </bio:parameter>
         <bio:parameter name="gmax" value="0.992">   
           <bio:group>soma_group</bio:group>
         </bio:parameter>
       </bio:mechanism>
+
+
+
+      <bio:mechanism name="Ca_HVA" type="Channel Mechanism">
+            <bio:variable_parameter name="gmax">
+                <bio:group>apical_dends</bio:group>
+                <bio:inhomogeneous_value param_name="PathLengthOverApicDends" value="(0.0555 + 0.4995 * ( H(p - 685) * H(885 - p) ))"/>
+
+            </bio:variable_parameter>
+        </bio:mechanism>
+
+
       <bio:mechanism name="Ca_LVAst" type="Channel Mechanism">
         
-        <bio:parameter name="gmax" value="0.187">   
-          <bio:group>non_hot_apical_dends</bio:group>
-        </bio:parameter>
         <bio:parameter name="gmax" value="3.43">   
           <bio:group>soma_group</bio:group>
         </bio:parameter>
       </bio:mechanism>
+
+      <bio:mechanism name="Ca_LVAst" type="Channel Mechanism">
+            <bio:variable_parameter name="gmax">
+                <bio:group>apical_dends</bio:group>
+                <bio:inhomogeneous_value param_name="PathLengthOverApicDends" value="(0.187 + 18.513 * ( H(p - 685) * H(885 - p) ))"/>
+
+            </bio:variable_parameter>
+        </bio:mechanism>
+
 
       <bio:mechanism name="Ih" type="Channel Mechanism">
         
@@ -15027,7 +15040,7 @@ Yale University and UCL</meta:notes>
       <bio:mechanism name="Ih" type="Channel Mechanism">
             <bio:variable_parameter name="gmax">
                 <bio:group>apical_dends</bio:group>
-                <bio:inhomogeneous_value param_name="PathLengthOverApicDends" value="2.087*exp(p/323)"/>
+                <bio:inhomogeneous_value param_name="PathLengthOverApicDends" value="0.2*(2.087*exp(p/359.65)-0.8696)"/>
 
             </bio:variable_parameter>
         </bio:mechanism>
