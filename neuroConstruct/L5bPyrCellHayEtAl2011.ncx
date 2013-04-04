@@ -9,9 +9,11 @@ part of NeuroML or any standardised XML specification. -->
 
  <object class="ucl.physiol.neuroconstruct.project.BasicProjectInfo">
   <void property="projectDescription">
-   <string>Layer 5b Pyramidal cell constrained by experimental data on perisomatic firing properties as well as dendritic activity during backpropagation of the action potential.
-
+   <string>Layer 5b Pyramidal cell constrained by experimental data on perisomatic firing properties as well as dendritic activity during backpropagation of the action potential.  
+ 
 Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowModel.asp?model=139653
+
+From: Models of Neocortical Layer 5b Pyramidal Cells Capturing a Wide Range of Dendritic and Perisomatic Active Properties, Etay Hay, Sean Hill, Felix Schürmann, Henry Markram and Idan Segev, PLoS Comp Biol 2011
 </string>
   </void>
   <void property="projectFileVersion">
@@ -1548,7 +1550,7 @@ Based on original NEURON model from:  http://senselab.med.yale.edu/ModelDB/ShowM
    <string>Soma solid, neurite lines</string>
   </void>
   <void property="resolution3DElements">
-   <int>48</int>
+   <int>16</int>
   </void>
  </object>
  <object class="ucl.physiol.neuroconstruct.neuron.NeuronSettings">

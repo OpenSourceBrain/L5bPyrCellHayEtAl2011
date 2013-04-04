@@ -5,31 +5,34 @@
 
     <channel_type name="Nap_Et2" density="yes">
 
-        <status value="in_progress">
-            <meta:comment>...</meta:comment>
+        <status value="stable">
             <meta:contributor>
                 <meta:name>Padraig Gleeson</meta:name>
             </meta:contributor>
         </status>
 
-        <meta:notes>...</meta:notes>
+        <meta:notes>Persistent Na+ current</meta:notes>
         
         <meta:authorList>
+            <meta:modelAuthor>
+                <meta:name>Etay Hay</meta:name>
+            </meta:modelAuthor>
             <meta:modelTranslator>
                 <meta:name>Padraig Gleeson</meta:name>
-                <meta:institution>UCL</meta:institution>    
+                <meta:institution>UCL</meta:institution>
                 <meta:email>p.gleeson - at - ucl.ac.uk</meta:email>
             </meta:modelTranslator>
         </meta:authorList>
 
         <meta:publication>
-            <meta:fullTitle>....</meta:fullTitle>
-            <meta:pubmedRef>...</meta:pubmedRef>
+            <meta:fullTitle>Models of Neocortical Layer 5b Pyramidal Cells Capturing a Wide Range of Dendritic and Perisomatic Active Properties,
+            Etay Hay, Sean Hill, Felix Schürmann, Henry Markram and Idan Segev, PLoS Comp Biol 2011</meta:fullTitle>
+            <meta:pubmedRef>http://www.ncbi.nlm.nih.gov/pubmed/21829333</meta:pubmedRef>
         </meta:publication>
 
         <meta:neuronDBref>
             <meta:modelName>Na channels</meta:modelName>
-            <meta:uri>http://senselab.med.yale.edu/senselab/NeuronDB/channelGene2.htm#table2</meta:uri>
+            <meta:uri>http://senselab.med.yale.edu/neurondb/channelGene2.aspx#table2</meta:uri>
         </meta:neuronDBref>
         
         <current_voltage_relation cond_law="ohmic" ion="na" default_erev="50" default_gmax="120"> 

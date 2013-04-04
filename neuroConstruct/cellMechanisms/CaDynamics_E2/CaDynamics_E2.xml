@@ -8,19 +8,29 @@ xsi:schemaLocation="http://morphml.org/channelml/schema  http://www.neuroml.org/
     
     <ion_concentration name="CaDynamics_E2">
         
-        <status value="in_progress"/>
+        <status value="stable">
+            <meta:contributor>
+                <meta:name>Padraig Gleeson</meta:name>
+            </meta:contributor>
+        </status>
     
-        <meta:notes>...</meta:notes>
+        <meta:notes>Intracellular [Ca2+] dynamics</meta:notes>
 
         <meta:authorList>
             <meta:modelAuthor>
-                <meta:name>...</meta:name>
+                <meta:name>Etay Hay</meta:name>
             </meta:modelAuthor>
+            <meta:modelTranslator>
+                <meta:name>Padraig Gleeson</meta:name>
+                <meta:institution>UCL</meta:institution>
+                <meta:email>p.gleeson - at - ucl.ac.uk</meta:email>
+            </meta:modelTranslator>
         </meta:authorList>
 
         <meta:publication>
-            <meta:fullTitle>....</meta:fullTitle>
-            <meta:pubmedRef>...</meta:pubmedRef>
+            <meta:fullTitle>Models of Neocortical Layer 5b Pyramidal Cells Capturing a Wide Range of Dendritic and Perisomatic Active Properties,
+            Etay Hay, Sean Hill, Felix Schürmann, Henry Markram and Idan Segev, PLoS Comp Biol 2011</meta:fullTitle>
+            <meta:pubmedRef>http://www.ncbi.nlm.nih.gov/pubmed/21829333</meta:pubmedRef>
         </meta:publication>
 
         <ion_species name="ca"/>
