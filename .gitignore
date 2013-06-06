@@ -9,3 +9,4 @@ generatedPSICS
 simulations
 *.bak
 *py.class
+.DS_Store
