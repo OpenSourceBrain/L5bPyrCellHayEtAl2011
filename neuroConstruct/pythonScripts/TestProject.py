@@ -48,7 +48,7 @@ def testAll(argv=None):
 
     #assert(project.proj3Dproperties.getDisplayOption() == Display3DProperties.DISPLAY_SOMA_SOLID_NEURITE_LINE)
 
-    assert(project.simulationParameters.getDt()-0.025<=1e-6)
+    assert(abs(project.simulationParameters.getDt()-0.01)<=1e-9)
 
     #assert(project.neuronSettings.isVarTimeStep())
 
@@ -60,7 +60,7 @@ def testAll(argv=None):
 
     #assert(project.genesisSettings.isPhysiologicalUnits())
 
-    assert((project.simulationParameters.getTemperature() - 6.3) < 1e-6) # Not 34!! This is needed as ModelDB scripts are run at 6.3 and this affects the Ca rev pot
+    assert(abs(project.simulationParameters.getTemperature() - 6.3) < 1e-6) # Not 34!! This is needed as ModelDB scripts are run at 6.3 and this affects the Ca rev pot
 
     print "\n**************************************"
     print "    All tests passed!"
