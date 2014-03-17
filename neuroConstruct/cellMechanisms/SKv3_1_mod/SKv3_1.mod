@@ -4,7 +4,7 @@
 NEURON	{
 	SUFFIX %Name%
 	USEION k READ ek WRITE ik
-	RANGE gmax, gSKv3_1, ik
+	RANGE gmax, gSKv3_1, ik, mTau
 }
 
 UNITS	{

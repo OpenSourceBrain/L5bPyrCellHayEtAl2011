@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<java version="1.6.0_27" class="java.beans.XMLDecoder">
+<java version="1.7.0_51" class="java.beans.XMLDecoder">
 
 <!-- This is a neuroConstruct project file. It's best to open this
 file with neuroConstruct, as opposed to editing it directly. 
@@ -17,7 +17,7 @@ From: Models of Neocortical Layer 5b Pyramidal Cells Capturing a Wide Range of D
 </string>
   </void>
   <void property="projectFileVersion">
-   <string>neuroConstruct v1.7.0</string>
+   <string>neuroConstruct v1.7.1</string>
   </void>
   <void property="projectName">
    <string>L5bPyrCellHayEtAl2011</string>
@@ -47,19 +47,31 @@ From: Models of Neocortical Layer 5b Pyramidal Cells Capturing a Wide Range of D
     <void method="add">
      <object class="ucl.physiol.neuroconstruct.project.RectangularBox">
       <void property="parameterList">
-       <void index="3">
-        <void property="value">
-         <float>120.0</float>
+       <void id="InternalParameter0" index="3">
+        <void class="ucl.physiol.neuroconstruct.project.InternalParameter" method="getField">
+         <string>value</string>
+         <void method="set">
+          <object idref="InternalParameter0"/>
+          <float>120.0</float>
+         </void>
         </void>
        </void>
-       <void index="4">
-        <void property="value">
-         <float>50.0</float>
+       <void id="InternalParameter1" index="4">
+        <void class="ucl.physiol.neuroconstruct.project.InternalParameter" method="getField">
+         <string>value</string>
+         <void method="set">
+          <object idref="InternalParameter1"/>
+          <float>50.0</float>
+         </void>
         </void>
        </void>
-       <void index="5">
-        <void property="value">
-         <float>120.0</float>
+       <void id="InternalParameter2" index="5">
+        <void class="ucl.physiol.neuroconstruct.project.InternalParameter" method="getField">
+         <string>value</string>
+         <void method="set">
+          <object idref="InternalParameter2"/>
+          <float>120.0</float>
+         </void>
         </void>
        </void>
       </void>
@@ -100,10 +112,10 @@ From: Models of Neocortical Layer 5b Pyramidal Cells Capturing a Wide Range of D
      <string>Soma_AllCML</string>
     </void>
     <void method="add">
-     <string>Soma_Ih_mod</string>
+     <string>Soma_CaDynamics_E2_mod</string>
     </void>
     <void method="add">
-     <string>Soma_Ih</string>
+     <string>Soma_CaDynamics_E2</string>
     </void>
    </void>
    <void method="get">
@@ -716,7 +728,7 @@ From: Models of Neocortical Layer 5b Pyramidal Cells Capturing a Wide Range of D
    <void method="add">
     <object class="ucl.physiol.neuroconstruct.project.SimPlot">
      <void property="cellGroup">
-      <string>CG_TestMod</string>
+      <string>CGTestOneMod</string>
      </void>
      <void property="cellNumber">
       <string>0</string>
@@ -747,7 +759,7 @@ From: Models of Neocortical Layer 5b Pyramidal Cells Capturing a Wide Range of D
    <void method="add">
     <object class="ucl.physiol.neuroconstruct.project.SimPlot">
      <void property="cellGroup">
-      <string>CG_TestMod</string>
+      <string>CGTestOneMod</string>
      </void>
      <void property="cellNumber">
       <string>0</string>
@@ -778,7 +790,7 @@ From: Models of Neocortical Layer 5b Pyramidal Cells Capturing a Wide Range of D
    <void method="add">
     <object class="ucl.physiol.neuroconstruct.project.SimPlot">
      <void property="cellGroup">
-      <string>CG_TestCML</string>
+      <string>CGTestOneCML</string>
      </void>
      <void property="cellNumber">
       <string>0</string>
@@ -809,7 +821,7 @@ From: Models of Neocortical Layer 5b Pyramidal Cells Capturing a Wide Range of D
    <void method="add">
     <object class="ucl.physiol.neuroconstruct.project.SimPlot">
      <void property="cellGroup">
-      <string>CG_TestCML</string>
+      <string>CGTestOneCML</string>
      </void>
      <void property="cellNumber">
       <string>0</string>
@@ -902,7 +914,7 @@ From: Models of Neocortical Layer 5b Pyramidal Cells Capturing a Wide Range of D
    <void method="add">
     <object class="ucl.physiol.neuroconstruct.project.SimPlot">
      <void property="cellGroup">
-      <string>CG_TestCML</string>
+      <string>CGTestOneCML</string>
      </void>
      <void property="cellNumber">
       <string>0</string>
@@ -933,7 +945,7 @@ From: Models of Neocortical Layer 5b Pyramidal Cells Capturing a Wide Range of D
    <void method="add">
     <object class="ucl.physiol.neuroconstruct.project.SimPlot">
      <void property="cellGroup">
-      <string>CG_TestCML</string>
+      <string>CGTestOneCML</string>
      </void>
      <void property="cellNumber">
       <string>0</string>
@@ -1398,7 +1410,7 @@ From: Models of Neocortical Layer 5b Pyramidal Cells Capturing a Wide Range of D
    <void method="add">
     <object class="ucl.physiol.neuroconstruct.project.SimPlot">
      <void property="cellGroup">
-      <string>CG_TestCML</string>
+      <string>CGTestOneCML</string>
      </void>
      <void property="cellNumber">
       <string>0</string>
@@ -1429,7 +1441,7 @@ From: Models of Neocortical Layer 5b Pyramidal Cells Capturing a Wide Range of D
    <void method="add">
     <object class="ucl.physiol.neuroconstruct.project.SimPlot">
      <void property="cellGroup">
-      <string>CG_TestMod</string>
+      <string>CGTestOneMod</string>
      </void>
      <void property="cellNumber">
       <string>0</string>
@@ -1519,6 +1531,99 @@ From: Models of Neocortical Layer 5b Pyramidal Cells Capturing a Wide Range of D
      </void>
     </object>
    </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CGTestOneCML</string>
+     </void>
+     <void property="cellNumber">
+      <string>0</string>
+     </void>
+     <void property="graphWindow">
+      <string>GraphWin_7</string>
+     </void>
+     <void property="maxValue">
+      <float>1.0</float>
+     </void>
+     <void property="minValue">
+      <float>0.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>Var_36</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+     <void property="valuePlotted">
+      <string>SKv3_1:mtau</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CGTestOneMod</string>
+     </void>
+     <void property="cellNumber">
+      <string>0</string>
+     </void>
+     <void property="graphWindow">
+      <string>GraphWin_7</string>
+     </void>
+     <void property="maxValue">
+      <float>1.0</float>
+     </void>
+     <void property="minValue">
+      <float>0.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>Var_37</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+     <void property="valuePlotted">
+      <string>SKv3_1_mod:mTau</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CGTestOneCML</string>
+     </void>
+     <void property="cellNumber">
+      <string>0</string>
+     </void>
+     <void property="graphWindow">
+      <string>GraphWin_8</string>
+     </void>
+     <void property="maxValue">
+      <float>200.0</float>
+     </void>
+     <void property="minValue">
+      <float>0.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>Var_38</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+     <void property="valuePlotted">
+      <string>Ca_HVA:REV_POT:ca</string>
+     </void>
+    </object>
+   </void>
   </void>
  </object>
  <object class="ucl.physiol.neuroconstruct.project.ProjectProperties">
@@ -1571,7 +1676,7 @@ From: Models of Neocortical Layer 5b Pyramidal Cells Capturing a Wide Range of D
    <float>0.11</float>
   </void>
   <void property="reference">
-   <string>Sim_213</string>
+   <string>Sim_283</string>
   </void>
   <void property="saveCopyGenSimFiles">
    <boolean>true</boolean>
@@ -1597,12 +1702,16 @@ From: Models of Neocortical Layer 5b Pyramidal Cells Capturing a Wide Range of D
        <float>700.0</float>
       </void>
      </void>
-     <void property="dur">
+     <void id="NumberGenerator0" property="dur">
+      <void class="ucl.physiol.neuroconstruct.utils.NumberGenerator" method="getField">
+       <string>numberType</string>
+       <void method="set">
+        <object idref="NumberGenerator0"/>
+        <int>11</int>
+       </void>
+      </void>
       <void property="fixedNum">
        <float>2000.0</float>
-      </void>
-      <void property="numberType">
-       <int>11</int>
       </void>
      </void>
      <void property="reference">
@@ -1625,12 +1734,16 @@ From: Models of Neocortical Layer 5b Pyramidal Cells Capturing a Wide Range of D
        <float>100.0</float>
       </void>
      </void>
-     <void property="dur">
+     <void id="NumberGenerator1" property="dur">
+      <void class="ucl.physiol.neuroconstruct.utils.NumberGenerator" method="getField">
+       <string>numberType</string>
+       <void method="set">
+        <object idref="NumberGenerator1"/>
+        <int>11</int>
+       </void>
+      </void>
       <void property="fixedNum">
        <float>100.0</float>
-      </void>
-      <void property="numberType">
-       <int>11</int>
       </void>
      </void>
      <void property="reference">
@@ -1653,12 +1766,16 @@ From: Models of Neocortical Layer 5b Pyramidal Cells Capturing a Wide Range of D
        <float>300.0</float>
       </void>
      </void>
-     <void property="dur">
+     <void id="NumberGenerator2" property="dur">
+      <void class="ucl.physiol.neuroconstruct.utils.NumberGenerator" method="getField">
+       <string>numberType</string>
+       <void method="set">
+        <object idref="NumberGenerator2"/>
+        <int>11</int>
+       </void>
+      </void>
       <void property="fixedNum">
        <float>100.0</float>
-      </void>
-      <void property="numberType">
-       <int>11</int>
       </void>
      </void>
      <void property="reference">
@@ -1681,12 +1798,16 @@ From: Models of Neocortical Layer 5b Pyramidal Cells Capturing a Wide Range of D
        <float>100.0</float>
       </void>
      </void>
-     <void property="dur">
+     <void id="NumberGenerator3" property="dur">
+      <void class="ucl.physiol.neuroconstruct.utils.NumberGenerator" method="getField">
+       <string>numberType</string>
+       <void method="set">
+        <object idref="NumberGenerator3"/>
+        <int>11</int>
+       </void>
+      </void>
       <void property="fixedNum">
        <float>100.0</float>
-      </void>
-      <void property="numberType">
-       <int>11</int>
       </void>
      </void>
      <void property="reference">
@@ -1709,12 +1830,16 @@ From: Models of Neocortical Layer 5b Pyramidal Cells Capturing a Wide Range of D
        <float>300.0</float>
       </void>
      </void>
-     <void property="dur">
+     <void id="NumberGenerator4" property="dur">
+      <void class="ucl.physiol.neuroconstruct.utils.NumberGenerator" method="getField">
+       <string>numberType</string>
+       <void method="set">
+        <object idref="NumberGenerator4"/>
+        <int>11</int>
+       </void>
+      </void>
       <void property="fixedNum">
        <float>100.0</float>
-      </void>
-      <void property="numberType">
-       <int>11</int>
       </void>
      </void>
      <void property="reference">
@@ -1737,12 +1862,16 @@ From: Models of Neocortical Layer 5b Pyramidal Cells Capturing a Wide Range of D
        <float>100.0</float>
       </void>
      </void>
-     <void property="dur">
+     <void id="NumberGenerator5" property="dur">
+      <void class="ucl.physiol.neuroconstruct.utils.NumberGenerator" method="getField">
+       <string>numberType</string>
+       <void method="set">
+        <object idref="NumberGenerator5"/>
+        <int>11</int>
+       </void>
+      </void>
       <void property="fixedNum">
        <float>100.0</float>
-      </void>
-      <void property="numberType">
-       <int>11</int>
       </void>
      </void>
      <void property="reference">
@@ -1765,12 +1894,16 @@ From: Models of Neocortical Layer 5b Pyramidal Cells Capturing a Wide Range of D
        <float>300.0</float>
       </void>
      </void>
-     <void property="dur">
+     <void id="NumberGenerator6" property="dur">
+      <void class="ucl.physiol.neuroconstruct.utils.NumberGenerator" method="getField">
+       <string>numberType</string>
+       <void method="set">
+        <object idref="NumberGenerator6"/>
+        <int>11</int>
+       </void>
+      </void>
       <void property="fixedNum">
        <float>100.0</float>
-      </void>
-      <void property="numberType">
-       <int>11</int>
       </void>
      </void>
      <void property="reference">
@@ -1793,12 +1926,16 @@ From: Models of Neocortical Layer 5b Pyramidal Cells Capturing a Wide Range of D
        <float>100.0</float>
       </void>
      </void>
-     <void property="dur">
+     <void id="NumberGenerator7" property="dur">
+      <void class="ucl.physiol.neuroconstruct.utils.NumberGenerator" method="getField">
+       <string>numberType</string>
+       <void method="set">
+        <object idref="NumberGenerator7"/>
+        <int>11</int>
+       </void>
+      </void>
       <void property="fixedNum">
        <float>100.0</float>
-      </void>
-      <void property="numberType">
-       <int>11</int>
       </void>
      </void>
      <void property="reference">
@@ -1821,12 +1958,16 @@ From: Models of Neocortical Layer 5b Pyramidal Cells Capturing a Wide Range of D
        <float>300.0</float>
       </void>
      </void>
-     <void property="dur">
+     <void id="NumberGenerator8" property="dur">
+      <void class="ucl.physiol.neuroconstruct.utils.NumberGenerator" method="getField">
+       <string>numberType</string>
+       <void method="set">
+        <object idref="NumberGenerator8"/>
+        <int>11</int>
+       </void>
+      </void>
       <void property="fixedNum">
        <float>100.0</float>
-      </void>
-      <void property="numberType">
-       <int>11</int>
       </void>
      </void>
      <void property="reference">
@@ -2020,9 +2161,6 @@ From: Models of Neocortical Layer 5b Pyramidal Cells Capturing a Wide Range of D
       <void method="add">
        <string>CGTestOneCML</string>
       </void>
-      <void method="add">
-       <string>CGTestOneMod</string>
-      </void>
      </void>
      <void property="description">
       <string>Test original mod file against ChannelML for one channel</string>
@@ -2052,52 +2190,16 @@ From: Models of Neocortical Layer 5b Pyramidal Cells Capturing a Wide Range of D
        <string>CGTestOneMod_v</string>
       </void>
       <void method="add">
-       <string>Var_14</string>
-      </void>
-      <void method="add">
-       <string>Var_15</string>
-      </void>
-      <void method="add">
        <string>Var_16</string>
       </void>
       <void method="add">
        <string>Var_17</string>
       </void>
       <void method="add">
-       <string>Var_18</string>
+       <string>Var_22</string>
       </void>
       <void method="add">
-       <string>Var_19</string>
-      </void>
-      <void method="add">
-       <string>Var_20</string>
-      </void>
-      <void method="add">
-       <string>Var_21</string>
-      </void>
-      <void method="add">
-       <string>Var_24</string>
-      </void>
-      <void method="add">
-       <string>Var_25</string>
-      </void>
-      <void method="add">
-       <string>Var_26</string>
-      </void>
-      <void method="add">
-       <string>Var_27</string>
-      </void>
-      <void method="add">
-       <string>Var_28</string>
-      </void>
-      <void method="add">
-       <string>Var_29</string>
-      </void>
-      <void method="add">
-       <string>Var_30</string>
-      </void>
-      <void method="add">
-       <string>Var_31</string>
+       <string>Var_23</string>
       </void>
       <void method="add">
        <string>Var_32</string>
@@ -2106,10 +2208,74 @@ From: Models of Neocortical Layer 5b Pyramidal Cells Capturing a Wide Range of D
        <string>Var_33</string>
       </void>
       <void method="add">
-       <string>Var_6</string>
+       <string>Var_38</string>
+      </void>
+     </void>
+     <void property="simDuration">
+      <float>600.0</float>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimConfig">
+     <void property="cellGroups">
+      <void method="add">
+       <string>CG_TestCML</string>
+      </void>
+     </void>
+     <void property="inputs">
+      <void method="add">
+       <string>Input_3</string>
       </void>
       <void method="add">
-       <string>Var_7</string>
+       <string>Input_4</string>
+      </void>
+     </void>
+     <void property="name">
+      <string>TestNeuroML</string>
+     </void>
+     <void property="plots">
+      <void method="add">
+       <string>CG_TestCML_v</string>
+      </void>
+      <void method="add">
+       <string>CG_TestMod_v</string>
+      </void>
+      <void method="add">
+       <string>CGTestOneMod_v</string>
+      </void>
+      <void method="add">
+       <string>Var_0</string>
+      </void>
+      <void method="add">
+       <string>Var_1</string>
+      </void>
+      <void method="add">
+       <string>Var_14</string>
+      </void>
+      <void method="add">
+       <string>Var_15</string>
+      </void>
+      <void method="add">
+       <string>Var_26</string>
+      </void>
+      <void method="add">
+       <string>Var_28</string>
+      </void>
+      <void method="add">
+       <string>Var_3</string>
+      </void>
+      <void method="add">
+       <string>Var_30</string>
+      </void>
+      <void method="add">
+       <string>Var_34</string>
+      </void>
+      <void method="add">
+       <string>Var_35</string>
+      </void>
+      <void method="add">
+       <string>Var_5</string>
       </void>
      </void>
      <void property="simDuration">

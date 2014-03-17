@@ -41,7 +41,9 @@
                 <closed_state id="m0"/>
                 <open_state id="m"/>
 
-                <time_course name="tau" from="m0" to="m" expr_form="sigmoid" rate="4" scale="-44.140" midpoint="-46.560"/>
+                <!--It's better to use a generic expression here, as opposed to one of the "standard" HH types
+                <time_course name="tau" from="m0" to="m" expr_form="sigmoid" rate="4" scale="-44.140" midpoint="-46.560"/>-->
+                <time_course name="tau" from="m0" to="m" expr_form="generic" expr="4/(1 + exp( (v+46.56) / (-44.140) ))"/>
                 <steady_state name="inf" from="m0" to="m" expr_form="sigmoid" rate="1" scale="-9.7" midpoint="18.7"/>
 
             </gate>
