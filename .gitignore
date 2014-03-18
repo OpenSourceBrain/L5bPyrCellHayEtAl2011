@@ -1,3 +1,5 @@
+/neuroConstruct/generatedNeuroML2/simulator.props
+/neuroConstruct/generatedNeuroML2/*.dat
 /neuroConstruct/generatedNeuroML2/runsim.sh
 *.*~
 *.svg

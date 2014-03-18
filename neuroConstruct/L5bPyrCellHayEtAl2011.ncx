@@ -1527,7 +1527,7 @@ From: Models of Neocortical Layer 5b Pyramidal Cells Capturing a Wide Range of D
       <string>0</string>
      </void>
      <void property="valuePlotted">
-      <string>CaDynamics_E2:CONC:ca</string>
+      <string>CaDynamics_E2_NML2:CONC:ca</string>
      </void>
     </object>
    </void>
@@ -1676,7 +1676,7 @@ From: Models of Neocortical Layer 5b Pyramidal Cells Capturing a Wide Range of D
    <float>0.11</float>
   </void>
   <void property="reference">
-   <string>Sim_283</string>
+   <string>Sim_314</string>
   </void>
   <void property="saveCopyGenSimFiles">
    <boolean>true</boolean>
@@ -2251,22 +2251,37 @@ From: Models of Neocortical Layer 5b Pyramidal Cells Capturing a Wide Range of D
        <string>Var_1</string>
       </void>
       <void method="add">
+       <string>Var_11</string>
+      </void>
+      <void method="add">
+       <string>Var_12</string>
+      </void>
+      <void method="add">
        <string>Var_14</string>
       </void>
       <void method="add">
        <string>Var_15</string>
       </void>
       <void method="add">
-       <string>Var_26</string>
+       <string>Var_16</string>
       </void>
       <void method="add">
-       <string>Var_28</string>
+       <string>Var_17</string>
       </void>
       <void method="add">
-       <string>Var_3</string>
+       <string>Var_18</string>
       </void>
       <void method="add">
-       <string>Var_30</string>
+       <string>Var_19</string>
+      </void>
+      <void method="add">
+       <string>Var_20</string>
+      </void>
+      <void method="add">
+       <string>Var_21</string>
+      </void>
+      <void method="add">
+       <string>Var_33</string>
       </void>
       <void method="add">
        <string>Var_34</string>

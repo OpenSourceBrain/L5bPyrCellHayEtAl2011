@@ -30,11 +30,11 @@ projFile = File("../L5bPyrCellHayEtAl2011.ncx")
 
 simConfigs = []
 
-simConfigs.append("TestModCML")
+simConfigs.append("TestNeuroML")
 
 simDt =                 0.001
 
-simulators =            ["NEURON"]
+simulators =            ["NEURON", "LEMS"]
 
 varTimestepNeuron =     False
 varTimestepTolerance =  0.0001
@@ -57,7 +57,7 @@ def testAll(argv=None):
 
     simManager = nc.SimulationManager(projFile,
                                       verbose = verbose,
-                                      numConcurrentSims = 1)
+                                      numConcurrentSims = 2)
 
     simManager.runMultipleSims(simConfigs =           simConfigs,
                                simDt =                simDt,
@@ -72,10 +72,9 @@ def testAll(argv=None):
     # These were discovered using ../../NEURON/test.py WITH DT = 0.001
 
     times = [306.303, 320.052, 334.602, 349.882, 365.473, 381.181, 396.932]
-    spikeTimesToCheck = {'CG_TestCML_0': times,
-                        'CG_TestMod_0': times}
+    spikeTimesToCheck = {'CG_TestCML_0': times}
     
-    spikeTimeAccuracy = 0.01
+    spikeTimeAccuracy = 0.1
 
     report = simManager.checkSims(spikeTimesToCheck = spikeTimesToCheck,
                                   spikeTimeAccuracy = spikeTimeAccuracy)
