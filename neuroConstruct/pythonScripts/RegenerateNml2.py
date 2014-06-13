@@ -19,4 +19,13 @@ simConfigs.append("TestNeuroML")
 
 nc.generateNeuroML2(projFile, simConfigs)
 
+extra_files = ['L5PCbiophys3_pas.nml', 'cell2_fromNeurolucida.nml']
+if len(sys.argv)==2 and sys.argv[1] == "-f":
+    extra_files.append('L5bPyrCellHayEtAl2011.net.nml')
+    extra_files.append('LEMS_L5bPyrCellHayEtAl2011.xml')
+    
+from subprocess import call
+for f in extra_files:
+    call(["git", "checkout", "../generatedNeuroML2/%s"%f])
+
 quit()
