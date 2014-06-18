@@ -59,8 +59,8 @@
             <TimeDerivative variable="concentration" value="(currDensCa*gamma/(2*Faraday*depth)) - ((concentration - minCai) / decay)"/>
 
             <OnStart>
-                <StateAssignment variable="concentration" value="minCai"/>
-                <StateAssignment variable="extConcentration" value="minCai"/>
+                <StateAssignment variable="concentration" value="initialConcentration"/>
+                <StateAssignment variable="extConcentration" value="initialExtConcentration"/>
             </OnStart>
 
         </Dynamics>
