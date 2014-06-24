@@ -1624,6 +1624,37 @@ From: Models of Neocortical Layer 5b Pyramidal Cells Capturing a Wide Range of D
      </void>
     </object>
    </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CGTestOneCML</string>
+     </void>
+     <void property="cellNumber">
+      <string>0</string>
+     </void>
+     <void property="graphWindow">
+      <string>GraphWin_1</string>
+     </void>
+     <void property="maxValue">
+      <float>3.0E-12</float>
+     </void>
+     <void property="minValue">
+      <float>-2.0E-11</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>Var_39</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+     <void property="valuePlotted">
+      <string>Ca_HVA:CURR_DENS:ca</string>
+     </void>
+    </object>
+   </void>
   </void>
  </object>
  <object class="ucl.physiol.neuroconstruct.project.ProjectProperties">
@@ -1676,7 +1707,7 @@ From: Models of Neocortical Layer 5b Pyramidal Cells Capturing a Wide Range of D
    <float>0.11</float>
   </void>
   <void property="reference">
-   <string>Sim_324</string>
+   <string>Sim_353</string>
   </void>
   <void property="saveCopyGenSimFiles">
    <boolean>true</boolean>
@@ -2202,13 +2233,10 @@ From: Models of Neocortical Layer 5b Pyramidal Cells Capturing a Wide Range of D
        <string>Var_23</string>
       </void>
       <void method="add">
-       <string>Var_32</string>
-      </void>
-      <void method="add">
-       <string>Var_33</string>
-      </void>
-      <void method="add">
        <string>Var_38</string>
+      </void>
+      <void method="add">
+       <string>Var_39</string>
       </void>
      </void>
      <void property="simDuration">
