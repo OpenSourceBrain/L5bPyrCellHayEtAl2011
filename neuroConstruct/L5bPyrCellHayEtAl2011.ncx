@@ -1512,7 +1512,7 @@ From: Models of Neocortical Layer 5b Pyramidal Cells Capturing a Wide Range of D
       <string>GraphWin_5</string>
      </void>
      <void property="maxValue">
-      <float>0.001</float>
+      <float>7.5E-21</float>
      </void>
      <void property="minValue">
       <float>0.0</float>
@@ -1707,7 +1707,7 @@ From: Models of Neocortical Layer 5b Pyramidal Cells Capturing a Wide Range of D
    <float>0.11</float>
   </void>
   <void property="reference">
-   <string>Sim_353</string>
+   <string>Sim_363</string>
   </void>
   <void property="saveCopyGenSimFiles">
    <boolean>true</boolean>
