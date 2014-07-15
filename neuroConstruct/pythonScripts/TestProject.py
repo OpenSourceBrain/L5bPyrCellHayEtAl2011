@@ -62,6 +62,10 @@ def testAll(argv=None):
     assert(project.neuronSettings.getDataSaveFormat().equals(NeuronSettings.DataSaveFormat.TEXT_NC))
 
     assert(project.simulationParameters.getTemperature()- 6.3<=1e-6)
+    
+    defSimConfig = project.simConfigInfo.getSimConfig("Default Simulation Configuration")
+    assert(str(defSimConfig.getCellGroups())=='[CellGroup_1]')
+    assert(project.cellGroupsInfo.getCellType("CellGroup_1")=='L5PC')
 
 
     print "\n**************************************"

@@ -1655,6 +1655,99 @@ From: Models of Neocortical Layer 5b Pyramidal Cells Capturing a Wide Range of D
      </void>
     </object>
    </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CellGroup_1</string>
+     </void>
+     <void property="cellNumber">
+      <string>0</string>
+     </void>
+     <void property="graphWindow">
+      <string>GraphWin_5</string>
+     </void>
+     <void property="maxValue">
+      <float>2.5E-22</float>
+     </void>
+     <void property="minValue">
+      <float>0.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>Var_40</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+     <void property="valuePlotted">
+      <string>CaDynamics_E2_NML2:CONC:ca</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CellGroup_1</string>
+     </void>
+     <void property="cellNumber">
+      <string>0</string>
+     </void>
+     <void property="graphWindow">
+      <string>GraphWin_5</string>
+     </void>
+     <void property="maxValue">
+      <float>2.5E-22</float>
+     </void>
+     <void property="minValue">
+      <float>0.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>Var_41</string>
+     </void>
+     <void property="segmentId">
+      <string>2313</string>
+     </void>
+     <void property="valuePlotted">
+      <string>CaDynamics_E2_NML2:CONC:ca</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CellGroup_1</string>
+     </void>
+     <void property="cellNumber">
+      <string>0</string>
+     </void>
+     <void property="graphWindow">
+      <string>GraphWin_5</string>
+     </void>
+     <void property="maxValue">
+      <float>2.5E-22</float>
+     </void>
+     <void property="minValue">
+      <float>0.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>Var_42</string>
+     </void>
+     <void property="segmentId">
+      <string>2363</string>
+     </void>
+     <void property="valuePlotted">
+      <string>CaDynamics_E2_NML2:CONC:ca</string>
+     </void>
+    </object>
+   </void>
   </void>
  </object>
  <object class="ucl.physiol.neuroconstruct.project.ProjectProperties">
@@ -1707,7 +1800,7 @@ From: Models of Neocortical Layer 5b Pyramidal Cells Capturing a Wide Range of D
    <float>0.11</float>
   </void>
   <void property="reference">
-   <string>Sim_363</string>
+   <string>Sim_369</string>
   </void>
   <void property="saveCopyGenSimFiles">
    <boolean>true</boolean>
@@ -2040,6 +2133,15 @@ From: Models of Neocortical Layer 5b Pyramidal Cells Capturing a Wide Range of D
       </void>
       <void method="add">
        <string>CellGroup_1_v_2</string>
+      </void>
+      <void method="add">
+       <string>Var_40</string>
+      </void>
+      <void method="add">
+       <string>Var_41</string>
+      </void>
+      <void method="add">
+       <string>Var_42</string>
       </void>
      </void>
      <void property="simDuration">
