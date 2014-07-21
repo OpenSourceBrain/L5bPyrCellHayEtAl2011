@@ -19,7 +19,7 @@ simConfigs.append("TestNeuroML")
 
 nc.generateNeuroML2(projFile, simConfigs)
 
-extra_files = ['L5PCbiophys3_pas.nml', 'cell2_fromNeurolucida.nml']
+extra_files = ['cell2_fromNeurolucida.nml', 'CaDynamics_E2_NML2*gamma*.nml', 'L5PC.cell.nml']
 if len(sys.argv)==2 and sys.argv[1] == "-f":
     extra_files.append('L5bPyrCellHayEtAl2011.net.nml')
     extra_files.append('LEMS_L5bPyrCellHayEtAl2011.xml')
