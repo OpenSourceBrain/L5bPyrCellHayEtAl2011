@@ -80,17 +80,17 @@ These segmentGroups correspond to the 'cables' of NeuroML v1.8.1-->
 
                 <channelDensity condDensity="293.0 mS_per_cm2" id="SKv3_1_all" ionChannel="SKv3_1" ion="k" erev="-85.0 mV"/>
 
-                    <!--Reversal potential for ca in Ca_HVA will be calculated by Nernst equation from internal & external calcium-->
-
-
-                <channelDensityNernst condDensity="0.992 mS_per_cm2" id="Ca_HVA_all" ionChannel="Ca_HVA" ion="ca"/>
-
-                
-
                     <!--Reversal potential for ca in Ca_LVAst will be calculated by Nernst equation from internal & external calcium-->
 
 
                 <channelDensityNernst condDensity="3.43 mS_per_cm2" id="Ca_LVAst_all" ionChannel="Ca_LVAst" ion="ca"/>
+
+                
+
+                    <!--Reversal potential for ca in Ca_HVA will be calculated by Nernst equation from internal & external calcium-->
+
+
+                <channelDensityNernst condDensity="0.992 mS_per_cm2" id="Ca_HVA_all" ionChannel="Ca_HVA" ion="ca"/>
 
                 
 

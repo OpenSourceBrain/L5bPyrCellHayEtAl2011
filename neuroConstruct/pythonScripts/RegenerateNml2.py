@@ -19,10 +19,11 @@ simConfigs.append("TestNeuroML")
 
 nc.generateNeuroML2(projFile, simConfigs)
 
-extra_files = ['cell2_fromNeurolucida.nml', 'CaDynamics_E2_NML2*gamma*.nml', 'L5PC.cell.nml']
+extra_files = ['.test*','cell2_fromNeurolucida.nml', 'CaDynamics_E2_NML2*gamma*.nml', 'L5PC.cell.nml']
 if len(sys.argv)==2 and sys.argv[1] == "-f":
     extra_files.append('L5bPyrCellHayEtAl2011.net.nml')
     extra_files.append('LEMS_L5bPyrCellHayEtAl2011.xml')
+    extra_files.append('LEMS_L5bPyrCellHayEtAl2011_LowDt.xml')
     
 from subprocess import call
 for f in extra_files:
