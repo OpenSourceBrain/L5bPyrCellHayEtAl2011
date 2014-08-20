@@ -17,6 +17,8 @@
     <Include file="Ca_HVA.channel.nml"/>
     <Include file="Ca_LVAst.channel.nml"/>
     <Include file="CaDynamics_E2_NML2.nml"/>
+    <Include file="CaDynamics_E2_NML2__decay122__gamma5_09Emin4.nml"/>
+    <Include file="CaDynamics_E2_NML2__decay460__gamma5_01Emin4.nml"/>
     <Include file="Ih.channel.nml"/>
     <Include file="Im.channel.nml"/>
     <Include file="K_Pst.channel.nml"/>

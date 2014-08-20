@@ -31539,11 +31539,10 @@ These segmentGroups correspond to the 'cables' of NeuroML v1.8.1-->
 
             <intracellularProperties>
 
-                <!--
+               
                 <species segmentGroup="soma_group" id="ca" ion="ca" concentrationModel="CaDynamics_E2_NML2__decay460__gamma5_01Emin4" initialConcentration="5.0E-11 mol_per_cm3" initialExtConcentration="2.0E-6 mol_per_cm3"/>
 
                 <species segmentGroup="apical_dends" id="ca" ion="ca" concentrationModel="CaDynamics_E2_NML2__decay122__gamma5_09Emin4" initialConcentration="5.0E-11 mol_per_cm3" initialExtConcentration="2.0E-6 mol_per_cm3"/>
--->
                 <resistivity value="0.1 kohm_cm"/>
 
             </intracellularProperties>
