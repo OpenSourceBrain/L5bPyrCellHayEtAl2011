@@ -30809,9 +30809,9 @@ These segmentGroups correspond to the 'cables' of NeuroML v1.8.1-->
                 <include segmentGroup="apic_66"/>
                 <include segmentGroup="apic_65"/>
 
-                <inhomogeneousParam id="PathLengthOverApicDends" variable="p" metric="Path Length from root">
+                <inhomogeneousParameter id="PathLengthOverApicDends" variable="p" metric="Path Length from root">
                     <proximal translationStart="0"/>
-                </inhomogeneousParam>
+                </inhomogeneousParameter>
                 
             </segmentGroup>
 
@@ -31455,24 +31455,15 @@ These segmentGroups correspond to the 'cables' of NeuroML v1.8.1-->
 
             <membraneProperties>
 
-                <!--
+                    <!--Ih with param: gmax = f(p) = (1.0E-8 * 0.2) * ((2.087 * exp(p / 359.65)) - 0.8696) on ParameterisedGroup: PathLengthOverApicDends on: apical_dends with metric: Path Length from root (MOST_PROX_AT_0, NO_NORMALISATION), var: p-->
 
-                <channelDensity id="Ih_apical_dends" ionChannel="Ih" ion="hcn" erev="-45.0 mV">
+
+                <channelDensityNonUniform id="Ih_apical_dends" ionChannel="Ih" ion="hcn" erev="-45.0 mV">
                     <variableParameter parameter="condDensity" segmentGroup="apical_dends">
-                        <inhomogeneousValue inhomogeneousParam="PathLengthOverApicDends" value="1.0E8 * (1.0E-8 * 0.2) * ((2.087 * exp(p / 359.65)) - 0.8696)"/>   
+                        <inhomogeneousValue inhomogeneousParameter="PathLengthOverApicDends" value="1.0E9 * (1.0E-8 * 0.2) * ((2.087 * exp(p / 359.65)) - 0.8696)"/>    <!--Note: conversion factor (1.0E9 * ) included to convert to units: GENESIS SI Units-->
 
                     </variableParameter>
-                </channelDensity>  -->
-                
-                
-                <channelDensity condDensity="0.0325 mS_per_cm2" id="pas_axon_group" ionChannel="pas" segmentGroup="axon_group" ion="non_specific" erev="-90.0 mV"/>
-
-                <channelDensity condDensity="0.0338 mS_per_cm2" id="pas_soma_group" ionChannel="pas" segmentGroup="soma_group" ion="non_specific" erev="-90.0 mV"/>
-
-                <channelDensity condDensity="0.0467 mS_per_cm2" id="pas_basal_dends" ionChannel="pas" segmentGroup="basal_dends" ion="non_specific" erev="-90.0 mV"/>
-
-                <channelDensity condDensity="0.0589 mS_per_cm2" id="pas_apical_dends" ionChannel="pas" segmentGroup="apical_dends" ion="non_specific" erev="-90.0 mV"/>
-
+                </channelDensityNonUniform>
 
                 <channelDensity condDensity="0.2 mS_per_cm2" id="Ih_basal_dends_and_soma" ionChannel="Ih" segmentGroup="basal_dends_and_soma" ion="hcn" erev="-45.0 mV"/>
 
@@ -31487,45 +31478,62 @@ These segmentGroups correspond to the 'cables' of NeuroML v1.8.1-->
                 <channelDensity condDensity="2040.0 mS_per_cm2" id="NaTa_t_soma_group" ionChannel="NaTa_t" segmentGroup="soma_group" ion="na" erev="50.0 mV"/>
 
                 <channelDensity condDensity="21.3 mS_per_cm2" id="NaTa_t_apical_dends" ionChannel="NaTa_t" segmentGroup="apical_dends" ion="na" erev="50.0 mV"/>
-<!--
+
+                <channelDensity condDensity="0.0325 mS_per_cm2" id="pas_axon_group" ionChannel="pas" segmentGroup="axon_group" ion="non_specific" erev="-90.0 mV"/>
+
+                <channelDensity condDensity="0.0338 mS_per_cm2" id="pas_soma_group" ionChannel="pas" segmentGroup="soma_group" ion="non_specific" erev="-90.0 mV"/>
+
+                <channelDensity condDensity="0.0467 mS_per_cm2" id="pas_basal_dends" ionChannel="pas" segmentGroup="basal_dends" ion="non_specific" erev="-90.0 mV"/>
+
+                <channelDensity condDensity="0.0589 mS_per_cm2" id="pas_apical_dends" ionChannel="pas" segmentGroup="apical_dends" ion="non_specific" erev="-90.0 mV"/>
+
                 <channelDensity condDensity="1.2 mS_per_cm2" id="SK_E2_apical_dends" ionChannel="SK_E2" segmentGroup="apical_dends" ion="k" erev="-85.0 mV"/>
 
                 <channelDensity condDensity="44.1 mS_per_cm2" id="SK_E2_soma_group" ionChannel="SK_E2" segmentGroup="soma_group" ion="k" erev="-85.0 mV"/>
 
                 <channelDensity condDensity="0.261 mS_per_cm2" id="SKv3_1_apical_dends" ionChannel="SKv3_1" segmentGroup="apical_dends" ion="k" erev="-85.0 mV"/>
 
-                <channelDensity condDensity="693.0 mS_per_cm2" id="SKv3_1_soma_group" ionChannel="SKv3_1" segmentGroup="soma_group" ion="k" erev="-85.0 mV"/>  -->
+                <channelDensity condDensity="693.0 mS_per_cm2" id="SKv3_1_soma_group" ionChannel="SKv3_1" segmentGroup="soma_group" ion="k" erev="-85.0 mV"/>
 
             
-                <!--
+
             
 
-                <channelDensityNernst id="Ca_LVAst_apical_dends" ionChannel="Ca_LVAst" ion="ca">
-                    <variableParameter parameter="condDensity" segmentGroup="apical_dends">
-                        <inhomogeneousValue inhomogeneousParam="PathLengthOverApicDends" value="1.0E8 * 1.0E-8 * (0.187 + (18.513 * (H(p - 685) * H(885 - p))))"/>    
+            
+<!--
 
-                    </variableParameter>
-                </channelDensityNernst>
+
+                <channelDensityNernst condDensity="0.992 mS_per_cm2" id="Ca_HVA_soma_group" ionChannel="Ca_HVA" segmentGroup="soma_group" ion="ca"/>
 
                 
 
-                <channelDensityNernst id="Ca_HVA_apical_dends" ionChannel="Ca_HVA" ion="ca">
-                    <variableParameter parameter="condDensity" segmentGroup="apical_dends">
-                        <inhomogeneousValue inhomogeneousParam="PathLengthOverApicDends" value="1.0E8 * 1.0E-8 * (0.0555 + (0.4995 * (H(p - 685) * H(885 - p))))"/>    
-
-                    </variableParameter>
-                </channelDensityNernst>
-
-                
 
 
                 <channelDensityNernst condDensity="3.43 mS_per_cm2" id="Ca_LVAst_soma_group" ionChannel="Ca_LVAst" segmentGroup="soma_group" ion="ca"/>
 
                 
 
-                <channelDensityNernst condDensity="0.992 mS_per_cm2" id="Ca_HVA_soma_group" ionChannel="Ca_HVA" segmentGroup="soma_group" ion="ca"/>
 
-                -->
+
+                <channelDensityNernst id="Ca_HVA_apical_dends" ionChannel="Ca_HVA" ion="ca">
+                    <variableParameter parameter="condDensity" segmentGroup="apical_dends">
+                        <inhomogeneousValue inhomogeneousParameter="PathLengthOverApicDends" value="1.0E9 * 1.0E-8 * (0.0555 + (0.4995 * (H(p - 685) * H(885 - p))))"/>   
+
+                    </variableParameter>
+                </channelDensityNernst>
+
+                
+
+
+
+                <channelDensityNernst id="Ca_LVAst_apical_dends" ionChannel="Ca_LVAst" ion="ca">
+                    <variableParameter parameter="condDensity" segmentGroup="apical_dends">
+                        <inhomogeneousValue inhomogeneousParameter="PathLengthOverApicDends" value="1.0E9 * 1.0E-8 * (0.187 + (18.513 * (H(p - 685) * H(885 - p))))"/>   
+
+                    </variableParameter>
+                </channelDensityNernst>-->
+
+                
 
                 <spikeThresh value="0 mV"/>
 
@@ -31539,10 +31547,10 @@ These segmentGroups correspond to the 'cables' of NeuroML v1.8.1-->
 
             <intracellularProperties>
 
-               
                 <species segmentGroup="soma_group" id="ca" ion="ca" concentrationModel="CaDynamics_E2_NML2__decay460__gamma5_01Emin4" initialConcentration="5.0E-11 mol_per_cm3" initialExtConcentration="2.0E-6 mol_per_cm3"/>
 
                 <species segmentGroup="apical_dends" id="ca" ion="ca" concentrationModel="CaDynamics_E2_NML2__decay122__gamma5_09Emin4" initialConcentration="5.0E-11 mol_per_cm3" initialExtConcentration="2.0E-6 mol_per_cm3"/>
+
                 <resistivity value="0.1 kohm_cm"/>
 
             </intracellularProperties>
