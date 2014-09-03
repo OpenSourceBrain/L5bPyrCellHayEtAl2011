@@ -30809,9 +30809,9 @@ These segmentGroups correspond to the 'cables' of NeuroML v1.8.1-->
                 <include segmentGroup="apic_66"/>
                 <include segmentGroup="apic_65"/>
 
-                <inhomogeneousParam id="PathLengthOverApicDends" variable="p" metric="Path Length from root">
+                <inhomogeneousParameter id="PathLengthOverApicDends" variable="p" metric="Path Length from root">
                     <proximal translationStart="0"/>
-                </inhomogeneousParam>
+                </inhomogeneousParameter>
                 
             </segmentGroup>
 
@@ -31458,14 +31458,12 @@ These segmentGroups correspond to the 'cables' of NeuroML v1.8.1-->
                     <!--Ih with param: gmax = f(p) = (1.0E-8 * 0.2) * ((2.087 * exp(p / 359.65)) - 0.8696) on ParameterisedGroup: PathLengthOverApicDends on: apical_dends with metric: Path Length from root (MOST_PROX_AT_0, NO_NORMALISATION), var: p-->
 
 
-                
-
-                <channelDensity id="Ih_apical_dends" ionChannel="Ih" ion="hcn" erev="-45.0 mV">
+                <channelDensityNonUniform id="Ih_apical_dends" ionChannel="Ih" ion="hcn" erev="-45.0 mV">
                     <variableParameter parameter="condDensity" segmentGroup="apical_dends">
-                        <inhomogeneousValue inhomogeneousParam="PathLengthOverApicDends" value="1.0E8 * (1.0E-8 * 0.2) * ((2.087 * exp(p / 359.65)) - 0.8696)"/>    <!--Note: conversion factor (1.0E8 * ) included to convert to units: GENESIS Physiological Units-->
+                        <inhomogeneousValue inhomogeneousParameter="PathLengthOverApicDends" value="1.0E9 * (1.0E-8 * 0.2) * ((2.087 * exp(p / 359.65)) - 0.8696)"/>    <!--Note: conversion factor (1.0E9 * ) included to convert to units: GENESIS SI Units-->
 
                     </variableParameter>
-                </channelDensity>
+                </channelDensityNonUniform>
 
                 <channelDensity condDensity="0.2 mS_per_cm2" id="Ih_basal_dends_and_soma" ionChannel="Ih" segmentGroup="basal_dends_and_soma" ion="hcn" erev="-45.0 mV"/>
 
@@ -31503,16 +31501,10 @@ These segmentGroups correspond to the 'cables' of NeuroML v1.8.1-->
 
             
 
-                    <!--Reversal potential for ca in Ca_HVA will be calculated by Nernst equation from internal & external calcium
-    Ca_HVA with param: gmax = f(p) = 1.0E-8 * (0.0555 + (0.4995 * (H(p - 685) * H(885 - p)))) on ParameterisedGroup: PathLengthOverApicDends on: apical_dends with metric: Path Length from root (MOST_PROX_AT_0, NO_NORMALISATION), var: p-->
+                    <!--Reversal potential for ca in Ca_HVA will be calculated by Nernst equation from internal & external calcium-->
 
 
-                <channelDensityNernst id="Ca_HVA_apical_dends" ionChannel="Ca_HVA" ion="ca">
-                    <variableParameter parameter="condDensity" segmentGroup="apical_dends">
-                        <inhomogeneousValue inhomogeneousParam="PathLengthOverApicDends" value="1.0E8 * 1.0E-8 * (0.0555 + (0.4995 * (H(p - 685) * H(885 - p))))"/>    <!--Note: conversion factor (1.0E8 * ) included to convert to units: GENESIS Physiological Units-->
-
-                    </variableParameter>
-                </channelDensityNernst>
+                <channelDensityNernst condDensity="0.992 mS_per_cm2" id="Ca_HVA_soma_group" ionChannel="Ca_HVA" segmentGroup="soma_group" ion="ca"/>
 
                 
 
@@ -31523,10 +31515,16 @@ These segmentGroups correspond to the 'cables' of NeuroML v1.8.1-->
 
                 
 
-                    <!--Reversal potential for ca in Ca_HVA will be calculated by Nernst equation from internal & external calcium-->
+                    <!--Reversal potential for ca in Ca_HVA will be calculated by Nernst equation from internal & external calcium
+    Ca_HVA with param: gmax = f(p) = 1.0E-8 * (0.0555 + (0.4995 * (H(p - 685) * H(885 - p)))) on ParameterisedGroup: PathLengthOverApicDends on: apical_dends with metric: Path Length from root (MOST_PROX_AT_0, NO_NORMALISATION), var: p-->
 
 
-                <channelDensityNernst condDensity="0.992 mS_per_cm2" id="Ca_HVA_soma_group" ionChannel="Ca_HVA" segmentGroup="soma_group" ion="ca"/>
+                <channelDensityNernst id="Ca_HVA_apical_dends" ionChannel="Ca_HVA" ion="ca">
+                    <variableParameter parameter="condDensity" segmentGroup="apical_dends">
+                        <inhomogeneousValue inhomogeneousParameter="PathLengthOverApicDends" value="1.0E9 * 1.0E-8 * (0.0555 + (0.4995 * (H(p - 685) * H(885 - p))))"/>    <!--Note: conversion factor (1.0E9 * ) included to convert to units: GENESIS SI Units-->
+
+                    </variableParameter>
+                </channelDensityNernst>
 
                 
 
@@ -31536,7 +31534,7 @@ These segmentGroups correspond to the 'cables' of NeuroML v1.8.1-->
 
                 <channelDensityNernst id="Ca_LVAst_apical_dends" ionChannel="Ca_LVAst" ion="ca">
                     <variableParameter parameter="condDensity" segmentGroup="apical_dends">
-                        <inhomogeneousValue inhomogeneousParam="PathLengthOverApicDends" value="1.0E8 * 1.0E-8 * (0.187 + (18.513 * (H(p - 685) * H(885 - p))))"/>    <!--Note: conversion factor (1.0E8 * ) included to convert to units: GENESIS Physiological Units-->
+                        <inhomogeneousValue inhomogeneousParameter="PathLengthOverApicDends" value="1.0E9 * 1.0E-8 * (0.187 + (18.513 * (H(p - 685) * H(885 - p))))"/>    <!--Note: conversion factor (1.0E9 * ) included to convert to units: GENESIS SI Units-->
 
                     </variableParameter>
                 </channelDensityNernst>
