@@ -29,7 +29,7 @@
     <Include file="SK_E2.channel.nml"/>
     <Include file="SKv3_1.channel.nml"/>
         <!--   Cell files-->
-    <Include file="TestL5PC.cell.nml"/>
+    <Include file="L5PC.cell.nml"/>
         <!--   Network file-->
     <Include file="TestL5PC.net.nml"/>
     

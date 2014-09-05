@@ -19,7 +19,7 @@ Cell Group: CellGroup_1 contains 1 cells
     <include href="Im.channel.nml"/>
     <include href="K_Pst.channel.nml"/>
     <include href="K_Tst.channel.nml"/>
-    <include href="TestL5PC.cell.nml"/>
+    <include href="L5PC.cell.nml"/>
     <include href="Nap_Et2.channel.nml"/>
     <include href="NaTa_t.channel.nml"/>
     <include href="pas.channel.nml"/>
