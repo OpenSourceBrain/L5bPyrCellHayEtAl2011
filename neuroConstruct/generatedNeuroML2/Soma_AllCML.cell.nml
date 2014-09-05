@@ -62,23 +62,23 @@
 
             <membraneProperties>
                 
-                <channelDensity condDensity="2.23 mS_per_cm2" id="K_Pst_all" ionChannel="K_Pst" ion="k" erev="-85.0 mV"/>
-                
-                <channelDensity condDensity="0.08 mS_per_cm2" id="SK_E2_all" ionChannel="SK_E2" ion="k" erev="-85.0 mV"/>
-                
-                <channelDensity condDensity="1.72 mS_per_cm2" id="Nap_Et2_all" ionChannel="Nap_Et2" ion="na" erev="50.0 mV"/>
-                
-                <channelDensity condDensity="81.2 mS_per_cm2" id="K_Tst_all" ionChannel="K_Tst" ion="k" erev="-85.0 mV"/>
-                
-                <channelDensity condDensity="300.0 mS_per_cm2" id="NaTa_t_all" ionChannel="NaTa_t" ion="na" erev="50.0 mV"/>
+                <channelDensity condDensity="0.2 mS_per_cm2" id="Ih_all" ionChannel="Ih" ion="hcn" erev="-45.0 mV"/>
                 
                 <channelDensity condDensity="0.0675 mS_per_cm2" id="Im_all" ionChannel="Im" ion="k" erev="-85.0 mV"/>
                 
+                <channelDensity condDensity="2.23 mS_per_cm2" id="K_Pst_all" ionChannel="K_Pst" ion="k" erev="-85.0 mV"/>
+                
+                <channelDensity condDensity="81.2 mS_per_cm2" id="K_Tst_all" ionChannel="K_Tst" ion="k" erev="-85.0 mV"/>
+                
+                <channelDensity condDensity="1.72 mS_per_cm2" id="Nap_Et2_all" ionChannel="Nap_Et2" ion="na" erev="50.0 mV"/>
+                
+                <channelDensity condDensity="300.0 mS_per_cm2" id="NaTa_t_all" ionChannel="NaTa_t" ion="na" erev="50.0 mV"/>
+                
                 <channelDensity condDensity="0.0338 mS_per_cm2" id="pas_all" ionChannel="pas" ion="non_specific" erev="-90.0 mV"/>
                 
-                <channelDensity condDensity="293.0 mS_per_cm2" id="SKv3_1_all" ionChannel="SKv3_1" ion="k" erev="-85.0 mV"/>
+                <channelDensity condDensity="0.08 mS_per_cm2" id="SK_E2_all" ionChannel="SK_E2" ion="k" erev="-85.0 mV"/>
                 
-                <channelDensity condDensity="0.2 mS_per_cm2" id="Ih_all" ionChannel="Ih" ion="hcn" erev="-45.0 mV"/>
+                <channelDensity condDensity="293.0 mS_per_cm2" id="SKv3_1_all" ionChannel="SKv3_1" ion="k" erev="-85.0 mV"/>
                 
 
                 <!--Reversal potential for ca in Ca_HVA will be calculated by Nernst equation from internal & external calcium-->
