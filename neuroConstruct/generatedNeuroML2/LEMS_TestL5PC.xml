@@ -39,11 +39,11 @@
     <Component type="Simulation" id="sim1" length="3000.0ms" step="0.01ms" target="network_L5bPyrCellHayEtAl2011">
         
         <Display id="CellGroup_1_v" title="L5bPyrCellHayEtAl2011: Default Simulation Configuration, CellGroup_1, VOLTAGE, VOLTAGE, VOLTAGE" xmin="-0.3" xmax="3.3000002" ymin="-0.09200001" ymax="0.052" timeScale="1s">
-            <Line id="VOLTAGE" timeScale="1s" quantity="CellGroup_1/0/L5PC/v" scale="1 V" color="#000000"/>
+            <Line id="VOLTAGE" timeScale="1s" quantity="CellGroup_1/0/L5PC/0/v" scale="1 V" color="#000000"/>
         
-            <Line id="VOLTAGE" timeScale="1s" quantity="CellGroup_1/0/L5PC/v" scale="1 V" color="#ff0000"/>
+            <Line id="VOLTAGE" timeScale="1s" quantity="CellGroup_1/0/L5PC/2363/v" scale="1 V" color="#ff0000"/>
         
-            <Line id="VOLTAGE" timeScale="1s" quantity="CellGroup_1/0/L5PC/v" scale="1 V" color="#0000ff"/>
+            <Line id="VOLTAGE" timeScale="1s" quantity="CellGroup_1/0/L5PC/2313/v" scale="1 V" color="#0000ff"/>
         </Display>
         <!--
         <Display id="GraphWin_5" title="L5bPyrCellHayEtAl2011: Default Simulation Configuration, CellGroup_1, CaDynamics_E2_NML2:CONC:ca, CaDynamics_E2_NML2:CONC:ca, CaDynamics_E2_NML2:CONC:ca" xmin="-0.3" xmax="3.3000002" ymin="-2.5E-5" ymax="2.75E-4" timeScale="1s">
@@ -55,15 +55,15 @@
         </Display>-->
     
         <OutputFile id="CellGroup_1_v_OF" fileName="CellGroup_1_0.dat">
-            <OutputColumn id="v" quantity="CellGroup_1/0/L5PC/v"/>
+            <OutputColumn id="v" quantity="CellGroup_1/0/L5PC/0/v"/>
         </OutputFile>
     
         <OutputFile id="CellGroup_1_v_1_OF" fileName="CellGroup_1_0.dat">
-            <OutputColumn id="v" quantity="CellGroup_1/0/L5PC/v"/>
+            <OutputColumn id="v" quantity="CellGroup_1/0/L5PC/2363/v"/>
         </OutputFile>
     
         <OutputFile id="CellGroup_1_v_2_OF" fileName="CellGroup_1_0.dat">
-            <OutputColumn id="v" quantity="CellGroup_1/0/L5PC/v"/>
+            <OutputColumn id="v" quantity="CellGroup_1/0/L5PC/2313/v"/>
         </OutputFile>
         <!--
         <OutputFile id="Var_40_OF" fileName="CellGroup_1_0.CaDynamics_E2_NML2_CONC_ca.dat">
