@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<neuroml xmlns="http://www.neuroml.org/schema/neuroml2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta3.xsd" id="NaTa_t">
+<neuroml xmlns="http://www.neuroml.org/schema/neuroml2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta4.xsd" id="NaTa_t">
 
     <notes>ChannelML file containing a single Channel description</notes>
 
@@ -31,17 +31,17 @@
             </rdf:RDF>
         </annotation>
 
-        <gate id="m" type="gateHHrates" instances="3">
+        <gateHHrates id="m" instances="3">
             <q10Settings type="q10Fixed" fixedQ10="2.95288264"/>
             <forwardRate type="HHExpLinearRate" rate="1.092per_ms" scale="6mV" midpoint="-38mV"/>
             <reverseRate type="HHExpLinearRate" rate="0.744per_ms" scale="-6mV" midpoint="-38mV"/>
-        </gate>
+        </gateHHrates>
 
-        <gate id="h" type="gateHHrates" instances="1">
+        <gateHHrates id="h" instances="1">
             <q10Settings type="q10Fixed" fixedQ10="2.95288264"/>
             <forwardRate type="HHExpLinearRate" rate="0.09per_ms" scale="-6mV" midpoint="-66mV"/>
             <reverseRate type="HHExpLinearRate" rate="0.09per_ms" scale="6mV" midpoint="-66mV"/>
-        </gate>
+        </gateHHrates>
                             
     </ionChannel>
 

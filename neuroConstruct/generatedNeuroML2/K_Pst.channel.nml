@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<neuroml xmlns="http://www.neuroml.org/schema/neuroml2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta3.xsd" id="K_Pst">
+<neuroml xmlns="http://www.neuroml.org/schema/neuroml2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta4.xsd" id="K_Pst">
 
     <notes>ChannelML file containing a single Channel description</notes>
 
@@ -31,17 +31,17 @@
             </rdf:RDF>
         </annotation>
 
-        <gate id="m" type="gateHHtauInf" instances="2">
+        <gateHHtauInf id="m" instances="2">
             <q10Settings type="q10Fixed" fixedQ10="2.95288264"/>
             <timeCourse type="K_Pst_m_tau_tau"/>
             <steadyState type="HHSigmoidVariable" rate="1" scale="12mV" midpoint="-11mV"/>
-        </gate>
+        </gateHHtauInf>
 
-        <gate id="h" type="gateHHtauInf" instances="1">
+        <gateHHtauInf id="h" instances="1">
             <q10Settings type="q10Fixed" fixedQ10="2.95288264"/>
             <timeCourse type="K_Pst_h_tau_tau"/>
             <steadyState type="HHSigmoidVariable" rate="1" scale="-11mV" midpoint="-64mV"/>
-        </gate>
+        </gateHHtauInf>
                             
     </ionChannel>
 

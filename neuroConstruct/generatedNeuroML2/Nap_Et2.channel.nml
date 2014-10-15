@@ -58,7 +58,12 @@
             <DerivedVariable name="V" dimension="none" value="v / VOLT_SCALE"/>
             <DerivedVariable name="ALPHA" dimension="none" value="alpha * TIME_SCALE"/>
             <DerivedVariable name="BETA" dimension="none" value="beta * TIME_SCALE"/>
-            <DerivedVariable name="t" exposure="t" dimension="time" value="(6/( (ALPHA + BETA) )) * TIME_SCALE"/>
+            
+            <ConditionalDerivedVariable name="t" exposure="t" dimension="time">
+                <Case condition="(ALPHA + BETA) .eq. 0" value="( 0 ) * TIME_SCALE"/>  <!-- To catch any issues on initialisation-->
+                <Case value="(6/( (ALPHA + BETA) )) * TIME_SCALE"/>
+            </ConditionalDerivedVariable>
+            
         </Dynamics>
 
     </ComponentType>

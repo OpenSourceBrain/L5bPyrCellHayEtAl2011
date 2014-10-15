@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<neuroml xmlns="http://www.neuroml.org/schema/neuroml2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta3.xsd" id="SK_E2">
+<neuroml xmlns="http://www.neuroml.org/schema/neuroml2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta4.xsd" id="SK_E2">
 
     <notes>ChannelML file containing a single Channel description</notes>
 
@@ -31,10 +31,10 @@
             </rdf:RDF>
         </annotation>
 
-        <gate id="z" type="gateHHtauInf" instances="1">
+        <gateHHtauInf id="z" instances="1">
             <timeCourse type="SK_E2_z_tau_tau"/>
             <steadyState type="SK_E2_z_inf_inf"/>
-        </gate>
+        </gateHHtauInf>
                             
     </ionChannel>
 
