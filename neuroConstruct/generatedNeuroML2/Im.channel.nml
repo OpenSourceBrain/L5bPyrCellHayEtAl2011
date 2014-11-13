@@ -31,11 +31,11 @@
             </rdf:RDF>
         </annotation>
 
-        <gateHHrates id="m" instances="1">
+        <gate id="m" type="gateHHrates" instances="1">
             <q10Settings type="q10Fixed" fixedQ10="2.95288264"/>
             <forwardRate type="HHExpRate" rate="0.0033per_ms" scale="10mV" midpoint="-35mV"/>
             <reverseRate type="HHExpRate" rate="0.0033per_ms" scale="-10mV" midpoint="-35mV"/>
-        </gateHHrates>
+        </gate>
                             
     </ionChannel>
 

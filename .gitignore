@@ -4,6 +4,7 @@
 /neuroConstruct/generatedNeuroML2/*.hoc
 /neuroConstruct/generatedNeuroML2/*nrn.py
 /neuroConstruct/generatedNeuroML2/*.sh
+/neuroConstruct/ggg
 *.*~
 *.lems
 *.log

@@ -31,10 +31,10 @@
             </rdf:RDF>
         </annotation>
 
-        <gateHHtauInf id="z" instances="1">
+        <gate id="z" type="gateHHtauInf" instances="1">
             <timeCourse type="SK_E2_z_tau_tau"/>
             <steadyState type="SK_E2_z_inf_inf"/>
-        </gateHHtauInf>
+        </gate>
                             
     </ionChannel>
 

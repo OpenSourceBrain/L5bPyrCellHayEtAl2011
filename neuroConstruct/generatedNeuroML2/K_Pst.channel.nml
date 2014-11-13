@@ -31,17 +31,17 @@
             </rdf:RDF>
         </annotation>
 
-        <gateHHtauInf id="m" instances="2">
+        <gate id="m" type="gateHHtauInf" instances="2">
             <q10Settings type="q10Fixed" fixedQ10="2.95288264"/>
             <timeCourse type="K_Pst_m_tau_tau"/>
             <steadyState type="HHSigmoidVariable" rate="1" scale="12mV" midpoint="-11mV"/>
-        </gateHHtauInf>
+        </gate>
 
-        <gateHHtauInf id="h" instances="1">
+        <gate id="h" type="gateHHtauInf" instances="1">
             <q10Settings type="q10Fixed" fixedQ10="2.95288264"/>
             <timeCourse type="K_Pst_h_tau_tau"/>
             <steadyState type="HHSigmoidVariable" rate="1" scale="-11mV" midpoint="-64mV"/>
-        </gateHHtauInf>
+        </gate>
                             
     </ionChannel>
 

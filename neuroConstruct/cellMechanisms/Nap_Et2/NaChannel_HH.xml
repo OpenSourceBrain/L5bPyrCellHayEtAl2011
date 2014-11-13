@@ -54,8 +54,8 @@
                 <transition name="alpha" from="m0" to="m" expr_form="exp_linear" rate="1.092" scale="6" midpoint="-38"/>
                 <transition name="beta" from="m" to="m0"  expr_form="exp_linear" rate="0.744" scale="-6" midpoint="-38"/>
 
-                
-                <time_course name="tau" from="m0" to="m" expr_form="generic" expr="6/( (alpha + beta) )" />
+                <!-- Condition put in to catch errors on initialisation, e.g. alpha = beta = 0 -->
+                <time_course name="tau" from="m0" to="m" expr_form="generic" expr="(alpha + beta) &gt; 0 ? 6/( (alpha + beta) ) : 0" />
                 <steady_state name="inf" from="m0" to="m" expr_form="sigmoid" rate="1" scale="-4.6" midpoint="-52.6"/>
             </gate>
             
