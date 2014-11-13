@@ -59,6 +59,7 @@
             <DerivedVariable name="ALPHA" dimension="none" value="alpha * TIME_SCALE"/>
             <DerivedVariable name="BETA" dimension="none" value="beta * TIME_SCALE"/>
             <ConditionalDerivedVariable name="t" exposure="t" dimension="time">
+                <Case condition="(ALPHA + BETA) .eq. 0" value="( 0 ) * TIME_SCALE"/>
                 <Case condition="(ALPHA + BETA)  .gt. ( 0 )" value="( 6/( (ALPHA + BETA) ) ) * TIME_SCALE"/>
                 <Case value="( 0) * TIME_SCALE"/>
             </ConditionalDerivedVariable>
