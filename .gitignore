@@ -21,3 +21,7 @@ simulations
 *.bak
 *py.class
 .DS_Store
+
+LEMS_Test*.xml
+*.js
+
