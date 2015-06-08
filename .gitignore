@@ -1,9 +1,9 @@
+/neuroConstruct/generatedNeuroML2/runsim.sh
 /neuroConstruct/generatedNeuroML2/simulator.props
 /neuroConstruct/generatedNeuroML2/*.dat
 /neuroConstruct/generatedNeuroML2/*.mod
 /neuroConstruct/generatedNeuroML2/*.hoc
 /neuroConstruct/generatedNeuroML2/*nrn.py
-/neuroConstruct/generatedNeuroML2/*.sh
 /neuroConstruct/ggg
 *.*~
 *.lems
