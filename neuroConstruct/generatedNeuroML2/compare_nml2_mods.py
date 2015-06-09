@@ -2,7 +2,8 @@
 import matplotlib.pyplot as pylab
 import os.path
 
-chans = ['NaTa_t', 'K_Tst', 'K_Pst', 'Ca_LVAst', 'Ih', 'SKv3_1']
+chans = ['NaTa_t', 'Nap_Et2', 'K_Tst', 'K_Pst', 'Ca_LVAst', 'Ca_HVA', 'Ih', 'SKv3_1']
+problematic = ['Im']
 #chans = ['NaTa_t']
 
 gates = ['m', 'h']
@@ -35,7 +36,7 @@ for channel_id in chans:
                 ts.append(float(line.split()[0])*1000)
                 taus.append(float(line.split()[1])*1000)
 
-            pylab.plot(volts, taus, linestyle='-', label="LEMS %s %s tau"%(channel_id, gate))
+            pylab.plot(volts, taus, linestyle='-', linewidth=2, label="LEMS %s %s tau"%(channel_id, gate))
 
             tau_mod_file  = 'mods/%s.%s.tau.dat'%(channel_id, gate)
             vs = []
@@ -44,7 +45,7 @@ for channel_id in chans:
                 vs.append(float(line.split()[0]))
                 taus.append(float(line.split()[1]))
 
-            pylab.plot(vs, taus, '-x', label="Mod %s %s tau"%(channel_id, gate))
+            pylab.plot(vs, taus, '--x', label="Mod %s %s tau"%(channel_id, gate))
             
             
     pylab.legend()
@@ -66,7 +67,7 @@ for channel_id in chans:
             for line in open(inf_lems_file):
                 infs.append(float(line.split()[1]))
 
-            pylab.plot(volts, infs, linestyle='-', label="LEMS %s %s inf"%(channel_id, gate))
+            pylab.plot(volts, infs, linestyle='-', linewidth=2, label="LEMS %s %s inf"%(channel_id, gate))
             
             inf_mod_file  = 'mods/%s.%s.inf.dat'%(channel_id, gate)
             vs = []
@@ -75,7 +76,7 @@ for channel_id in chans:
                 vs.append(float(line.split()[0]))
                 infs.append(float(line.split()[1]))
 
-            pylab.plot(vs, infs, '-x', label="Mod %s %s inf"%(channel_id, gate))
+            pylab.plot(vs, infs, '--x', label="Mod %s %s inf"%(channel_id, gate))
             
     pylab.legend()
     

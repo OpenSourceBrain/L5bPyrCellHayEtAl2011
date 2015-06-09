@@ -9,5 +9,5 @@ pynml-modchananalysis Ca_LVAst -stepV 5 -temperature 6.3
 pynml-modchananalysis Ih -stepV 5 -temperature 6.3
 pynml-modchananalysis SKv3_1 -stepV 5 -temperature 6.3
 
-pynml-modchananalysis SK_E2 -stepV 5 -temperature 6.3
+# pynml-modchananalysis SK_E2 -stepV 5 -temperature 6.3 # inf is constant => no change in state var z => can't work out tau...
 pynml-modchananalysis Im -stepV 5 -temperature 6.3
