@@ -30,7 +30,7 @@ Likewise the Fig 4B, Fig 5A buttons should create images like these:
 
 Additional information:
 
-### Folder: [models](models)
+#### Folder: [models](models)
 
 NEURON code models, shown in various figures
 
@@ -40,11 +40,11 @@ L5PCbiophys3 - figure 4 (constrained both for BAC and current step firing)
 L5PCbiophys4 - figure S5 (AP initiation at the axon)
 L5PCtemplate - general cell template
 
-### Folder: [simulation code](simulationcode)
+#### Folder: [simulationcode](simulationcode)
 
 Simulation code for BAC firing or step current firing.
 
-### Folder: [model sets](model sets)
+#### Folder: [model sets](model sets)
 
 Model sets corresponding to various figures.
  
@@ -56,11 +56,11 @@ models_parameters file: parameter values matrix (rows: models;
 genome file: parameter names and search limits, each corresponding to
     a column in the models_parameters file
    
-### Folder: [mechanisms](mechanisms)
+#### Folder: [mod](mod)
 
 mod files of the conductance mechanisms used.
 
-### Folder: [morphologies](morphologies)
+#### Folder: [morphologies](morphologies)
 
 The three morphologies used in the paper.
 
