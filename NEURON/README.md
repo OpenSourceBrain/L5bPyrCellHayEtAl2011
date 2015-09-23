@@ -5,9 +5,10 @@ on 23 Sept 2015, with permission.**
 **Below is a copy of the readme.html from the original code**
 
 Author: Etay Hay, 2011
+
   Models of Neocortical Layer 5b Pyramidal Cells Capturing a Wide Range of
   Dendritic and Perisomatic Active Properties
-  (Hay et al., PLoS Computational Biology, 2011) 
+  ([Hay et al., PLoS Computational Biology, 2011](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=21829333&dopt=Abstract)) 
 
 NEURON models and model sets corresponding to the paper:
 
@@ -34,11 +35,11 @@ Additional information:
 
 NEURON code models, shown in various figures
 
-L5PCbiophys1 - figure 1 (constrained only for BAC firing)
-L5PCbiophys2 - figure 2 (constrained only for current step firing)
-L5PCbiophys3 - figure 4 (constrained both for BAC and current step firing)
-L5PCbiophys4 - figure S5 (AP initiation at the axon)
-L5PCtemplate - general cell template
+    L5PCbiophys1 - figure 1 (constrained only for BAC firing)
+    L5PCbiophys2 - figure 2 (constrained only for current step firing)
+    L5PCbiophys3 - figure 4 (constrained both for BAC and current step firing)
+    L5PCbiophys4 - figure S5 (AP initiation at the axon)
+    L5PCtemplate - general cell template
 
 #### Folder: [simulationcode](simulationcode)
 
@@ -50,9 +51,11 @@ Model sets corresponding to various figures.
  
 models_errors file: error values matrix (rows: models; columns:
      objectives)
+     
 models_parameters file: parameter values matrix (rows: models;
     columns: parameters) objetives file: objective names, each
     corresponding to a column in models_errors file
+    
 genome file: parameter names and search limits, each corresponding to
     a column in the models_parameters file
    
@@ -65,6 +68,6 @@ mod files of the conductance mechanisms used.
 The three morphologies used in the paper.
 
 20130226 added critical_frequency.hoc to simulationcode folder
-20130330 critical_frequency.hoc file updated with a comment regarding
-a difference between 32 and 64 bit NEURON environments.
+
+20130330 critical_frequency.hoc file updated with a comment regarding a difference between 32 and 64 bit NEURON environments.
 
