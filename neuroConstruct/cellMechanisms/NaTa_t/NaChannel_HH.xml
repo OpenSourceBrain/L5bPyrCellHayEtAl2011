@@ -11,7 +11,10 @@
             </meta:contributor>
         </status>
 
-        <meta:notes>Fast inactivating Na+ current</meta:notes>
+        <meta:notes>Fast inactivating Na+ current
+            
+Comment from original mod file: 
+:Reference :Colbert and Pan 2002</meta:notes>
         
         <meta:authorList>
             <meta:modelAuthor>

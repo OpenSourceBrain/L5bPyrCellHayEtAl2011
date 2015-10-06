@@ -11,7 +11,11 @@
             </meta:contributor>
         </status>
 
-        <meta:notes>Muscarinic K+ current</meta:notes>
+        <meta:notes>Muscarinic K+ current
+            
+Comment from original mod file: 
+:Reference : :		Adams et al. 1982 - M-currents and other potassium currents in bullfrog sympathetic neurones
+:Comment: corrected rates using q10 = 2.3, target temperature 34, orginal 21</meta:notes>
         
         <meta:authorList>
             <meta:modelAuthor>

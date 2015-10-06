@@ -12,7 +12,10 @@ xsi:schemaLocation="http://morphml.org/channelml/schema  http://www.neuroml.org/
             </meta:contributor>
         </status>
 
-        <meta:notes>High voltage activated Ca2+ current</meta:notes>
+        <meta:notes>High voltage activated Ca2+ current. 
+            
+Comment from original mod file: 
+Reuveni, Friedman, Amitai, and Gutnick, J.Neurosci. 1993</meta:notes>
 
         <meta:authorList>
             <meta:modelAuthor>

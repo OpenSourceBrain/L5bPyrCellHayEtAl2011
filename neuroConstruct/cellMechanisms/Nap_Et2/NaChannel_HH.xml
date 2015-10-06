@@ -13,7 +13,13 @@
             </meta:contributor>
         </status>
 
-        <meta:notes>Persistent Na+ current</meta:notes>
+        <meta:notes>Persistent Na+ current
+            
+Comment from original mod file: 
+:Comment : mtau deduced from text (said to be 6 times faster than for NaTa)
+:Comment : so I used the equations from NaT and multiplied by 6
+:Reference : Modeled according to kinetics derived from Magistretti and Alonso 1999
+:Comment: corrected rates using q10 = 2.3, target temperature 34, orginal 21</meta:notes>
         
         <meta:authorList>
             <meta:modelAuthor>

@@ -11,7 +11,10 @@
             </meta:contributor>
         </status>
 
-        <meta:notes>Fast, non inactivating K+ current</meta:notes>
+        <meta:notes>Fast, non inactivating K+ current
+            
+Comment from original mod file: 
+:Reference : :		Characterization of a Shaw-related potassium channel family in rat brain, The EMBO Journal, vol.11, no.7,2473-2486 (1992)</meta:notes>
         
         <meta:authorList>
             <meta:modelAuthor>
