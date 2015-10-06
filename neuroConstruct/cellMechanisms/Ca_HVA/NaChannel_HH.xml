@@ -2,7 +2,7 @@
 <channelml xmlns="http://morphml.org/channelml/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:meta="http://morphml.org/metadata/schema"
 xsi:schemaLocation="http://morphml.org/channelml/schema  http://www.neuroml.org/NeuroMLValidator/NeuroMLFiles/Schemata/v1.8.1/Level2/ChannelML_v1.8.1.xsd" units="Physiological Units">
 
-    <meta:notes>ChannelML file containing a single Channel description</meta:notes>
+    <meta:notes>NeuroML file containing a single Channel description</meta:notes>
 
     <channel_type name="Ca_HVA" density="yes">
 
