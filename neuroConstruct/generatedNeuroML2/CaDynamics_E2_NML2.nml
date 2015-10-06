@@ -53,8 +53,7 @@
 
             <DerivedVariable name="currDensCa" dimension="currentDensity" value="iCa / surfaceArea"/>
             
-
-            <TimeDerivative variable="concentration" value="(currDensCa * gamma/(2 * Faraday * depth)) - ((concentration - minCai) / decay)"/>
+            <TimeDerivative variable="concentration" value="(currDensCa * gamma/(2 * Faraday * depth)) - ((concentration - minCai) / decay)"/>            
 
             <OnStart>
                 <StateAssignment variable="concentration" value="initialConcentration"/>
