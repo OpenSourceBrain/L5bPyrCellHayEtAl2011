@@ -51,8 +51,6 @@
        
 
         <Constant name="Faraday" dimension="charge_per_mole" value="96485.3C_per_mol"/>
-        <Constant name="AREA_SCALE" dimension="area" value="1m2"/>
-        <Constant name="LENGTH_SCALE" dimension="length" value="1m"/>
 
         <Requirement name="iCa" dimension="current"/>
 
@@ -65,8 +63,7 @@
 
             <DerivedVariable name="currDensCa" dimension="currentDensity" value="iCa / surfaceArea"/>
             
-
-            <TimeDerivative variable="concentration" value="(currDensCa*gamma/(2*Faraday*depth)) - ((concentration - minCai) / decay)"/>
+            <TimeDerivative variable="concentration" value="(currDensCa * gamma/(2 * Faraday * depth)) - ((concentration - minCai) / decay)"/>            
 
             <OnStart>
                 <StateAssignment variable="concentration" value="initialConcentration"/>
