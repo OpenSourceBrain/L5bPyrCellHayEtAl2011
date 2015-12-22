@@ -54,15 +54,15 @@
             <Line id="CaDynamics_E2_NML2_CONC_ca" timeScale="1s" quantity="CellGroup_1/0/L5PC/caConc" scale="1 mol_per_m3" color="#0000ff"/>
         </Display>-->
     
-        <OutputFile id="CellGroup_1_v_OF" fileName="CellGroup_1_0.dat">
+        <OutputFile id="CellGroup_1_v_OF" fileName="CellGroup_1_0.0.dat">
             <OutputColumn id="v" quantity="CellGroup_1/0/L5PC/0/v"/>
         </OutputFile>
     
-        <OutputFile id="CellGroup_1_v_1_OF" fileName="CellGroup_1_0.dat">
+        <OutputFile id="CellGroup_1_v_1_OF" fileName="CellGroup_1_0.2363.dat">
             <OutputColumn id="v" quantity="CellGroup_1/0/L5PC/2363/v"/>
         </OutputFile>
     
-        <OutputFile id="CellGroup_1_v_2_OF" fileName="CellGroup_1_0.dat">
+        <OutputFile id="CellGroup_1_v_2_OF" fileName="CellGroup_1_0.2313.dat">
             <OutputColumn id="v" quantity="CellGroup_1/0/L5PC/2313/v"/>
         </OutputFile>
         <!--
