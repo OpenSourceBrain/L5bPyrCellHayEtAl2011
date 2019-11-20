@@ -32,6 +32,8 @@ Cell Group: CellGroup_1 contains 1 cells
     <network id="network_L5bPyrCellHayEtAl2011" type="networkWithTemperature" temperature="6.3 degC">
 
         
+        <property tag="recommended_dt_ms" value="0.025"/>
+        <property tag="recommended_duration_ms" value="3000"/>
 
         <population id="CellGroup_1" component="L5PC" type="populationList" size="1">
            <annotation>
