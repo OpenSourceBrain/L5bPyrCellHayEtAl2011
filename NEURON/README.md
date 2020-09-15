@@ -2,6 +2,25 @@
 model taken from [ModelDB](http://senselab.med.yale.edu/ModelDB/ShowModel.cshtml?model=139653) 
 on 23 Sept 2015, with permission.**
 
+To run the models on Linux/Unix, follow these steps:
+
+    # Open a terminal
+    # Ensure that you are in this folder
+    $ ls
+    init.hoc   mod   models  'model sets'   morphologies   mosinit.hoc readme.html   README.md   screenshot1.png   screenshot2.png screenshot3.png   simulationcode
+
+    # Compile the mod files
+    $ nrnivmodl mod/*
+    Creating x86_64 directory for .o files
+    ....
+    ....
+    # This creates a new folder, x86_64, where the compiled artefacts are
+    # saved.
+
+    # Run init.hoc and follow the instructions shown in the GUI to reproduce
+    # the figures as noted below
+    $ nrngui init.hoc
+
 **Below is a copy of the readme.html from the original code**
 
 Author: Etay Hay, 2011
