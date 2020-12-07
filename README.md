@@ -9,7 +9,7 @@ For more details, see http://www.opensourcebrain.org/projects/l5bpyrcellhayetal2
 
 ![Layer 5b Pyramidal cell](https://raw.github.com/OpenSourceBrain/L5bPyrCellHayEtAl2011/master/neuroConstruct/images/large.png)
 
-[![Build Status](https://travis-ci.org/OpenSourceBrain/L5bPyrCellHayEtAl2011.svg?branch=master)](https://travis-ci.org/OpenSourceBrain/L5bPyrCellHayEtAl2011)
+[![Build Status](https://travis-ci.com/OpenSourceBrain/L5bPyrCellHayEtAl2011.svg?branch=master)](https://travis-ci.com/OpenSourceBrain/L5bPyrCellHayEtAl2011)
 
 [![DOI](https://www.zenodo.org/badge/8250486.svg)](https://www.zenodo.org/badge/latestdoi/8250486)
 
