@@ -6,7 +6,7 @@ load_file("nrngui.hoc")
 //cvode = new CVode()
 //cvode.active(1)
 
-dt = 0.025
+dt = 0.01
 
 //======================== settings ===================================
 
@@ -83,8 +83,16 @@ objref Soma_ca
 //gV.addvar("soma","v(0.5)",1,1)
 
 //============================= simulation ================================
+
+
+nrnpython("from neuron import h")
+nrnpython("import time")
+nrnpython("print('Starting simulation of %s ms (dt: %s ms)'%(h.tstop,h.dt))")
+nrnpython("start_time = time.time()")
 init()
 run()
+nrnpython("end_time = time.time()")
+nrnpython("print('Finished simulation in %s s'%(end_time-start_time))")
 
 print "spike count = ", apcvec.size()
 
