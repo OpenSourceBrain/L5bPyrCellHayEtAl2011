@@ -1,0 +1,104 @@
+// Based on ../simulationcode/Step_current_firing.hoc
+
+load_file("nrngui.hoc")
+
+objref cvode
+cvode = new CVode()
+cvode.active(1)
+
+//======================== settings ===================================
+
+v_init = -80
+
+//step 1: 0.619
+//step 2: 0.793
+//step 3: 1.507
+step_amp = 0.793
+tstop = 3000
+//tstop = 800
+
+//=================== creating cell object ===========================
+load_file("import3d.hoc")
+objref L5PC
+
+strdef morphology_file
+morphology_file = "../morphologies/cell1.asc"
+
+load_file("../models/L5PCbiophys3.hoc")
+load_file("../models/L5PCtemplate.hoc")
+L5PC = new L5PCtemplate(morphology_file)
+
+//==================== stimulus settings ===========================
+
+objref st1
+
+st1 = new IClamp(0.5)
+st1.dur = 2000
+st1.del = 700
+st1.amp = step_amp
+
+L5PC.soma st1
+
+//==================== recording settings ==========================
+objref vvec, tvec
+
+vvec = new Vector()
+tvec = new Vector()
+
+access L5PC.soma
+cvode.record(&v(0.5),vvec,tvec)
+
+objref apcvec, apc
+apcvec = new Vector()
+apc = new APCount(0.5)
+apc.thresh= -10
+apc.record(apcvec)
+
+
+objref v_time
+objref f_time
+
+v_time = new Vector()
+{ v_time.record(&t) }
+f_time = new File()
+
+objref Soma_v
+{ Soma_v = new Vector() }
+{ Soma_v.record(&L5PC.soma.v(0.5))}
+objref Soma_ca
+{ Soma_ca = new Vector() }
+{ Soma_ca.record(&L5PC.soma.cai(0.5))}
+
+//======================= plot settings ============================
+
+//objref gV
+
+//gV = new Graph()
+//gV.size(0,tstop,-80,40)
+//graphList[0].append(gV)
+//access L5PC.axon
+//access L5PC.soma
+//gV.addvar("soma","v(0.5)",1,1)
+
+//============================= simulation ================================
+init()
+run()
+
+print "spike count = ", apcvec.size()
+
+objref f_Soma_si
+f_Soma_si = new File()
+{ f_Soma_si.wopen("Soma.si.dat") }
+for i=0, Soma_v.size()-1 {
+   f_Soma_si.printf("%f\t%f\n", v_time.x[i]/1000, Soma_v.x[i]/1000)
+}
+{ f_Soma_si.close() }
+
+
+objref f_Soma_ca
+f_Soma_ca = new File()
+{ f_Soma_ca.wopen("Soma.ca.dat") }
+for i=0, Soma_ca.size()-1 {
+   f_Soma_ca.printf("%f\t%f\n", v_time.x[i]/1000, Soma_ca.x[i])
+}
+{ f_Soma_ca.close() }

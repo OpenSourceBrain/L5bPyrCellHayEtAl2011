@@ -27,4 +27,5 @@ simulations
 
 LEMS_Test*.xml
 *.js
-
+/NEURON/test/*.dat
+*_netpyne.py
