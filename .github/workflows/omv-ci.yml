@@ -15,7 +15,7 @@ jobs:
       fail-fast: false
       matrix:
         python-version: [ 3.7, 3.9 ]
-        engine: [ jNeuroML, jNeuroML_NEURON, jNeuroML_NetPyNE, jNeuroML_validate, NEURON ]
+        engine: [ jNeuroML, jNeuroML_NEURON, jNeuroML_NetPyNE, jNeuroML_validate, "NEURON:7.6", "NEURON:7.8", "NEURON:8.0" ]
 
     steps:
     - uses: actions/checkout@v2
