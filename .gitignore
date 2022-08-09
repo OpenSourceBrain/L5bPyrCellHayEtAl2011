@@ -29,3 +29,6 @@ LEMS_Test*.xml
 *.js
 /NEURON/test/*.dat
 *_netpyne.py
+*_code.gen.c
+*code.gen.so
+*_eden.py

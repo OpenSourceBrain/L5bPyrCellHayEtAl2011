@@ -1,0 +1,17 @@
+# Script for running automated tests on OSB using Travis-CI, see https://github.com/borismarin/osb-model-validation
+
+target: LEMS_L5bPyrCellHayEtAl2011_LowDt.xml
+engine: jNeuroML_EDEN
+mep: .test.mep
+experiments:
+  Current clamp:
+    observables:
+      spike times:
+        file:
+          path: CG_TestCML_0.dat
+          columns: [0,1]
+          scaling: [1000, 1000]
+        spike detection:
+          method: threshold
+          threshold: 0
+        tolerance: 0.00020152256455791017
