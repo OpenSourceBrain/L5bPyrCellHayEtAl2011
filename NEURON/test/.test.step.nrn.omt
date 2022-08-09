@@ -1,0 +1,16 @@
+# Script for running automated tests on OSB, see https://github.com/OpenSourceBrain/osb-model-validation
+
+target: test_step.hoc
+engine: NEURON
+mep: .test.step.mep
+experiments:
+  step:
+    observables:
+      spike times:
+        file:
+          path: Soma.si.dat
+          columns: [0,1]
+          scaling: [1000,1000]
+        spike detection:
+          method: threshold
+        tolerance: 0
