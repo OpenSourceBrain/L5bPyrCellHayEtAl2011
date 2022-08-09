@@ -31,11 +31,8 @@ jobs:
         pip install scipy sympy matplotlib cython pandas tables
 
     - name: Compile some mod files, required for NEURON tests
-      if: ${{ matrix.engine == "NEURON"* }}
       run: |
-        omv install NEURON
-        cd NEURON/test
-        nrnivmodl ../mod
+        if [[  ${{ matrix.engine }} == *"NEURON"* ]]; then omv install NEURON; cd NEURON/test ; nrnivmodl ../mod ; fi
 
     - name: Run OMV tests on engine ${{ matrix.engine }}
       run: |
