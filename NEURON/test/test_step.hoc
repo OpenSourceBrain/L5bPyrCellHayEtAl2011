@@ -2,9 +2,11 @@
 
 load_file("nrngui.hoc")
 
-objref cvode
-cvode = new CVode()
-cvode.active(1)
+//objref cvode
+//cvode = new CVode()
+//cvode.active(1)
+
+dt = 0.025
 
 //======================== settings ===================================
 
