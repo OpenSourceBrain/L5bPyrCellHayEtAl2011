@@ -43,7 +43,7 @@ jobs:
 
     - name: Compile some mod files, required for NEURON tests
       run: |
-        if [[  ${{ matrix.engine }} == *"NEURON"* && ${{ matrix.engine }} != *"jNeuroML"* ]]; then omv install ${{ matrix.engine }}; export PATH=$PATH:/home/runner/neuron/nrn/x86_64; cd NEURON/test ; nrnivmodl ../mod ; fi
+        if [[  ${{ matrix.engine }} == *"NEURON"* && ${{ matrix.engine }} != *"jNeuroML"* ]]; then omv install ${{ matrix.engine }}; export PATH=$PATH:/home/runner/neuron/nrn/x86_64/bin; env; cd NEURON/test ; nrnivmodl ../mod ; fi
 
     - name: Run OMV tests on engine ${{ matrix.engine }}
       run: |
