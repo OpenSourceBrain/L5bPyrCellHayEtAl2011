@@ -1,0 +1,4404 @@
+ca_ion:
+    avg_rev_pot: NA
+    ext_conc: NA
+    int_conc: NA
+    nsecs: 0
+k_ion:
+    avg_rev_pot: NA
+    ext_conc: NA
+    int_conc: NA
+    nsecs: 0
+mechanisms:
+    capacitance:
+        num_params: 1
+        parameters:
+            cm:
+                ave_all_segs: 1.9953271028037383
+                values:
+                    L5PCtemplate_0_.apic_0:
+                        id: L5PCtemplate[0].apic[0]
+                        nseg: 3
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_1:
+                        id: L5PCtemplate[0].apic[1]
+                        nseg: 3
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_10:
+                        id: L5PCtemplate[0].apic[10]
+                        nseg: 5
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_100:
+                        id: L5PCtemplate[0].apic[100]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_101:
+                        id: L5PCtemplate[0].apic[101]
+                        nseg: 7
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_102:
+                        id: L5PCtemplate[0].apic[102]
+                        nseg: 9
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_103:
+                        id: L5PCtemplate[0].apic[103]
+                        nseg: 5
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_104:
+                        id: L5PCtemplate[0].apic[104]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_105:
+                        id: L5PCtemplate[0].apic[105]
+                        nseg: 5
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_106:
+                        id: L5PCtemplate[0].apic[106]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_107:
+                        id: L5PCtemplate[0].apic[107]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_108:
+                        id: L5PCtemplate[0].apic[108]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_11:
+                        id: L5PCtemplate[0].apic[11]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_12:
+                        id: L5PCtemplate[0].apic[12]
+                        nseg: 5
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_13:
+                        id: L5PCtemplate[0].apic[13]
+                        nseg: 7
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_14:
+                        id: L5PCtemplate[0].apic[14]
+                        nseg: 3
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_15:
+                        id: L5PCtemplate[0].apic[15]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_16:
+                        id: L5PCtemplate[0].apic[16]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_17:
+                        id: L5PCtemplate[0].apic[17]
+                        nseg: 9
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_18:
+                        id: L5PCtemplate[0].apic[18]
+                        nseg: 5
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_19:
+                        id: L5PCtemplate[0].apic[19]
+                        nseg: 9
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_2:
+                        id: L5PCtemplate[0].apic[2]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_20:
+                        id: L5PCtemplate[0].apic[20]
+                        nseg: 3
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_21:
+                        id: L5PCtemplate[0].apic[21]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_22:
+                        id: L5PCtemplate[0].apic[22]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_23:
+                        id: L5PCtemplate[0].apic[23]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_24:
+                        id: L5PCtemplate[0].apic[24]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_25:
+                        id: L5PCtemplate[0].apic[25]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_26:
+                        id: L5PCtemplate[0].apic[26]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_27:
+                        id: L5PCtemplate[0].apic[27]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_28:
+                        id: L5PCtemplate[0].apic[28]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_29:
+                        id: L5PCtemplate[0].apic[29]
+                        nseg: 3
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_3:
+                        id: L5PCtemplate[0].apic[3]
+                        nseg: 3
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_30:
+                        id: L5PCtemplate[0].apic[30]
+                        nseg: 3
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_31:
+                        id: L5PCtemplate[0].apic[31]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_32:
+                        id: L5PCtemplate[0].apic[32]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_33:
+                        id: L5PCtemplate[0].apic[33]
+                        nseg: 7
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_34:
+                        id: L5PCtemplate[0].apic[34]
+                        nseg: 3
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_35:
+                        id: L5PCtemplate[0].apic[35]
+                        nseg: 5
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_36:
+                        id: L5PCtemplate[0].apic[36]
+                        nseg: 13
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_37:
+                        id: L5PCtemplate[0].apic[37]
+                        nseg: 13
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_38:
+                        id: L5PCtemplate[0].apic[38]
+                        nseg: 5
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_39:
+                        id: L5PCtemplate[0].apic[39]
+                        nseg: 3
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_4:
+                        id: L5PCtemplate[0].apic[4]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_40:
+                        id: L5PCtemplate[0].apic[40]
+                        nseg: 11
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_41:
+                        id: L5PCtemplate[0].apic[41]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_42:
+                        id: L5PCtemplate[0].apic[42]
+                        nseg: 3
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_43:
+                        id: L5PCtemplate[0].apic[43]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_44:
+                        id: L5PCtemplate[0].apic[44]
+                        nseg: 5
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_45:
+                        id: L5PCtemplate[0].apic[45]
+                        nseg: 3
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_46:
+                        id: L5PCtemplate[0].apic[46]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_47:
+                        id: L5PCtemplate[0].apic[47]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_48:
+                        id: L5PCtemplate[0].apic[48]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_49:
+                        id: L5PCtemplate[0].apic[49]
+                        nseg: 7
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_5:
+                        id: L5PCtemplate[0].apic[5]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_50:
+                        id: L5PCtemplate[0].apic[50]
+                        nseg: 3
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_51:
+                        id: L5PCtemplate[0].apic[51]
+                        nseg: 11
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_52:
+                        id: L5PCtemplate[0].apic[52]
+                        nseg: 5
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_53:
+                        id: L5PCtemplate[0].apic[53]
+                        nseg: 9
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_54:
+                        id: L5PCtemplate[0].apic[54]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_55:
+                        id: L5PCtemplate[0].apic[55]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_56:
+                        id: L5PCtemplate[0].apic[56]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_57:
+                        id: L5PCtemplate[0].apic[57]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_58:
+                        id: L5PCtemplate[0].apic[58]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_59:
+                        id: L5PCtemplate[0].apic[59]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_6:
+                        id: L5PCtemplate[0].apic[6]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_60:
+                        id: L5PCtemplate[0].apic[60]
+                        nseg: 11
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_61:
+                        id: L5PCtemplate[0].apic[61]
+                        nseg: 9
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_62:
+                        id: L5PCtemplate[0].apic[62]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_63:
+                        id: L5PCtemplate[0].apic[63]
+                        nseg: 9
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_64:
+                        id: L5PCtemplate[0].apic[64]
+                        nseg: 5
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_65:
+                        id: L5PCtemplate[0].apic[65]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_66:
+                        id: L5PCtemplate[0].apic[66]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_67:
+                        id: L5PCtemplate[0].apic[67]
+                        nseg: 9
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_68:
+                        id: L5PCtemplate[0].apic[68]
+                        nseg: 5
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_69:
+                        id: L5PCtemplate[0].apic[69]
+                        nseg: 7
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_7:
+                        id: L5PCtemplate[0].apic[7]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_70:
+                        id: L5PCtemplate[0].apic[70]
+                        nseg: 3
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_71:
+                        id: L5PCtemplate[0].apic[71]
+                        nseg: 3
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_72:
+                        id: L5PCtemplate[0].apic[72]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_73:
+                        id: L5PCtemplate[0].apic[73]
+                        nseg: 3
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_74:
+                        id: L5PCtemplate[0].apic[74]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_75:
+                        id: L5PCtemplate[0].apic[75]
+                        nseg: 3
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_76:
+                        id: L5PCtemplate[0].apic[76]
+                        nseg: 7
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_77:
+                        id: L5PCtemplate[0].apic[77]
+                        nseg: 7
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_78:
+                        id: L5PCtemplate[0].apic[78]
+                        nseg: 5
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_79:
+                        id: L5PCtemplate[0].apic[79]
+                        nseg: 3
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_8:
+                        id: L5PCtemplate[0].apic[8]
+                        nseg: 3
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_80:
+                        id: L5PCtemplate[0].apic[80]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_81:
+                        id: L5PCtemplate[0].apic[81]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_82:
+                        id: L5PCtemplate[0].apic[82]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_83:
+                        id: L5PCtemplate[0].apic[83]
+                        nseg: 3
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_84:
+                        id: L5PCtemplate[0].apic[84]
+                        nseg: 3
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_85:
+                        id: L5PCtemplate[0].apic[85]
+                        nseg: 5
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_86:
+                        id: L5PCtemplate[0].apic[86]
+                        nseg: 5
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_87:
+                        id: L5PCtemplate[0].apic[87]
+                        nseg: 7
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_88:
+                        id: L5PCtemplate[0].apic[88]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_89:
+                        id: L5PCtemplate[0].apic[89]
+                        nseg: 3
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_9:
+                        id: L5PCtemplate[0].apic[9]
+                        nseg: 7
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_90:
+                        id: L5PCtemplate[0].apic[90]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_91:
+                        id: L5PCtemplate[0].apic[91]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_92:
+                        id: L5PCtemplate[0].apic[92]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_93:
+                        id: L5PCtemplate[0].apic[93]
+                        nseg: 5
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_94:
+                        id: L5PCtemplate[0].apic[94]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_95:
+                        id: L5PCtemplate[0].apic[95]
+                        nseg: 3
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_96:
+                        id: L5PCtemplate[0].apic[96]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_97:
+                        id: L5PCtemplate[0].apic[97]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_98:
+                        id: L5PCtemplate[0].apic[98]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.apic_99:
+                        id: L5PCtemplate[0].apic[99]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.axon_0:
+                        id: L5PCtemplate[0].axon[0]
+                        nseg: 1
+                        values:
+                            '*': 1.0
+                    L5PCtemplate_0_.axon_1:
+                        id: L5PCtemplate[0].axon[1]
+                        nseg: 1
+                        values:
+                            '*': 1.0
+                    L5PCtemplate_0_.dend_0:
+                        id: L5PCtemplate[0].dend[0]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_1:
+                        id: L5PCtemplate[0].dend[1]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_10:
+                        id: L5PCtemplate[0].dend[10]
+                        nseg: 3
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_11:
+                        id: L5PCtemplate[0].dend[11]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_12:
+                        id: L5PCtemplate[0].dend[12]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_13:
+                        id: L5PCtemplate[0].dend[13]
+                        nseg: 7
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_14:
+                        id: L5PCtemplate[0].dend[14]
+                        nseg: 7
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_15:
+                        id: L5PCtemplate[0].dend[15]
+                        nseg: 3
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_16:
+                        id: L5PCtemplate[0].dend[16]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_17:
+                        id: L5PCtemplate[0].dend[17]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_18:
+                        id: L5PCtemplate[0].dend[18]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_19:
+                        id: L5PCtemplate[0].dend[19]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_2:
+                        id: L5PCtemplate[0].dend[2]
+                        nseg: 7
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_20:
+                        id: L5PCtemplate[0].dend[20]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_21:
+                        id: L5PCtemplate[0].dend[21]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_22:
+                        id: L5PCtemplate[0].dend[22]
+                        nseg: 3
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_23:
+                        id: L5PCtemplate[0].dend[23]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_24:
+                        id: L5PCtemplate[0].dend[24]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_25:
+                        id: L5PCtemplate[0].dend[25]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_26:
+                        id: L5PCtemplate[0].dend[26]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_27:
+                        id: L5PCtemplate[0].dend[27]
+                        nseg: 3
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_28:
+                        id: L5PCtemplate[0].dend[28]
+                        nseg: 9
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_29:
+                        id: L5PCtemplate[0].dend[29]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_3:
+                        id: L5PCtemplate[0].dend[3]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_30:
+                        id: L5PCtemplate[0].dend[30]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_31:
+                        id: L5PCtemplate[0].dend[31]
+                        nseg: 5
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_32:
+                        id: L5PCtemplate[0].dend[32]
+                        nseg: 5
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_33:
+                        id: L5PCtemplate[0].dend[33]
+                        nseg: 5
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_34:
+                        id: L5PCtemplate[0].dend[34]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_35:
+                        id: L5PCtemplate[0].dend[35]
+                        nseg: 7
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_36:
+                        id: L5PCtemplate[0].dend[36]
+                        nseg: 3
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_37:
+                        id: L5PCtemplate[0].dend[37]
+                        nseg: 3
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_38:
+                        id: L5PCtemplate[0].dend[38]
+                        nseg: 3
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_39:
+                        id: L5PCtemplate[0].dend[39]
+                        nseg: 5
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_4:
+                        id: L5PCtemplate[0].dend[4]
+                        nseg: 5
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_40:
+                        id: L5PCtemplate[0].dend[40]
+                        nseg: 5
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_41:
+                        id: L5PCtemplate[0].dend[41]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_42:
+                        id: L5PCtemplate[0].dend[42]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_43:
+                        id: L5PCtemplate[0].dend[43]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_44:
+                        id: L5PCtemplate[0].dend[44]
+                        nseg: 5
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_45:
+                        id: L5PCtemplate[0].dend[45]
+                        nseg: 7
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_46:
+                        id: L5PCtemplate[0].dend[46]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_47:
+                        id: L5PCtemplate[0].dend[47]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_48:
+                        id: L5PCtemplate[0].dend[48]
+                        nseg: 3
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_49:
+                        id: L5PCtemplate[0].dend[49]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_5:
+                        id: L5PCtemplate[0].dend[5]
+                        nseg: 9
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_50:
+                        id: L5PCtemplate[0].dend[50]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_51:
+                        id: L5PCtemplate[0].dend[51]
+                        nseg: 3
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_52:
+                        id: L5PCtemplate[0].dend[52]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_53:
+                        id: L5PCtemplate[0].dend[53]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_54:
+                        id: L5PCtemplate[0].dend[54]
+                        nseg: 5
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_55:
+                        id: L5PCtemplate[0].dend[55]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_56:
+                        id: L5PCtemplate[0].dend[56]
+                        nseg: 3
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_57:
+                        id: L5PCtemplate[0].dend[57]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_58:
+                        id: L5PCtemplate[0].dend[58]
+                        nseg: 7
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_59:
+                        id: L5PCtemplate[0].dend[59]
+                        nseg: 7
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_6:
+                        id: L5PCtemplate[0].dend[6]
+                        nseg: 7
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_60:
+                        id: L5PCtemplate[0].dend[60]
+                        nseg: 5
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_61:
+                        id: L5PCtemplate[0].dend[61]
+                        nseg: 5
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_62:
+                        id: L5PCtemplate[0].dend[62]
+                        nseg: 5
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_63:
+                        id: L5PCtemplate[0].dend[63]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_64:
+                        id: L5PCtemplate[0].dend[64]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_65:
+                        id: L5PCtemplate[0].dend[65]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_66:
+                        id: L5PCtemplate[0].dend[66]
+                        nseg: 7
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_67:
+                        id: L5PCtemplate[0].dend[67]
+                        nseg: 5
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_68:
+                        id: L5PCtemplate[0].dend[68]
+                        nseg: 3
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_69:
+                        id: L5PCtemplate[0].dend[69]
+                        nseg: 5
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_7:
+                        id: L5PCtemplate[0].dend[7]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_70:
+                        id: L5PCtemplate[0].dend[70]
+                        nseg: 9
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_71:
+                        id: L5PCtemplate[0].dend[71]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_72:
+                        id: L5PCtemplate[0].dend[72]
+                        nseg: 9
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_73:
+                        id: L5PCtemplate[0].dend[73]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_74:
+                        id: L5PCtemplate[0].dend[74]
+                        nseg: 5
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_75:
+                        id: L5PCtemplate[0].dend[75]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_76:
+                        id: L5PCtemplate[0].dend[76]
+                        nseg: 3
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_77:
+                        id: L5PCtemplate[0].dend[77]
+                        nseg: 3
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_78:
+                        id: L5PCtemplate[0].dend[78]
+                        nseg: 3
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_79:
+                        id: L5PCtemplate[0].dend[79]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_8:
+                        id: L5PCtemplate[0].dend[8]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_80:
+                        id: L5PCtemplate[0].dend[80]
+                        nseg: 3
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_81:
+                        id: L5PCtemplate[0].dend[81]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_82:
+                        id: L5PCtemplate[0].dend[82]
+                        nseg: 7
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_83:
+                        id: L5PCtemplate[0].dend[83]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.dend_9:
+                        id: L5PCtemplate[0].dend[9]
+                        nseg: 1
+                        values:
+                            '*': 2.0
+                    L5PCtemplate_0_.soma_0:
+                        id: L5PCtemplate[0].soma[0]
+                        nseg: 1
+                        values:
+                            '*': 1.0
+        present_on_secs: 196
+    morphology:
+        num_params: 1
+        parameters:
+            diam:
+                ave_all_segs: 0.7840260473300192
+                values:
+                    L5PCtemplate_0_.apic_0:
+                        id: L5PCtemplate[0].apic[0]
+                        nseg: 3
+                        values:
+                            1: 7.20486823863129
+                            2: 4.08698291062178
+                            3: 3.6502690127734483
+                    L5PCtemplate_0_.apic_1:
+                        id: L5PCtemplate[0].apic[1]
+                        nseg: 3
+                        values:
+                            1: 3.2584230635936025
+                            2: 3.089999914169311
+                            3: 3.089999914169311
+                    L5PCtemplate_0_.apic_10:
+                        id: L5PCtemplate[0].apic[10]
+                        nseg: 5
+                        values:
+                            1: 0.8799999952316284
+                            2: 0.8799999952316282
+                            3: 0.8799999952316284
+                            4: 0.6598433079106777
+                            5: 0.5899999737739569
+                    L5PCtemplate_0_.apic_100:
+                        id: L5PCtemplate[0].apic[100]
+                        nseg: 1
+                        values:
+                            '*': 1.1699999570846558
+                    L5PCtemplate_0_.apic_101:
+                        id: L5PCtemplate[0].apic[101]
+                        nseg: 7
+                        values:
+                            1: 0.8799999952316284
+                            2: 0.8799999952316286
+                            3: 0.8799999952316284
+                            4: 0.6740154252746057
+                            5: 0.5799999833106995
+                            6: 0.5799999833106997
+                            7: 0.40376443749078583
+                    L5PCtemplate_0_.apic_102:
+                        id: L5PCtemplate[0].apic[102]
+                        nseg: 9
+                        values:
+                            1: 0.8799999952316285
+                            2: 0.8799999952316285
+                            3: 0.8799999952316281
+                            4: 0.8799999952316289
+                            5: 0.6994659559383362
+                            6: 0.5799999833106992
+                            7: 0.5799999833107001
+                            8: 0.5799999833106992
+                            9: 0.5799999833106992
+                    L5PCtemplate_0_.apic_103:
+                        id: L5PCtemplate[0].apic[103]
+                        nseg: 5
+                        values:
+                            1: 0.8799999952316285
+                            2: 0.8799999952316285
+                            3: 0.8799999952316283
+                            4: 0.8763532144535784
+                            5: 0.5923231086548144
+                    L5PCtemplate_0_.apic_104:
+                        id: L5PCtemplate[0].apic[104]
+                        nseg: 1
+                        values:
+                            '*': 1.156263828069832
+                    L5PCtemplate_0_.apic_105:
+                        id: L5PCtemplate[0].apic[105]
+                        nseg: 5
+                        values:
+                            1: 0.7125740216968671
+                            2: 0.5799999833106995
+                            3: 0.5799999833106997
+                            4: 0.5799999833106992
+                            5: 0.5799999833106996
+                    L5PCtemplate_0_.apic_106:
+                        id: L5PCtemplate[0].apic[106]
+                        nseg: 1
+                        values:
+                            '*': 0.5799999833106995
+                    L5PCtemplate_0_.apic_107:
+                        id: L5PCtemplate[0].apic[107]
+                        nseg: 1
+                        values:
+                            '*': 0.5799999833106995
+                    L5PCtemplate_0_.apic_108:
+                        id: L5PCtemplate[0].apic[108]
+                        nseg: 1
+                        values:
+                            '*': 0.5799999833106994
+                    L5PCtemplate_0_.apic_11:
+                        id: L5PCtemplate[0].apic[11]
+                        nseg: 1
+                        values:
+                            '*': 0.8799999952316284
+                    L5PCtemplate_0_.apic_12:
+                        id: L5PCtemplate[0].apic[12]
+                        nseg: 5
+                        values:
+                            1: 0.8799999952316284
+                            2: 0.6797311528911401
+                            3: 0.589999973773956
+                            4: 0.5899999737739565
+                            5: 0.5899999737739561
+                    L5PCtemplate_0_.apic_13:
+                        id: L5PCtemplate[0].apic[13]
+                        nseg: 7
+                        values:
+                            1: 0.8799999952316284
+                            2: 0.8799999952316284
+                            3: 0.8799999952316284
+                            4: 0.6907380163667055
+                            5: 0.5899999737739563
+                            6: 0.5899999737739563
+                            7: 0.5899999737739563
+                    L5PCtemplate_0_.apic_14:
+                        id: L5PCtemplate[0].apic[14]
+                        nseg: 3
+                        values:
+                            1: 2.569999933242798
+                            2: 2.569999933242798
+                            3: 2.5962909540493606
+                    L5PCtemplate_0_.apic_15:
+                        id: L5PCtemplate[0].apic[15]
+                        nseg: 1
+                        values:
+                            '*': 1.3472486724650372
+                    L5PCtemplate_0_.apic_16:
+                        id: L5PCtemplate[0].apic[16]
+                        nseg: 1
+                        values:
+                            '*': 0.8799999952316283
+                    L5PCtemplate_0_.apic_17:
+                        id: L5PCtemplate[0].apic[17]
+                        nseg: 9
+                        values:
+                            1: 0.708644353130815
+                            2: 0.5899999737739563
+                            3: 0.5899999737739562
+                            4: 0.5899999737739564
+                            5: 0.5899999737739562
+                            6: 0.48642981101488486
+                            7: 0.2899999916553499
+                            8: 0.28999999165534973
+                            9: 0.2899999916553497
+                    L5PCtemplate_0_.apic_18:
+                        id: L5PCtemplate[0].apic[18]
+                        nseg: 5
+                        values:
+                            1: 0.7064412400377051
+                            2: 0.5899999737739563
+                            3: 0.5557460678292635
+                            4: 0.2899999916553498
+                            5: 0.2899999916553498
+                    L5PCtemplate_0_.apic_19:
+                        id: L5PCtemplate[0].apic[19]
+                        nseg: 9
+                        values:
+                            1: 1.1699999570846558
+                            2: 1.085861347183144
+                            3: 0.8799999952316286
+                            4: 0.8799999952316276
+                            5: 0.6938799604679711
+                            6: 0.5830900804240997
+                            7: 0.29248201294746246
+                            8: 0.2899999916553504
+                            9: 0.2899999916553495
+                    L5PCtemplate_0_.apic_2:
+                        id: L5PCtemplate[0].apic[2]
+                        nseg: 1
+                        values:
+                            '*': 3.089999914169311
+                    L5PCtemplate_0_.apic_20:
+                        id: L5PCtemplate[0].apic[20]
+                        nseg: 3
+                        values:
+                            1: 2.5699999332427974
+                            2: 2.451774938921602
+                            3: 2.6864140514981663
+                    L5PCtemplate_0_.apic_21:
+                        id: L5PCtemplate[0].apic[21]
+                        nseg: 1
+                        values:
+                            '*': 0.8799999952316284
+                    L5PCtemplate_0_.apic_22:
+                        id: L5PCtemplate[0].apic[22]
+                        nseg: 1
+                        values:
+                            '*': 0.8799999952316285
+                    L5PCtemplate_0_.apic_23:
+                        id: L5PCtemplate[0].apic[23]
+                        nseg: 1
+                        values:
+                            '*': 0.8799999952316285
+                    L5PCtemplate_0_.apic_24:
+                        id: L5PCtemplate[0].apic[24]
+                        nseg: 1
+                        values:
+                            '*': 0.8799999952316282
+                    L5PCtemplate_0_.apic_25:
+                        id: L5PCtemplate[0].apic[25]
+                        nseg: 1
+                        values:
+                            '*': 0.8799999952316284
+                    L5PCtemplate_0_.apic_26:
+                        id: L5PCtemplate[0].apic[26]
+                        nseg: 1
+                        values:
+                            '*': 3.089999914169312
+                    L5PCtemplate_0_.apic_27:
+                        id: L5PCtemplate[0].apic[27]
+                        nseg: 1
+                        values:
+                            '*': 0.5899999737739563
+                    L5PCtemplate_0_.apic_28:
+                        id: L5PCtemplate[0].apic[28]
+                        nseg: 1
+                        values:
+                            '*': 0.5899999737739562
+                    L5PCtemplate_0_.apic_29:
+                        id: L5PCtemplate[0].apic[29]
+                        nseg: 3
+                        values:
+                            1: 0.5899999737739562
+                            2: 0.5899999737739563
+                            3: 0.5899999737739563
+                    L5PCtemplate_0_.apic_3:
+                        id: L5PCtemplate[0].apic[3]
+                        nseg: 3
+                        values:
+                            1: 3.089999914169311
+                            2: 3.089999914169311
+                            3: 3.08999991416931
+                    L5PCtemplate_0_.apic_30:
+                        id: L5PCtemplate[0].apic[30]
+                        nseg: 3
+                        values:
+                            1: 0.5899999737739562
+                            2: 0.5899999737739563
+                            3: 0.5899999737739563
+                    L5PCtemplate_0_.apic_31:
+                        id: L5PCtemplate[0].apic[31]
+                        nseg: 1
+                        values:
+                            '*': 0.5899999737739562
+                    L5PCtemplate_0_.apic_32:
+                        id: L5PCtemplate[0].apic[32]
+                        nseg: 1
+                        values:
+                            '*': 0.5899999737739562
+                    L5PCtemplate_0_.apic_33:
+                        id: L5PCtemplate[0].apic[33]
+                        nseg: 7
+                        values:
+                            1: 0.5899999737739562
+                            2: 0.5899999737739562
+                            3: 0.5899999737739565
+                            4: 0.5899999737739561
+                            5: 0.5899999737739564
+                            6: 0.5899999737739565
+                            7: 0.5899999737739561
+                    L5PCtemplate_0_.apic_34:
+                        id: L5PCtemplate[0].apic[34]
+                        nseg: 3
+                        values:
+                            1: 3.055301743259446
+                            2: 2.494606981761777
+                            3: 2.5699999332427974
+                    L5PCtemplate_0_.apic_35:
+                        id: L5PCtemplate[0].apic[35]
+                        nseg: 5
+                        values:
+                            1: 0.761196447393877
+                            2: 0.8799999952316285
+                            3: 0.7624668443725541
+                            4: 0.5899999737739561
+                            5: 0.5899999737739565
+                    L5PCtemplate_0_.apic_36:
+                        id: L5PCtemplate[0].apic[36]
+                        nseg: 13
+                        values:
+                            1: 2.31302307025813
+                            2: 2.5699999332427983
+                            3: 2.569999933242797
+                            4: 2.5699999332427987
+                            5: 2.569999933242797
+                            6: 2.569999933242797
+                            7: 2.529957657700846
+                            8: 2.4821465756433225
+                            9: 2.8299999237060534
+                            10: 2.8299999237060534
+                            11: 2.8299999237060534
+                            12: 2.829999923706058
+                            13: 2.8299999237060534
+                    L5PCtemplate_0_.apic_37:
+                        id: L5PCtemplate[0].apic[37]
+                        nseg: 13
+                        values:
+                            1: 1.7999999523162842
+                            2: 1.7999999523162842
+                            3: 1.799999952316285
+                            4: 1.7999999523162835
+                            5: 1.7999999523162848
+                            6: 1.7949565101169305
+                            7: 1.3141420183907773
+                            8: 1.289999961853026
+                            9: 1.2899999618530278
+                            10: 1.2899999618530278
+                            11: 1.2899999618530278
+                            12: 1.289999961853026
+                            13: 1.356640396530034
+                    L5PCtemplate_0_.apic_38:
+                        id: L5PCtemplate[0].apic[38]
+                        nseg: 5
+                        values:
+                            1: 1.0299999713897705
+                            2: 1.0299999713897705
+                            3: 1.029999971389771
+                            4: 1.02999997138977
+                            5: 1.029999971389771
+                    L5PCtemplate_0_.apic_39:
+                        id: L5PCtemplate[0].apic[39]
+                        nseg: 3
+                        values:
+                            '*': 0.5099999904632568
+                    L5PCtemplate_0_.apic_4:
+                        id: L5PCtemplate[0].apic[4]
+                        nseg: 1
+                        values:
+                            '*': 3.089999914169311
+                    L5PCtemplate_0_.apic_40:
+                        id: L5PCtemplate[0].apic[40]
+                        nseg: 11
+                        values:
+                            1: 0.7699999809265138
+                            2: 0.7699999809265138
+                            3: 0.769999980926514
+                            4: 0.7699999809265134
+                            5: 0.7699999809265139
+                            6: 0.7699999809265139
+                            7: 0.7699999809265132
+                            8: 0.7699999809265139
+                            9: 0.7699999809265139
+                            10: 0.7699999809265139
+                            11: 0.7699999809265139
+                    L5PCtemplate_0_.apic_41:
+                        id: L5PCtemplate[0].apic[41]
+                        nseg: 1
+                        values:
+                            '*': 0.7699999809265137
+                    L5PCtemplate_0_.apic_42:
+                        id: L5PCtemplate[0].apic[42]
+                        nseg: 3
+                        values:
+                            '*': 0.5099999904632568
+                    L5PCtemplate_0_.apic_43:
+                        id: L5PCtemplate[0].apic[43]
+                        nseg: 1
+                        values:
+                            '*': 0.4017291320219667
+                    L5PCtemplate_0_.apic_44:
+                        id: L5PCtemplate[0].apic[44]
+                        nseg: 5
+                        values:
+                            1: 0.25999999046325684
+                            2: 0.25999999046325684
+                            3: 0.2599999904632567
+                            4: 0.2599999904632569
+                            5: 0.2599999904632567
+                    L5PCtemplate_0_.apic_45:
+                        id: L5PCtemplate[0].apic[45]
+                        nseg: 3
+                        values:
+                            1: 1.0299999713897705
+                            2: 0.85686835914974
+                            3: 0.7699999809265137
+                    L5PCtemplate_0_.apic_46:
+                        id: L5PCtemplate[0].apic[46]
+                        nseg: 1
+                        values:
+                            '*': 0.4226325934881682
+                    L5PCtemplate_0_.apic_47:
+                        id: L5PCtemplate[0].apic[47]
+                        nseg: 1
+                        values:
+                            '*': 0.2599999904632568
+                    L5PCtemplate_0_.apic_48:
+                        id: L5PCtemplate[0].apic[48]
+                        nseg: 1
+                        values:
+                            '*': 0.25999999046325684
+                    L5PCtemplate_0_.apic_49:
+                        id: L5PCtemplate[0].apic[49]
+                        nseg: 7
+                        values:
+                            1: 0.7699999809265137
+                            2: 0.7699999809265138
+                            3: 0.7699999809265139
+                            4: 0.7699999809265136
+                            5: 0.7699999809265132
+                            6: 0.5580629045171908
+                            7: 0.4306893309223652
+                    L5PCtemplate_0_.apic_5:
+                        id: L5PCtemplate[0].apic[5]
+                        nseg: 1
+                        values:
+                            '*': 1.0983585829573161
+                    L5PCtemplate_0_.apic_50:
+                        id: L5PCtemplate[0].apic[50]
+                        nseg: 3
+                        values:
+                            '*': 1.7999999523162842
+                    L5PCtemplate_0_.apic_51:
+                        id: L5PCtemplate[0].apic[51]
+                        nseg: 11
+                        values:
+                            1: 1.5399999618530271
+                            2: 1.5347597512629625
+                            3: 1.2985859976172087
+                            4: 1.2899999618530276
+                            5: 1.289999961853027
+                            6: 1.2899999618530271
+                            7: 1.289999961853028
+                            8: 1.289999961853029
+                            9: 1.289999961853027
+                            10: 1.2899999618530271
+                            11: 1.2899999618530271
+                    L5PCtemplate_0_.apic_52:
+                        id: L5PCtemplate[0].apic[52]
+                        nseg: 5
+                        values:
+                            1: 0.5099999904632568
+                            2: 0.5099999904632568
+                            3: 0.48227641811586963
+                            4: 0.25999999046325684
+                            5: 0.25999999046325684
+                    L5PCtemplate_0_.apic_53:
+                        id: L5PCtemplate[0].apic[53]
+                        nseg: 9
+                        values:
+                            1: 1.0299999713897707
+                            2: 1.0299999713897707
+                            3: 1.0299999713897705
+                            4: 1.0299999713897707
+                            5: 1.0299999713897698
+                            6: 1.0299999713897714
+                            7: 0.7881349850726508
+                            8: 0.7699999809265142
+                            9: 0.6244551256022937
+                    L5PCtemplate_0_.apic_54:
+                        id: L5PCtemplate[0].apic[54]
+                        nseg: 1
+                        values:
+                            '*': 0.54443184635882
+                    L5PCtemplate_0_.apic_55:
+                        id: L5PCtemplate[0].apic[55]
+                        nseg: 1
+                        values:
+                            '*': 0.509999990463257
+                    L5PCtemplate_0_.apic_56:
+                        id: L5PCtemplate[0].apic[56]
+                        nseg: 1
+                        values:
+                            '*': 0.25999999046325684
+                    L5PCtemplate_0_.apic_57:
+                        id: L5PCtemplate[0].apic[57]
+                        nseg: 1
+                        values:
+                            '*': 0.5099999904632568
+                    L5PCtemplate_0_.apic_58:
+                        id: L5PCtemplate[0].apic[58]
+                        nseg: 1
+                        values:
+                            '*': 0.25999999046325684
+                    L5PCtemplate_0_.apic_59:
+                        id: L5PCtemplate[0].apic[59]
+                        nseg: 1
+                        values:
+                            '*': 0.25999999046325684
+                    L5PCtemplate_0_.apic_6:
+                        id: L5PCtemplate[0].apic[6]
+                        nseg: 1
+                        values:
+                            '*': 0.8799999952316284
+                    L5PCtemplate_0_.apic_60:
+                        id: L5PCtemplate[0].apic[60]
+                        nseg: 11
+                        values:
+                            1: 1.0299999713897703
+                            2: 1.0299999713897705
+                            3: 1.0299999713897705
+                            4: 1.0299999713897707
+                            5: 1.0299999713897698
+                            6: 1.0299999713897714
+                            7: 1.0299999713897698
+                            8: 1.0299999713897714
+                            9: 1.0299999713897698
+                            10: 1.0299999713897698
+                            11: 1.0299999713897714
+                    L5PCtemplate_0_.apic_61:
+                        id: L5PCtemplate[0].apic[61]
+                        nseg: 9
+                        values:
+                            1: 0.7699999809265137
+                            2: 0.7699999809265138
+                            3: 0.7699999809265137
+                            4: 0.7699999809265137
+                            5: 0.7699999809265131
+                            6: 0.7699999809265142
+                            7: 0.769999980926513
+                            8: 0.7699999809265143
+                            9: 0.7699999809265131
+                    L5PCtemplate_0_.apic_62:
+                        id: L5PCtemplate[0].apic[62]
+                        nseg: 1
+                        values:
+                            '*': 0.662484813253733
+                    L5PCtemplate_0_.apic_63:
+                        id: L5PCtemplate[0].apic[63]
+                        nseg: 9
+                        values:
+                            1: 0.5099999904632568
+                            2: 0.5099999904632568
+                            3: 0.5099999904632567
+                            4: 0.5099999904632573
+                            5: 0.5099999904632567
+                            6: 0.5099999904632567
+                            7: 0.5099999904632572
+                            8: 0.5099999904632555
+                            9: 0.5099999904632572
+                    L5PCtemplate_0_.apic_64:
+                        id: L5PCtemplate[0].apic[64]
+                        nseg: 5
+                        values:
+                            1: 0.5099999904632568
+                            2: 0.5099999904632568
+                            3: 0.5099999904632566
+                            4: 0.509999990463257
+                            5: 0.5099999904632566
+                    L5PCtemplate_0_.apic_65:
+                        id: L5PCtemplate[0].apic[65]
+                        nseg: 1
+                        values:
+                            '*': 0.5099999904632567
+                    L5PCtemplate_0_.apic_66:
+                        id: L5PCtemplate[0].apic[66]
+                        nseg: 1
+                        values:
+                            '*': 0.3558385082694576
+                    L5PCtemplate_0_.apic_67:
+                        id: L5PCtemplate[0].apic[67]
+                        nseg: 9
+                        values:
+                            1: 0.5099999904632568
+                            2: 0.5099999904632568
+                            3: 0.509999990463257
+                            4: 0.4624941513309162
+                            5: 0.2599999904632568
+                            6: 0.2599999904632568
+                            7: 0.259999990463257
+                            8: 0.25999999046325656
+                            9: 0.25999999046325695
+                    L5PCtemplate_0_.apic_68:
+                        id: L5PCtemplate[0].apic[68]
+                        nseg: 5
+                        values:
+                            1: 0.7699999809265137
+                            2: 0.7699999809265138
+                            3: 0.7699999809265139
+                            4: 0.7699999809265133
+                            5: 0.7699999809265139
+                    L5PCtemplate_0_.apic_69:
+                        id: L5PCtemplate[0].apic[69]
+                        nseg: 7
+                        values:
+                            1: 0.7699999809265138
+                            2: 0.7296870480599795
+                            3: 0.509999990463257
+                            4: 0.5099999904632568
+                            5: 0.509999990463257
+                            6: 0.5099999904632568
+                            7: 0.718761203646835
+                    L5PCtemplate_0_.apic_7:
+                        id: L5PCtemplate[0].apic[7]
+                        nseg: 1
+                        values:
+                            '*': 0.8799999952316283
+                    L5PCtemplate_0_.apic_70:
+                        id: L5PCtemplate[0].apic[70]
+                        nseg: 3
+                        values:
+                            1: 0.2599999904632568
+                            2: 0.25999999046325684
+                            3: 0.2599999904632568
+                    L5PCtemplate_0_.apic_71:
+                        id: L5PCtemplate[0].apic[71]
+                        nseg: 3
+                        values:
+                            1: 0.7699999809265137
+                            2: 0.7683701821167874
+                            3: 0.5199734575802711
+                    L5PCtemplate_0_.apic_72:
+                        id: L5PCtemplate[0].apic[72]
+                        nseg: 1
+                        values:
+                            '*': 0.2599999904632568
+                    L5PCtemplate_0_.apic_73:
+                        id: L5PCtemplate[0].apic[73]
+                        nseg: 3
+                        values:
+                            1: 0.509999990463257
+                            2: 0.509999990463257
+                            3: 0.4236683679520378
+                    L5PCtemplate_0_.apic_74:
+                        id: L5PCtemplate[0].apic[74]
+                        nseg: 1
+                        values:
+                            '*': 0.5344215352202438
+                    L5PCtemplate_0_.apic_75:
+                        id: L5PCtemplate[0].apic[75]
+                        nseg: 3
+                        values:
+                            1: 0.5099999904632568
+                            2: 0.5099999904632567
+                            3: 0.5099999904632567
+                    L5PCtemplate_0_.apic_76:
+                        id: L5PCtemplate[0].apic[76]
+                        nseg: 7
+                        values:
+                            1: 0.5099999904632568
+                            2: 0.5099999904632567
+                            3: 0.33313448340493507
+                            4: 0.28999999165534956
+                            5: 0.2899999916553498
+                            6: 0.28999999165534984
+                            7: 0.2899999916553494
+                    L5PCtemplate_0_.apic_77:
+                        id: L5PCtemplate[0].apic[77]
+                        nseg: 7
+                        values:
+                            1: 0.2899999916553498
+                            2: 0.28999999165534973
+                            3: 0.28999999165534973
+                            4: 0.2899999916553497
+                            5: 0.2899999916553498
+                            6: 0.2899999916553498
+                            7: 0.2899999916553492
+                    L5PCtemplate_0_.apic_78:
+                        id: L5PCtemplate[0].apic[78]
+                        nseg: 5
+                        values:
+                            1: 0.2899999916553497
+                            2: 0.28999999165534973
+                            3: 0.2899999916553498
+                            4: 0.2899999916553496
+                            5: 0.2899999916553498
+                    L5PCtemplate_0_.apic_79:
+                        id: L5PCtemplate[0].apic[79]
+                        nseg: 3
+                        values:
+                            1: 0.8799999952316285
+                            2: 0.8799999952316285
+                            3: 0.879999995231628
+                    L5PCtemplate_0_.apic_8:
+                        id: L5PCtemplate[0].apic[8]
+                        nseg: 3
+                        values:
+                            1: 0.5899999737739563
+                            2: 0.5899999737739563
+                            3: 0.4776939150882702
+                    L5PCtemplate_0_.apic_80:
+                        id: L5PCtemplate[0].apic[80]
+                        nseg: 1
+                        values:
+                            '*': 1.1699999570846558
+                    L5PCtemplate_0_.apic_81:
+                        id: L5PCtemplate[0].apic[81]
+                        nseg: 1
+                        values:
+                            '*': 1.1699999570846558
+                    L5PCtemplate_0_.apic_82:
+                        id: L5PCtemplate[0].apic[82]
+                        nseg: 1
+                        values:
+                            '*': 0.9581931005605726
+                    L5PCtemplate_0_.apic_83:
+                        id: L5PCtemplate[0].apic[83]
+                        nseg: 3
+                        values:
+                            1: 0.8799999952316284
+                            2: 0.8799999952316284
+                            3: 0.8799999952316285
+                    L5PCtemplate_0_.apic_84:
+                        id: L5PCtemplate[0].apic[84]
+                        nseg: 3
+                        values:
+                            1: 0.28999999165534973
+                            2: 0.28999999165534973
+                            3: 0.2899999916553497
+                    L5PCtemplate_0_.apic_85:
+                        id: L5PCtemplate[0].apic[85]
+                        nseg: 5
+                        values:
+                            1: 0.28999999165534973
+                            2: 0.28999999165534973
+                            3: 0.2899999916553496
+                            4: 0.28999999165534973
+                            5: 0.2899999916553496
+                    L5PCtemplate_0_.apic_86:
+                        id: L5PCtemplate[0].apic[86]
+                        nseg: 5
+                        values:
+                            1: 0.28999999165534973
+                            2: 0.28999999165534973
+                            3: 0.2899999916553497
+                            4: 0.28999999165534984
+                            5: 0.28999999165534995
+                    L5PCtemplate_0_.apic_87:
+                        id: L5PCtemplate[0].apic[87]
+                        nseg: 7
+                        values:
+                            1: 1.1699999570846555
+                            2: 1.0044255394073998
+                            3: 0.8799999952316281
+                            4: 0.879999995231628
+                            5: 0.7584706592811271
+                            6: 0.5799999833106996
+                            7: 0.34689246362005544
+                    L5PCtemplate_0_.apic_88:
+                        id: L5PCtemplate[0].apic[88]
+                        nseg: 1
+                        values:
+                            '*': 1.1699999570846558
+                    L5PCtemplate_0_.apic_89:
+                        id: L5PCtemplate[0].apic[89]
+                        nseg: 3
+                        values:
+                            1: 0.8799999952316285
+                            2: 0.6390376074534818
+                            3: 0.5799999833106994
+                    L5PCtemplate_0_.apic_9:
+                        id: L5PCtemplate[0].apic[9]
+                        nseg: 7
+                        values:
+                            1: 0.5899999737739562
+                            2: 0.5899999737739563
+                            3: 0.5899999737739562
+                            4: 0.5899999737739563
+                            5: 0.5899999737739564
+                            6: 0.5899999737739559
+                            7: 0.5899999737739563
+                    L5PCtemplate_0_.apic_90:
+                        id: L5PCtemplate[0].apic[90]
+                        nseg: 1
+                        values:
+                            '*': 0.28999999165534973
+                    L5PCtemplate_0_.apic_91:
+                        id: L5PCtemplate[0].apic[91]
+                        nseg: 1
+                        values:
+                            '*': 0.28999999165534973
+                    L5PCtemplate_0_.apic_92:
+                        id: L5PCtemplate[0].apic[92]
+                        nseg: 1
+                        values:
+                            '*': 0.8799999952316283
+                    L5PCtemplate_0_.apic_93:
+                        id: L5PCtemplate[0].apic[93]
+                        nseg: 5
+                        values:
+                            1: 0.8799999952316284
+                            2: 0.8799999952316284
+                            3: 0.8799999952316288
+                            4: 0.8480308066126474
+                            5: 0.5799999833106996
+                    L5PCtemplate_0_.apic_94:
+                        id: L5PCtemplate[0].apic[94]
+                        nseg: 1
+                        values:
+                            '*': 0.8799999952316284
+                    L5PCtemplate_0_.apic_95:
+                        id: L5PCtemplate[0].apic[95]
+                        nseg: 3
+                        values:
+                            1: 0.5799999833106995
+                            2: 0.5799999833106995
+                            3: 0.5799999833106996
+                    L5PCtemplate_0_.apic_96:
+                        id: L5PCtemplate[0].apic[96]
+                        nseg: 1
+                        values:
+                            '*': 0.5799999833106995
+                    L5PCtemplate_0_.apic_97:
+                        id: L5PCtemplate[0].apic[97]
+                        nseg: 1
+                        values:
+                            '*': 0.5799999833106995
+                    L5PCtemplate_0_.apic_98:
+                        id: L5PCtemplate[0].apic[98]
+                        nseg: 1
+                        values:
+                            '*': 0.5799999833106996
+                    L5PCtemplate_0_.apic_99:
+                        id: L5PCtemplate[0].apic[99]
+                        nseg: 1
+                        values:
+                            '*': 1.1699999570846558
+                    L5PCtemplate_0_.axon_0:
+                        id: L5PCtemplate[0].axon[0]
+                        nseg: 1
+                        values:
+                            '*': 1.0
+                    L5PCtemplate_0_.axon_1:
+                        id: L5PCtemplate[0].axon[1]
+                        nseg: 1
+                        values:
+                            '*': 1.0
+                    L5PCtemplate_0_.dend_0:
+                        id: L5PCtemplate[0].dend[0]
+                        nseg: 1
+                        values:
+                            '*': 1.1517806365808367
+                    L5PCtemplate_0_.dend_1:
+                        id: L5PCtemplate[0].dend[1]
+                        nseg: 1
+                        values:
+                            '*': 0.8799999952316285
+                    L5PCtemplate_0_.dend_10:
+                        id: L5PCtemplate[0].dend[10]
+                        nseg: 3
+                        values:
+                            1: 0.4448649630500926
+                            2: 0.2899999916553498
+                            3: 0.2899999916553498
+                    L5PCtemplate_0_.dend_11:
+                        id: L5PCtemplate[0].dend[11]
+                        nseg: 1
+                        values:
+                            '*': 0.8799999952316284
+                    L5PCtemplate_0_.dend_12:
+                        id: L5PCtemplate[0].dend[12]
+                        nseg: 1
+                        values:
+                            '*': 0.8799999952316286
+                    L5PCtemplate_0_.dend_13:
+                        id: L5PCtemplate[0].dend[13]
+                        nseg: 7
+                        values:
+                            1: 0.40830566707723187
+                            2: 0.28999999165534973
+                            3: 0.2899999916553497
+                            4: 0.2899999916553498
+                            5: 0.2899999916553497
+                            6: 0.2899999916553497
+                            7: 0.28999999165534984
+                    L5PCtemplate_0_.dend_14:
+                        id: L5PCtemplate[0].dend[14]
+                        nseg: 7
+                        values:
+                            1: 0.5799999833106995
+                            2: 0.5799999833106995
+                            3: 0.5799999833106997
+                            4: 0.5799999833106992
+                            5: 0.5691940442385467
+                            6: 0.293810349570114
+                            7: 0.2899999916553494
+                    L5PCtemplate_0_.dend_15:
+                        id: L5PCtemplate[0].dend[15]
+                        nseg: 3
+                        values:
+                            1: 0.5799999833106995
+                            2: 0.4297295633154905
+                            3: 0.2899999916553497
+                    L5PCtemplate_0_.dend_16:
+                        id: L5PCtemplate[0].dend[16]
+                        nseg: 1
+                        values:
+                            '*': 1.4600000381469729
+                    L5PCtemplate_0_.dend_17:
+                        id: L5PCtemplate[0].dend[17]
+                        nseg: 1
+                        values:
+                            '*': 1.1699999570846558
+                    L5PCtemplate_0_.dend_18:
+                        id: L5PCtemplate[0].dend[18]
+                        nseg: 1
+                        values:
+                            '*': 0.9593684073476552
+                    L5PCtemplate_0_.dend_19:
+                        id: L5PCtemplate[0].dend[19]
+                        nseg: 1
+                        values:
+                            '*': 0.5799999833106995
+                    L5PCtemplate_0_.dend_2:
+                        id: L5PCtemplate[0].dend[2]
+                        nseg: 7
+                        values:
+                            1: 0.5799999833106996
+                            2: 0.5799999833106995
+                            3: 0.5799999833106994
+                            4: 0.5799999833106996
+                            5: 0.5799999833106996
+                            6: 0.5178329836558279
+                            7: 0.2899999916553498
+                    L5PCtemplate_0_.dend_20:
+                        id: L5PCtemplate[0].dend[20]
+                        nseg: 1
+                        values:
+                            '*': 0.5799999833106995
+                    L5PCtemplate_0_.dend_21:
+                        id: L5PCtemplate[0].dend[21]
+                        nseg: 1
+                        values:
+                            '*': 0.32350701437650475
+                    L5PCtemplate_0_.dend_22:
+                        id: L5PCtemplate[0].dend[22]
+                        nseg: 3
+                        values:
+                            1: 0.37592962576567174
+                            2: 0.2899999916553496
+                            3: 0.28999999165534973
+                    L5PCtemplate_0_.dend_23:
+                        id: L5PCtemplate[0].dend[23]
+                        nseg: 1
+                        values:
+                            '*': 0.28999999165534973
+                    L5PCtemplate_0_.dend_24:
+                        id: L5PCtemplate[0].dend[24]
+                        nseg: 1
+                        values:
+                            '*': 0.2899999916553498
+                    L5PCtemplate_0_.dend_25:
+                        id: L5PCtemplate[0].dend[25]
+                        nseg: 1
+                        values:
+                            '*': 1.1699999570846558
+                    L5PCtemplate_0_.dend_26:
+                        id: L5PCtemplate[0].dend[26]
+                        nseg: 1
+                        values:
+                            '*': 0.8799999952316283
+                    L5PCtemplate_0_.dend_27:
+                        id: L5PCtemplate[0].dend[27]
+                        nseg: 3
+                        values:
+                            1: 0.7257497123330207
+                            2: 0.5799999833106994
+                            3: 0.5685660217454124
+                    L5PCtemplate_0_.dend_28:
+                        id: L5PCtemplate[0].dend[28]
+                        nseg: 9
+                        values:
+                            1: 0.8799999952316282
+                            2: 0.8799999952316284
+                            3: 0.8799999952316284
+                            4: 0.6694465969532986
+                            5: 0.5799999833106989
+                            6: 0.5480614669641367
+                            7: 0.2899999916553495
+                            8: 0.28999999165534995
+                            9: 0.28999999165534945
+                    L5PCtemplate_0_.dend_29:
+                        id: L5PCtemplate[0].dend[29]
+                        nseg: 1
+                        values:
+                            '*': 0.8799999952316285
+                    L5PCtemplate_0_.dend_3:
+                        id: L5PCtemplate[0].dend[3]
+                        nseg: 1
+                        values:
+                            '*': 0.8799999952316284
+                    L5PCtemplate_0_.dend_30:
+                        id: L5PCtemplate[0].dend[30]
+                        nseg: 1
+                        values:
+                            '*': 0.5981596857770153
+                    L5PCtemplate_0_.dend_31:
+                        id: L5PCtemplate[0].dend[31]
+                        nseg: 5
+                        values:
+                            1: 0.28999999165534973
+                            2: 0.28999999165534973
+                            3: 0.2899999916553497
+                            4: 0.2899999916553499
+                            5: 0.2899999916553496
+                    L5PCtemplate_0_.dend_32:
+                        id: L5PCtemplate[0].dend[32]
+                        nseg: 5
+                        values:
+                            1: 0.8799999952316284
+                            2: 0.8034148113420351
+                            3: 0.5786596930355336
+                            4: 0.3052306870819342
+                            5: 0.2899999916553496
+                    L5PCtemplate_0_.dend_33:
+                        id: L5PCtemplate[0].dend[33]
+                        nseg: 5
+                        values:
+                            1: 0.5799999833106995
+                            2: 0.5799999833106995
+                            3: 0.5799999833106998
+                            4: 0.47110306000143565
+                            5: 0.28999999165534984
+                    L5PCtemplate_0_.dend_34:
+                        id: L5PCtemplate[0].dend[34]
+                        nseg: 1
+                        values:
+                            '*': 0.8799999952316285
+                    L5PCtemplate_0_.dend_35:
+                        id: L5PCtemplate[0].dend[35]
+                        nseg: 7
+                        values:
+                            1: 0.5799999833106995
+                            2: 0.5799999833106995
+                            3: 0.5799999833106992
+                            4: 0.5799999833106997
+                            5: 0.37880212460799423
+                            6: 0.2899999916553497
+                            7: 0.28999999165535
+                    L5PCtemplate_0_.dend_36:
+                        id: L5PCtemplate[0].dend[36]
+                        nseg: 3
+                        values:
+                            1: 0.5799999833106994
+                            2: 0.5799999833106995
+                            3: 0.5799999833106995
+                    L5PCtemplate_0_.dend_37:
+                        id: L5PCtemplate[0].dend[37]
+                        nseg: 3
+                        values:
+                            1: 0.2899999916553498
+                            2: 0.28999999165534973
+                            3: 0.2899999916553498
+                    L5PCtemplate_0_.dend_38:
+                        id: L5PCtemplate[0].dend[38]
+                        nseg: 3
+                        values:
+                            1: 0.5799999833106996
+                            2: 0.5066730224539264
+                            3: 0.2899999916553498
+                    L5PCtemplate_0_.dend_39:
+                        id: L5PCtemplate[0].dend[39]
+                        nseg: 5
+                        values:
+                            1: 0.8799999952316283
+                            2: 0.8799999952316285
+                            3: 0.8799999952316288
+                            4: 0.8799999952316278
+                            5: 0.8799999952316288
+                    L5PCtemplate_0_.dend_4:
+                        id: L5PCtemplate[0].dend[4]
+                        nseg: 5
+                        values:
+                            1: 0.5799999833106995
+                            2: 0.5799999833106995
+                            3: 0.5799999833106997
+                            4: 0.5799999833106992
+                            5: 0.4950983832278111
+                    L5PCtemplate_0_.dend_40:
+                        id: L5PCtemplate[0].dend[40]
+                        nseg: 5
+                        values:
+                            1: 0.8799999952316284
+                            2: 0.8799999952316284
+                            3: 0.8799999952316286
+                            4: 0.8799999952316276
+                            5: 0.6293185871527928
+                    L5PCtemplate_0_.dend_41:
+                        id: L5PCtemplate[0].dend[41]
+                        nseg: 1
+                        values:
+                            '*': 0.5534739629241688
+                    L5PCtemplate_0_.dend_42:
+                        id: L5PCtemplate[0].dend[42]
+                        nseg: 1
+                        values:
+                            '*': 1.5912296237658057
+                    L5PCtemplate_0_.dend_43:
+                        id: L5PCtemplate[0].dend[43]
+                        nseg: 1
+                        values:
+                            '*': 1.1396471450571304
+                    L5PCtemplate_0_.dend_44:
+                        id: L5PCtemplate[0].dend[44]
+                        nseg: 5
+                        values:
+                            1: 0.5799999833106996
+                            2: 0.4420709650649696
+                            3: 0.2899999916553497
+                            4: 0.28999999165534984
+                            5: 0.2899999916553497
+                    L5PCtemplate_0_.dend_45:
+                        id: L5PCtemplate[0].dend[45]
+                        nseg: 7
+                        values:
+                            1: 0.8799762177805883
+                            2: 0.8059972120629638
+                            3: 0.8799999952316283
+                            4: 0.5242452968573349
+                            5: 0.2899999916553497
+                            6: 0.2899999916553497
+                            7: 0.2899999916553499
+                    L5PCtemplate_0_.dend_46:
+                        id: L5PCtemplate[0].dend[46]
+                        nseg: 1
+                        values:
+                            '*': 1.1699999570846555
+                    L5PCtemplate_0_.dend_47:
+                        id: L5PCtemplate[0].dend[47]
+                        nseg: 1
+                        values:
+                            '*': 0.8799999952316284
+                    L5PCtemplate_0_.dend_48:
+                        id: L5PCtemplate[0].dend[48]
+                        nseg: 3
+                        values:
+                            1: 0.45365134487303843
+                            2: 0.28999999165534973
+                            3: 0.28999999165534973
+                    L5PCtemplate_0_.dend_49:
+                        id: L5PCtemplate[0].dend[49]
+                        nseg: 1
+                        values:
+                            '*': 0.2899999916553497
+                    L5PCtemplate_0_.dend_5:
+                        id: L5PCtemplate[0].dend[5]
+                        nseg: 9
+                        values:
+                            1: 0.5799999833106995
+                            2: 0.5799999833106995
+                            3: 0.5799999833106997
+                            4: 0.5799999833106992
+                            5: 0.45123057689552576
+                            6: 0.2899999916553498
+                            7: 0.28999999165534945
+                            8: 0.28999999165534984
+                            9: 0.28999999165534984
+                    L5PCtemplate_0_.dend_50:
+                        id: L5PCtemplate[0].dend[50]
+                        nseg: 1
+                        values:
+                            '*': 0.28999999165534973
+                    L5PCtemplate_0_.dend_51:
+                        id: L5PCtemplate[0].dend[51]
+                        nseg: 3
+                        values:
+                            1: 0.28999999165534973
+                            2: 0.28999999165534973
+                            3: 0.2899999916553497
+                    L5PCtemplate_0_.dend_52:
+                        id: L5PCtemplate[0].dend[52]
+                        nseg: 1
+                        values:
+                            '*': 1.1699999570846558
+                    L5PCtemplate_0_.dend_53:
+                        id: L5PCtemplate[0].dend[53]
+                        nseg: 1
+                        values:
+                            '*': 1.1699999570846558
+                    L5PCtemplate_0_.dend_54:
+                        id: L5PCtemplate[0].dend[54]
+                        nseg: 5
+                        values:
+                            1: 0.3364049668082607
+                            2: 0.5799999833106996
+                            3: 0.5799999833106992
+                            4: 0.5799999833106997
+                            5: 0.38219620774345314
+                    L5PCtemplate_0_.dend_55:
+                        id: L5PCtemplate[0].dend[55]
+                        nseg: 1
+                        values:
+                            '*': 0.8799999952316284
+                    L5PCtemplate_0_.dend_56:
+                        id: L5PCtemplate[0].dend[56]
+                        nseg: 3
+                        values:
+                            '*': 0.2899999916553498
+                    L5PCtemplate_0_.dend_57:
+                        id: L5PCtemplate[0].dend[57]
+                        nseg: 1
+                        values:
+                            '*': 1.0492435963502864
+                    L5PCtemplate_0_.dend_58:
+                        id: L5PCtemplate[0].dend[58]
+                        nseg: 7
+                        values:
+                            1: 0.5799999833106995
+                            2: 0.5799999833106995
+                            3: 0.5799999833106995
+                            4: 0.5799999833106995
+                            5: 0.5799999833107
+                            6: 0.579999983310699
+                            7: 0.5799999833107
+                    L5PCtemplate_0_.dend_59:
+                        id: L5PCtemplate[0].dend[59]
+                        nseg: 7
+                        values:
+                            1: 0.9234610498598308
+                            2: 0.8799999952316285
+                            3: 0.8799999952316282
+                            4: 0.8799999952316286
+                            5: 0.8799999952316285
+                            6: 0.7998471243042417
+                            7: 0.3495408079601511
+                    L5PCtemplate_0_.dend_6:
+                        id: L5PCtemplate[0].dend[6]
+                        nseg: 7
+                        values:
+                            1: 0.5799999833106995
+                            2: 0.3889634171241182
+                            3: 0.46695390441759016
+                            4: 0.5799999833106994
+                            5: 0.4196480039697558
+                            6: 0.2899999916553499
+                            7: 0.2899999916553494
+                    L5PCtemplate_0_.dend_60:
+                        id: L5PCtemplate[0].dend[60]
+                        nseg: 5
+                        values:
+                            1: 0.8799999952316284
+                            2: 0.8799999952316285
+                            3: 0.8799999952316286
+                            4: 0.8799999952316283
+                            5: 0.8799999952316286
+                    L5PCtemplate_0_.dend_61:
+                        id: L5PCtemplate[0].dend[61]
+                        nseg: 5
+                        values:
+                            1: 0.5799999833106996
+                            2: 0.5799999833106995
+                            3: 0.5799999833106995
+                            4: 0.5799999833106995
+                            5: 0.5799999833106995
+                    L5PCtemplate_0_.dend_62:
+                        id: L5PCtemplate[0].dend[62]
+                        nseg: 5
+                        values:
+                            1: 0.6649124248309317
+                            2: 0.5454097467669107
+                            3: 0.2899999916553497
+                            4: 0.28999999165534995
+                            5: 0.28999999165534973
+                    L5PCtemplate_0_.dend_63:
+                        id: L5PCtemplate[0].dend[63]
+                        nseg: 1
+                        values:
+                            '*': 1.8437665520550515
+                    L5PCtemplate_0_.dend_64:
+                        id: L5PCtemplate[0].dend[64]
+                        nseg: 1
+                        values:
+                            '*': 0.8799999952316284
+                    L5PCtemplate_0_.dend_65:
+                        id: L5PCtemplate[0].dend[65]
+                        nseg: 1
+                        values:
+                            '*': 0.5799999833106995
+                    L5PCtemplate_0_.dend_66:
+                        id: L5PCtemplate[0].dend[66]
+                        nseg: 7
+                        values:
+                            1: 0.5799999833106995
+                            2: 0.5799999833106994
+                            3: 0.5799999833106994
+                            4: 0.5799999833107
+                            5: 0.5663358431539233
+                            6: 0.3933202693662041
+                            7: 0.2899999916553499
+                    L5PCtemplate_0_.dend_67:
+                        id: L5PCtemplate[0].dend[67]
+                        nseg: 5
+                        values:
+                            1: 0.5799999833106995
+                            2: 0.5799999833106994
+                            3: 0.5799999833106994
+                            4: 0.5799999833106991
+                            5: 0.4636630674087728
+                    L5PCtemplate_0_.dend_68:
+                        id: L5PCtemplate[0].dend[68]
+                        nseg: 3
+                        values:
+                            1: 0.5799999833106994
+                            2: 0.5799999833106994
+                            3: 0.5799999833106992
+                    L5PCtemplate_0_.dend_69:
+                        id: L5PCtemplate[0].dend[69]
+                        nseg: 5
+                        values:
+                            1: 0.2899999916553497
+                            2: 0.2899999916553497
+                            3: 0.2899999916553497
+                            4: 0.28999999165534973
+                            5: 0.2899999916553497
+                    L5PCtemplate_0_.dend_7:
+                        id: L5PCtemplate[0].dend[7]
+                        nseg: 1
+                        values:
+                            '*': 1.184343485564353
+                    L5PCtemplate_0_.dend_70:
+                        id: L5PCtemplate[0].dend[70]
+                        nseg: 9
+                        values:
+                            1: 0.659489079779413
+                            2: 0.8799999952316283
+                            3: 0.8799999952316281
+                            4: 0.8799999952316286
+                            5: 0.7987548292435387
+                            6: 0.28999999165534956
+                            7: 0.28999999165535
+                            8: 0.28999999165535006
+                            9: 0.2899999916553496
+                    L5PCtemplate_0_.dend_71:
+                        id: L5PCtemplate[0].dend[71]
+                        nseg: 1
+                        values:
+                            '*': 0.8799999952316285
+                    L5PCtemplate_0_.dend_72:
+                        id: L5PCtemplate[0].dend[72]
+                        nseg: 9
+                        values:
+                            1: 0.5799999833106995
+                            2: 0.5799999833106995
+                            3: 0.45941625473781
+                            4: 0.2899999916553499
+                            5: 0.2899999916553497
+                            6: 0.2899999916553497
+                            7: 0.28999999165534945
+                            8: 0.28999999165534945
+                            9: 0.28999999165534984
+                    L5PCtemplate_0_.dend_73:
+                        id: L5PCtemplate[0].dend[73]
+                        nseg: 1
+                        values:
+                            '*': 0.8799999952316284
+                    L5PCtemplate_0_.dend_74:
+                        id: L5PCtemplate[0].dend[74]
+                        nseg: 5
+                        values:
+                            1: 0.5799999833106996
+                            2: 0.5799999833106994
+                            3: 0.37122424970211065
+                            4: 0.2899999916553496
+                            5: 0.2899999916553498
+                    L5PCtemplate_0_.dend_75:
+                        id: L5PCtemplate[0].dend[75]
+                        nseg: 1
+                        values:
+                            '*': 0.5799999833106995
+                    L5PCtemplate_0_.dend_76:
+                        id: L5PCtemplate[0].dend[76]
+                        nseg: 3
+                        values:
+                            '*': 0.28999999165534973
+                    L5PCtemplate_0_.dend_77:
+                        id: L5PCtemplate[0].dend[77]
+                        nseg: 3
+                        values:
+                            1: 0.39774922008674
+                            2: 0.2899999916553497
+                            3: 0.2899999916553497
+                    L5PCtemplate_0_.dend_78:
+                        id: L5PCtemplate[0].dend[78]
+                        nseg: 3
+                        values:
+                            1: 1.0012896470656143
+                            2: 0.8799999952316286
+                            3: 0.8799999952316286
+                    L5PCtemplate_0_.dend_79:
+                        id: L5PCtemplate[0].dend[79]
+                        nseg: 1
+                        values:
+                            '*': 1.148291365009682
+                    L5PCtemplate_0_.dend_8:
+                        id: L5PCtemplate[0].dend[8]
+                        nseg: 1
+                        values:
+                            '*': 0.5799999833106995
+                    L5PCtemplate_0_.dend_80:
+                        id: L5PCtemplate[0].dend[80]
+                        nseg: 3
+                        values:
+                            1: 0.38445036527721516
+                            2: 0.2899999916553498
+                            3: 0.2899999916553498
+                    L5PCtemplate_0_.dend_81:
+                        id: L5PCtemplate[0].dend[81]
+                        nseg: 1
+                        values:
+                            '*': 0.9634877963310026
+                    L5PCtemplate_0_.dend_82:
+                        id: L5PCtemplate[0].dend[82]
+                        nseg: 7
+                        values:
+                            1: 0.2899999916553498
+                            2: 0.2899999916553498
+                            3: 0.28999999165534984
+                            4: 0.2899999916553496
+                            5: 0.28999999165534984
+                            6: 0.28999999165534984
+                            7: 0.2899999916553494
+                    L5PCtemplate_0_.dend_83:
+                        id: L5PCtemplate[0].dend[83]
+                        nseg: 1
+                        values:
+                            '*': 0.8799999952316285
+                    L5PCtemplate_0_.dend_9:
+                        id: L5PCtemplate[0].dend[9]
+                        nseg: 1
+                        values:
+                            '*': 0.28999999165534973
+                    L5PCtemplate_0_.soma_0:
+                        id: L5PCtemplate[0].soma[0]
+                        nseg: 1
+                        values:
+                            '*': 13.471518345498081
+        present_on_secs: 196
+    pas:
+        num_params: 2
+        parameters:
+            e_pas:
+                ave_all_segs: -90.0
+                values:
+                    L5PCtemplate_0_.apic_0:
+                        id: L5PCtemplate[0].apic[0]
+                        nseg: 3
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_1:
+                        id: L5PCtemplate[0].apic[1]
+                        nseg: 3
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_10:
+                        id: L5PCtemplate[0].apic[10]
+                        nseg: 5
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_100:
+                        id: L5PCtemplate[0].apic[100]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_101:
+                        id: L5PCtemplate[0].apic[101]
+                        nseg: 7
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_102:
+                        id: L5PCtemplate[0].apic[102]
+                        nseg: 9
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_103:
+                        id: L5PCtemplate[0].apic[103]
+                        nseg: 5
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_104:
+                        id: L5PCtemplate[0].apic[104]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_105:
+                        id: L5PCtemplate[0].apic[105]
+                        nseg: 5
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_106:
+                        id: L5PCtemplate[0].apic[106]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_107:
+                        id: L5PCtemplate[0].apic[107]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_108:
+                        id: L5PCtemplate[0].apic[108]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_11:
+                        id: L5PCtemplate[0].apic[11]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_12:
+                        id: L5PCtemplate[0].apic[12]
+                        nseg: 5
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_13:
+                        id: L5PCtemplate[0].apic[13]
+                        nseg: 7
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_14:
+                        id: L5PCtemplate[0].apic[14]
+                        nseg: 3
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_15:
+                        id: L5PCtemplate[0].apic[15]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_16:
+                        id: L5PCtemplate[0].apic[16]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_17:
+                        id: L5PCtemplate[0].apic[17]
+                        nseg: 9
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_18:
+                        id: L5PCtemplate[0].apic[18]
+                        nseg: 5
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_19:
+                        id: L5PCtemplate[0].apic[19]
+                        nseg: 9
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_2:
+                        id: L5PCtemplate[0].apic[2]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_20:
+                        id: L5PCtemplate[0].apic[20]
+                        nseg: 3
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_21:
+                        id: L5PCtemplate[0].apic[21]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_22:
+                        id: L5PCtemplate[0].apic[22]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_23:
+                        id: L5PCtemplate[0].apic[23]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_24:
+                        id: L5PCtemplate[0].apic[24]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_25:
+                        id: L5PCtemplate[0].apic[25]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_26:
+                        id: L5PCtemplate[0].apic[26]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_27:
+                        id: L5PCtemplate[0].apic[27]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_28:
+                        id: L5PCtemplate[0].apic[28]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_29:
+                        id: L5PCtemplate[0].apic[29]
+                        nseg: 3
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_3:
+                        id: L5PCtemplate[0].apic[3]
+                        nseg: 3
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_30:
+                        id: L5PCtemplate[0].apic[30]
+                        nseg: 3
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_31:
+                        id: L5PCtemplate[0].apic[31]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_32:
+                        id: L5PCtemplate[0].apic[32]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_33:
+                        id: L5PCtemplate[0].apic[33]
+                        nseg: 7
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_34:
+                        id: L5PCtemplate[0].apic[34]
+                        nseg: 3
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_35:
+                        id: L5PCtemplate[0].apic[35]
+                        nseg: 5
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_36:
+                        id: L5PCtemplate[0].apic[36]
+                        nseg: 13
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_37:
+                        id: L5PCtemplate[0].apic[37]
+                        nseg: 13
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_38:
+                        id: L5PCtemplate[0].apic[38]
+                        nseg: 5
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_39:
+                        id: L5PCtemplate[0].apic[39]
+                        nseg: 3
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_4:
+                        id: L5PCtemplate[0].apic[4]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_40:
+                        id: L5PCtemplate[0].apic[40]
+                        nseg: 11
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_41:
+                        id: L5PCtemplate[0].apic[41]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_42:
+                        id: L5PCtemplate[0].apic[42]
+                        nseg: 3
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_43:
+                        id: L5PCtemplate[0].apic[43]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_44:
+                        id: L5PCtemplate[0].apic[44]
+                        nseg: 5
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_45:
+                        id: L5PCtemplate[0].apic[45]
+                        nseg: 3
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_46:
+                        id: L5PCtemplate[0].apic[46]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_47:
+                        id: L5PCtemplate[0].apic[47]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_48:
+                        id: L5PCtemplate[0].apic[48]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_49:
+                        id: L5PCtemplate[0].apic[49]
+                        nseg: 7
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_5:
+                        id: L5PCtemplate[0].apic[5]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_50:
+                        id: L5PCtemplate[0].apic[50]
+                        nseg: 3
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_51:
+                        id: L5PCtemplate[0].apic[51]
+                        nseg: 11
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_52:
+                        id: L5PCtemplate[0].apic[52]
+                        nseg: 5
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_53:
+                        id: L5PCtemplate[0].apic[53]
+                        nseg: 9
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_54:
+                        id: L5PCtemplate[0].apic[54]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_55:
+                        id: L5PCtemplate[0].apic[55]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_56:
+                        id: L5PCtemplate[0].apic[56]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_57:
+                        id: L5PCtemplate[0].apic[57]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_58:
+                        id: L5PCtemplate[0].apic[58]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_59:
+                        id: L5PCtemplate[0].apic[59]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_6:
+                        id: L5PCtemplate[0].apic[6]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_60:
+                        id: L5PCtemplate[0].apic[60]
+                        nseg: 11
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_61:
+                        id: L5PCtemplate[0].apic[61]
+                        nseg: 9
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_62:
+                        id: L5PCtemplate[0].apic[62]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_63:
+                        id: L5PCtemplate[0].apic[63]
+                        nseg: 9
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_64:
+                        id: L5PCtemplate[0].apic[64]
+                        nseg: 5
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_65:
+                        id: L5PCtemplate[0].apic[65]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_66:
+                        id: L5PCtemplate[0].apic[66]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_67:
+                        id: L5PCtemplate[0].apic[67]
+                        nseg: 9
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_68:
+                        id: L5PCtemplate[0].apic[68]
+                        nseg: 5
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_69:
+                        id: L5PCtemplate[0].apic[69]
+                        nseg: 7
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_7:
+                        id: L5PCtemplate[0].apic[7]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_70:
+                        id: L5PCtemplate[0].apic[70]
+                        nseg: 3
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_71:
+                        id: L5PCtemplate[0].apic[71]
+                        nseg: 3
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_72:
+                        id: L5PCtemplate[0].apic[72]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_73:
+                        id: L5PCtemplate[0].apic[73]
+                        nseg: 3
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_74:
+                        id: L5PCtemplate[0].apic[74]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_75:
+                        id: L5PCtemplate[0].apic[75]
+                        nseg: 3
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_76:
+                        id: L5PCtemplate[0].apic[76]
+                        nseg: 7
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_77:
+                        id: L5PCtemplate[0].apic[77]
+                        nseg: 7
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_78:
+                        id: L5PCtemplate[0].apic[78]
+                        nseg: 5
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_79:
+                        id: L5PCtemplate[0].apic[79]
+                        nseg: 3
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_8:
+                        id: L5PCtemplate[0].apic[8]
+                        nseg: 3
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_80:
+                        id: L5PCtemplate[0].apic[80]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_81:
+                        id: L5PCtemplate[0].apic[81]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_82:
+                        id: L5PCtemplate[0].apic[82]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_83:
+                        id: L5PCtemplate[0].apic[83]
+                        nseg: 3
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_84:
+                        id: L5PCtemplate[0].apic[84]
+                        nseg: 3
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_85:
+                        id: L5PCtemplate[0].apic[85]
+                        nseg: 5
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_86:
+                        id: L5PCtemplate[0].apic[86]
+                        nseg: 5
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_87:
+                        id: L5PCtemplate[0].apic[87]
+                        nseg: 7
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_88:
+                        id: L5PCtemplate[0].apic[88]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_89:
+                        id: L5PCtemplate[0].apic[89]
+                        nseg: 3
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_9:
+                        id: L5PCtemplate[0].apic[9]
+                        nseg: 7
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_90:
+                        id: L5PCtemplate[0].apic[90]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_91:
+                        id: L5PCtemplate[0].apic[91]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_92:
+                        id: L5PCtemplate[0].apic[92]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_93:
+                        id: L5PCtemplate[0].apic[93]
+                        nseg: 5
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_94:
+                        id: L5PCtemplate[0].apic[94]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_95:
+                        id: L5PCtemplate[0].apic[95]
+                        nseg: 3
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_96:
+                        id: L5PCtemplate[0].apic[96]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_97:
+                        id: L5PCtemplate[0].apic[97]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_98:
+                        id: L5PCtemplate[0].apic[98]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.apic_99:
+                        id: L5PCtemplate[0].apic[99]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.axon_0:
+                        id: L5PCtemplate[0].axon[0]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.axon_1:
+                        id: L5PCtemplate[0].axon[1]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_0:
+                        id: L5PCtemplate[0].dend[0]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_1:
+                        id: L5PCtemplate[0].dend[1]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_10:
+                        id: L5PCtemplate[0].dend[10]
+                        nseg: 3
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_11:
+                        id: L5PCtemplate[0].dend[11]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_12:
+                        id: L5PCtemplate[0].dend[12]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_13:
+                        id: L5PCtemplate[0].dend[13]
+                        nseg: 7
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_14:
+                        id: L5PCtemplate[0].dend[14]
+                        nseg: 7
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_15:
+                        id: L5PCtemplate[0].dend[15]
+                        nseg: 3
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_16:
+                        id: L5PCtemplate[0].dend[16]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_17:
+                        id: L5PCtemplate[0].dend[17]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_18:
+                        id: L5PCtemplate[0].dend[18]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_19:
+                        id: L5PCtemplate[0].dend[19]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_2:
+                        id: L5PCtemplate[0].dend[2]
+                        nseg: 7
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_20:
+                        id: L5PCtemplate[0].dend[20]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_21:
+                        id: L5PCtemplate[0].dend[21]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_22:
+                        id: L5PCtemplate[0].dend[22]
+                        nseg: 3
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_23:
+                        id: L5PCtemplate[0].dend[23]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_24:
+                        id: L5PCtemplate[0].dend[24]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_25:
+                        id: L5PCtemplate[0].dend[25]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_26:
+                        id: L5PCtemplate[0].dend[26]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_27:
+                        id: L5PCtemplate[0].dend[27]
+                        nseg: 3
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_28:
+                        id: L5PCtemplate[0].dend[28]
+                        nseg: 9
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_29:
+                        id: L5PCtemplate[0].dend[29]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_3:
+                        id: L5PCtemplate[0].dend[3]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_30:
+                        id: L5PCtemplate[0].dend[30]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_31:
+                        id: L5PCtemplate[0].dend[31]
+                        nseg: 5
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_32:
+                        id: L5PCtemplate[0].dend[32]
+                        nseg: 5
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_33:
+                        id: L5PCtemplate[0].dend[33]
+                        nseg: 5
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_34:
+                        id: L5PCtemplate[0].dend[34]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_35:
+                        id: L5PCtemplate[0].dend[35]
+                        nseg: 7
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_36:
+                        id: L5PCtemplate[0].dend[36]
+                        nseg: 3
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_37:
+                        id: L5PCtemplate[0].dend[37]
+                        nseg: 3
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_38:
+                        id: L5PCtemplate[0].dend[38]
+                        nseg: 3
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_39:
+                        id: L5PCtemplate[0].dend[39]
+                        nseg: 5
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_4:
+                        id: L5PCtemplate[0].dend[4]
+                        nseg: 5
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_40:
+                        id: L5PCtemplate[0].dend[40]
+                        nseg: 5
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_41:
+                        id: L5PCtemplate[0].dend[41]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_42:
+                        id: L5PCtemplate[0].dend[42]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_43:
+                        id: L5PCtemplate[0].dend[43]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_44:
+                        id: L5PCtemplate[0].dend[44]
+                        nseg: 5
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_45:
+                        id: L5PCtemplate[0].dend[45]
+                        nseg: 7
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_46:
+                        id: L5PCtemplate[0].dend[46]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_47:
+                        id: L5PCtemplate[0].dend[47]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_48:
+                        id: L5PCtemplate[0].dend[48]
+                        nseg: 3
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_49:
+                        id: L5PCtemplate[0].dend[49]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_5:
+                        id: L5PCtemplate[0].dend[5]
+                        nseg: 9
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_50:
+                        id: L5PCtemplate[0].dend[50]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_51:
+                        id: L5PCtemplate[0].dend[51]
+                        nseg: 3
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_52:
+                        id: L5PCtemplate[0].dend[52]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_53:
+                        id: L5PCtemplate[0].dend[53]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_54:
+                        id: L5PCtemplate[0].dend[54]
+                        nseg: 5
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_55:
+                        id: L5PCtemplate[0].dend[55]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_56:
+                        id: L5PCtemplate[0].dend[56]
+                        nseg: 3
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_57:
+                        id: L5PCtemplate[0].dend[57]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_58:
+                        id: L5PCtemplate[0].dend[58]
+                        nseg: 7
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_59:
+                        id: L5PCtemplate[0].dend[59]
+                        nseg: 7
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_6:
+                        id: L5PCtemplate[0].dend[6]
+                        nseg: 7
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_60:
+                        id: L5PCtemplate[0].dend[60]
+                        nseg: 5
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_61:
+                        id: L5PCtemplate[0].dend[61]
+                        nseg: 5
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_62:
+                        id: L5PCtemplate[0].dend[62]
+                        nseg: 5
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_63:
+                        id: L5PCtemplate[0].dend[63]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_64:
+                        id: L5PCtemplate[0].dend[64]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_65:
+                        id: L5PCtemplate[0].dend[65]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_66:
+                        id: L5PCtemplate[0].dend[66]
+                        nseg: 7
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_67:
+                        id: L5PCtemplate[0].dend[67]
+                        nseg: 5
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_68:
+                        id: L5PCtemplate[0].dend[68]
+                        nseg: 3
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_69:
+                        id: L5PCtemplate[0].dend[69]
+                        nseg: 5
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_7:
+                        id: L5PCtemplate[0].dend[7]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_70:
+                        id: L5PCtemplate[0].dend[70]
+                        nseg: 9
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_71:
+                        id: L5PCtemplate[0].dend[71]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_72:
+                        id: L5PCtemplate[0].dend[72]
+                        nseg: 9
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_73:
+                        id: L5PCtemplate[0].dend[73]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_74:
+                        id: L5PCtemplate[0].dend[74]
+                        nseg: 5
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_75:
+                        id: L5PCtemplate[0].dend[75]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_76:
+                        id: L5PCtemplate[0].dend[76]
+                        nseg: 3
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_77:
+                        id: L5PCtemplate[0].dend[77]
+                        nseg: 3
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_78:
+                        id: L5PCtemplate[0].dend[78]
+                        nseg: 3
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_79:
+                        id: L5PCtemplate[0].dend[79]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_8:
+                        id: L5PCtemplate[0].dend[8]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_80:
+                        id: L5PCtemplate[0].dend[80]
+                        nseg: 3
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_81:
+                        id: L5PCtemplate[0].dend[81]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_82:
+                        id: L5PCtemplate[0].dend[82]
+                        nseg: 7
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_83:
+                        id: L5PCtemplate[0].dend[83]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.dend_9:
+                        id: L5PCtemplate[0].dend[9]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+                    L5PCtemplate_0_.soma_0:
+                        id: L5PCtemplate[0].soma[0]
+                        nseg: 1
+                        values:
+                            '*': -90.0
+            g_pas:
+                ave_all_segs: 5.379984423676055e-05
+                values:
+                    L5PCtemplate_0_.apic_0:
+                        id: L5PCtemplate[0].apic[0]
+                        nseg: 3
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_1:
+                        id: L5PCtemplate[0].apic[1]
+                        nseg: 3
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_10:
+                        id: L5PCtemplate[0].apic[10]
+                        nseg: 5
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_100:
+                        id: L5PCtemplate[0].apic[100]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_101:
+                        id: L5PCtemplate[0].apic[101]
+                        nseg: 7
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_102:
+                        id: L5PCtemplate[0].apic[102]
+                        nseg: 9
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_103:
+                        id: L5PCtemplate[0].apic[103]
+                        nseg: 5
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_104:
+                        id: L5PCtemplate[0].apic[104]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_105:
+                        id: L5PCtemplate[0].apic[105]
+                        nseg: 5
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_106:
+                        id: L5PCtemplate[0].apic[106]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_107:
+                        id: L5PCtemplate[0].apic[107]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_108:
+                        id: L5PCtemplate[0].apic[108]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_11:
+                        id: L5PCtemplate[0].apic[11]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_12:
+                        id: L5PCtemplate[0].apic[12]
+                        nseg: 5
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_13:
+                        id: L5PCtemplate[0].apic[13]
+                        nseg: 7
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_14:
+                        id: L5PCtemplate[0].apic[14]
+                        nseg: 3
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_15:
+                        id: L5PCtemplate[0].apic[15]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_16:
+                        id: L5PCtemplate[0].apic[16]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_17:
+                        id: L5PCtemplate[0].apic[17]
+                        nseg: 9
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_18:
+                        id: L5PCtemplate[0].apic[18]
+                        nseg: 5
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_19:
+                        id: L5PCtemplate[0].apic[19]
+                        nseg: 9
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_2:
+                        id: L5PCtemplate[0].apic[2]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_20:
+                        id: L5PCtemplate[0].apic[20]
+                        nseg: 3
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_21:
+                        id: L5PCtemplate[0].apic[21]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_22:
+                        id: L5PCtemplate[0].apic[22]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_23:
+                        id: L5PCtemplate[0].apic[23]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_24:
+                        id: L5PCtemplate[0].apic[24]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_25:
+                        id: L5PCtemplate[0].apic[25]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_26:
+                        id: L5PCtemplate[0].apic[26]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_27:
+                        id: L5PCtemplate[0].apic[27]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_28:
+                        id: L5PCtemplate[0].apic[28]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_29:
+                        id: L5PCtemplate[0].apic[29]
+                        nseg: 3
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_3:
+                        id: L5PCtemplate[0].apic[3]
+                        nseg: 3
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_30:
+                        id: L5PCtemplate[0].apic[30]
+                        nseg: 3
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_31:
+                        id: L5PCtemplate[0].apic[31]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_32:
+                        id: L5PCtemplate[0].apic[32]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_33:
+                        id: L5PCtemplate[0].apic[33]
+                        nseg: 7
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_34:
+                        id: L5PCtemplate[0].apic[34]
+                        nseg: 3
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_35:
+                        id: L5PCtemplate[0].apic[35]
+                        nseg: 5
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_36:
+                        id: L5PCtemplate[0].apic[36]
+                        nseg: 13
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_37:
+                        id: L5PCtemplate[0].apic[37]
+                        nseg: 13
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_38:
+                        id: L5PCtemplate[0].apic[38]
+                        nseg: 5
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_39:
+                        id: L5PCtemplate[0].apic[39]
+                        nseg: 3
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_4:
+                        id: L5PCtemplate[0].apic[4]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_40:
+                        id: L5PCtemplate[0].apic[40]
+                        nseg: 11
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_41:
+                        id: L5PCtemplate[0].apic[41]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_42:
+                        id: L5PCtemplate[0].apic[42]
+                        nseg: 3
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_43:
+                        id: L5PCtemplate[0].apic[43]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_44:
+                        id: L5PCtemplate[0].apic[44]
+                        nseg: 5
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_45:
+                        id: L5PCtemplate[0].apic[45]
+                        nseg: 3
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_46:
+                        id: L5PCtemplate[0].apic[46]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_47:
+                        id: L5PCtemplate[0].apic[47]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_48:
+                        id: L5PCtemplate[0].apic[48]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_49:
+                        id: L5PCtemplate[0].apic[49]
+                        nseg: 7
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_5:
+                        id: L5PCtemplate[0].apic[5]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_50:
+                        id: L5PCtemplate[0].apic[50]
+                        nseg: 3
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_51:
+                        id: L5PCtemplate[0].apic[51]
+                        nseg: 11
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_52:
+                        id: L5PCtemplate[0].apic[52]
+                        nseg: 5
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_53:
+                        id: L5PCtemplate[0].apic[53]
+                        nseg: 9
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_54:
+                        id: L5PCtemplate[0].apic[54]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_55:
+                        id: L5PCtemplate[0].apic[55]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_56:
+                        id: L5PCtemplate[0].apic[56]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_57:
+                        id: L5PCtemplate[0].apic[57]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_58:
+                        id: L5PCtemplate[0].apic[58]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_59:
+                        id: L5PCtemplate[0].apic[59]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_6:
+                        id: L5PCtemplate[0].apic[6]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_60:
+                        id: L5PCtemplate[0].apic[60]
+                        nseg: 11
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_61:
+                        id: L5PCtemplate[0].apic[61]
+                        nseg: 9
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_62:
+                        id: L5PCtemplate[0].apic[62]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_63:
+                        id: L5PCtemplate[0].apic[63]
+                        nseg: 9
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_64:
+                        id: L5PCtemplate[0].apic[64]
+                        nseg: 5
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_65:
+                        id: L5PCtemplate[0].apic[65]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_66:
+                        id: L5PCtemplate[0].apic[66]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_67:
+                        id: L5PCtemplate[0].apic[67]
+                        nseg: 9
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_68:
+                        id: L5PCtemplate[0].apic[68]
+                        nseg: 5
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_69:
+                        id: L5PCtemplate[0].apic[69]
+                        nseg: 7
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_7:
+                        id: L5PCtemplate[0].apic[7]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_70:
+                        id: L5PCtemplate[0].apic[70]
+                        nseg: 3
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_71:
+                        id: L5PCtemplate[0].apic[71]
+                        nseg: 3
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_72:
+                        id: L5PCtemplate[0].apic[72]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_73:
+                        id: L5PCtemplate[0].apic[73]
+                        nseg: 3
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_74:
+                        id: L5PCtemplate[0].apic[74]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_75:
+                        id: L5PCtemplate[0].apic[75]
+                        nseg: 3
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_76:
+                        id: L5PCtemplate[0].apic[76]
+                        nseg: 7
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_77:
+                        id: L5PCtemplate[0].apic[77]
+                        nseg: 7
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_78:
+                        id: L5PCtemplate[0].apic[78]
+                        nseg: 5
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_79:
+                        id: L5PCtemplate[0].apic[79]
+                        nseg: 3
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_8:
+                        id: L5PCtemplate[0].apic[8]
+                        nseg: 3
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_80:
+                        id: L5PCtemplate[0].apic[80]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_81:
+                        id: L5PCtemplate[0].apic[81]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_82:
+                        id: L5PCtemplate[0].apic[82]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_83:
+                        id: L5PCtemplate[0].apic[83]
+                        nseg: 3
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_84:
+                        id: L5PCtemplate[0].apic[84]
+                        nseg: 3
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_85:
+                        id: L5PCtemplate[0].apic[85]
+                        nseg: 5
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_86:
+                        id: L5PCtemplate[0].apic[86]
+                        nseg: 5
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_87:
+                        id: L5PCtemplate[0].apic[87]
+                        nseg: 7
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_88:
+                        id: L5PCtemplate[0].apic[88]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_89:
+                        id: L5PCtemplate[0].apic[89]
+                        nseg: 3
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_9:
+                        id: L5PCtemplate[0].apic[9]
+                        nseg: 7
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_90:
+                        id: L5PCtemplate[0].apic[90]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_91:
+                        id: L5PCtemplate[0].apic[91]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_92:
+                        id: L5PCtemplate[0].apic[92]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_93:
+                        id: L5PCtemplate[0].apic[93]
+                        nseg: 5
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_94:
+                        id: L5PCtemplate[0].apic[94]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_95:
+                        id: L5PCtemplate[0].apic[95]
+                        nseg: 3
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_96:
+                        id: L5PCtemplate[0].apic[96]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_97:
+                        id: L5PCtemplate[0].apic[97]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_98:
+                        id: L5PCtemplate[0].apic[98]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.apic_99:
+                        id: L5PCtemplate[0].apic[99]
+                        nseg: 1
+                        values:
+                            '*': 5.89e-05
+                    L5PCtemplate_0_.axon_0:
+                        id: L5PCtemplate[0].axon[0]
+                        nseg: 1
+                        values:
+                            '*': 3.25e-05
+                    L5PCtemplate_0_.axon_1:
+                        id: L5PCtemplate[0].axon[1]
+                        nseg: 1
+                        values:
+                            '*': 3.25e-05
+                    L5PCtemplate_0_.dend_0:
+                        id: L5PCtemplate[0].dend[0]
+                        nseg: 1
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_1:
+                        id: L5PCtemplate[0].dend[1]
+                        nseg: 1
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_10:
+                        id: L5PCtemplate[0].dend[10]
+                        nseg: 3
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_11:
+                        id: L5PCtemplate[0].dend[11]
+                        nseg: 1
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_12:
+                        id: L5PCtemplate[0].dend[12]
+                        nseg: 1
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_13:
+                        id: L5PCtemplate[0].dend[13]
+                        nseg: 7
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_14:
+                        id: L5PCtemplate[0].dend[14]
+                        nseg: 7
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_15:
+                        id: L5PCtemplate[0].dend[15]
+                        nseg: 3
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_16:
+                        id: L5PCtemplate[0].dend[16]
+                        nseg: 1
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_17:
+                        id: L5PCtemplate[0].dend[17]
+                        nseg: 1
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_18:
+                        id: L5PCtemplate[0].dend[18]
+                        nseg: 1
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_19:
+                        id: L5PCtemplate[0].dend[19]
+                        nseg: 1
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_2:
+                        id: L5PCtemplate[0].dend[2]
+                        nseg: 7
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_20:
+                        id: L5PCtemplate[0].dend[20]
+                        nseg: 1
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_21:
+                        id: L5PCtemplate[0].dend[21]
+                        nseg: 1
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_22:
+                        id: L5PCtemplate[0].dend[22]
+                        nseg: 3
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_23:
+                        id: L5PCtemplate[0].dend[23]
+                        nseg: 1
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_24:
+                        id: L5PCtemplate[0].dend[24]
+                        nseg: 1
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_25:
+                        id: L5PCtemplate[0].dend[25]
+                        nseg: 1
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_26:
+                        id: L5PCtemplate[0].dend[26]
+                        nseg: 1
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_27:
+                        id: L5PCtemplate[0].dend[27]
+                        nseg: 3
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_28:
+                        id: L5PCtemplate[0].dend[28]
+                        nseg: 9
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_29:
+                        id: L5PCtemplate[0].dend[29]
+                        nseg: 1
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_3:
+                        id: L5PCtemplate[0].dend[3]
+                        nseg: 1
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_30:
+                        id: L5PCtemplate[0].dend[30]
+                        nseg: 1
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_31:
+                        id: L5PCtemplate[0].dend[31]
+                        nseg: 5
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_32:
+                        id: L5PCtemplate[0].dend[32]
+                        nseg: 5
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_33:
+                        id: L5PCtemplate[0].dend[33]
+                        nseg: 5
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_34:
+                        id: L5PCtemplate[0].dend[34]
+                        nseg: 1
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_35:
+                        id: L5PCtemplate[0].dend[35]
+                        nseg: 7
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_36:
+                        id: L5PCtemplate[0].dend[36]
+                        nseg: 3
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_37:
+                        id: L5PCtemplate[0].dend[37]
+                        nseg: 3
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_38:
+                        id: L5PCtemplate[0].dend[38]
+                        nseg: 3
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_39:
+                        id: L5PCtemplate[0].dend[39]
+                        nseg: 5
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_4:
+                        id: L5PCtemplate[0].dend[4]
+                        nseg: 5
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_40:
+                        id: L5PCtemplate[0].dend[40]
+                        nseg: 5
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_41:
+                        id: L5PCtemplate[0].dend[41]
+                        nseg: 1
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_42:
+                        id: L5PCtemplate[0].dend[42]
+                        nseg: 1
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_43:
+                        id: L5PCtemplate[0].dend[43]
+                        nseg: 1
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_44:
+                        id: L5PCtemplate[0].dend[44]
+                        nseg: 5
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_45:
+                        id: L5PCtemplate[0].dend[45]
+                        nseg: 7
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_46:
+                        id: L5PCtemplate[0].dend[46]
+                        nseg: 1
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_47:
+                        id: L5PCtemplate[0].dend[47]
+                        nseg: 1
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_48:
+                        id: L5PCtemplate[0].dend[48]
+                        nseg: 3
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_49:
+                        id: L5PCtemplate[0].dend[49]
+                        nseg: 1
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_5:
+                        id: L5PCtemplate[0].dend[5]
+                        nseg: 9
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_50:
+                        id: L5PCtemplate[0].dend[50]
+                        nseg: 1
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_51:
+                        id: L5PCtemplate[0].dend[51]
+                        nseg: 3
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_52:
+                        id: L5PCtemplate[0].dend[52]
+                        nseg: 1
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_53:
+                        id: L5PCtemplate[0].dend[53]
+                        nseg: 1
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_54:
+                        id: L5PCtemplate[0].dend[54]
+                        nseg: 5
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_55:
+                        id: L5PCtemplate[0].dend[55]
+                        nseg: 1
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_56:
+                        id: L5PCtemplate[0].dend[56]
+                        nseg: 3
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_57:
+                        id: L5PCtemplate[0].dend[57]
+                        nseg: 1
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_58:
+                        id: L5PCtemplate[0].dend[58]
+                        nseg: 7
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_59:
+                        id: L5PCtemplate[0].dend[59]
+                        nseg: 7
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_6:
+                        id: L5PCtemplate[0].dend[6]
+                        nseg: 7
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_60:
+                        id: L5PCtemplate[0].dend[60]
+                        nseg: 5
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_61:
+                        id: L5PCtemplate[0].dend[61]
+                        nseg: 5
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_62:
+                        id: L5PCtemplate[0].dend[62]
+                        nseg: 5
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_63:
+                        id: L5PCtemplate[0].dend[63]
+                        nseg: 1
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_64:
+                        id: L5PCtemplate[0].dend[64]
+                        nseg: 1
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_65:
+                        id: L5PCtemplate[0].dend[65]
+                        nseg: 1
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_66:
+                        id: L5PCtemplate[0].dend[66]
+                        nseg: 7
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_67:
+                        id: L5PCtemplate[0].dend[67]
+                        nseg: 5
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_68:
+                        id: L5PCtemplate[0].dend[68]
+                        nseg: 3
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_69:
+                        id: L5PCtemplate[0].dend[69]
+                        nseg: 5
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_7:
+                        id: L5PCtemplate[0].dend[7]
+                        nseg: 1
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_70:
+                        id: L5PCtemplate[0].dend[70]
+                        nseg: 9
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_71:
+                        id: L5PCtemplate[0].dend[71]
+                        nseg: 1
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_72:
+                        id: L5PCtemplate[0].dend[72]
+                        nseg: 9
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_73:
+                        id: L5PCtemplate[0].dend[73]
+                        nseg: 1
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_74:
+                        id: L5PCtemplate[0].dend[74]
+                        nseg: 5
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_75:
+                        id: L5PCtemplate[0].dend[75]
+                        nseg: 1
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_76:
+                        id: L5PCtemplate[0].dend[76]
+                        nseg: 3
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_77:
+                        id: L5PCtemplate[0].dend[77]
+                        nseg: 3
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_78:
+                        id: L5PCtemplate[0].dend[78]
+                        nseg: 3
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_79:
+                        id: L5PCtemplate[0].dend[79]
+                        nseg: 1
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_8:
+                        id: L5PCtemplate[0].dend[8]
+                        nseg: 1
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_80:
+                        id: L5PCtemplate[0].dend[80]
+                        nseg: 3
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_81:
+                        id: L5PCtemplate[0].dend[81]
+                        nseg: 1
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_82:
+                        id: L5PCtemplate[0].dend[82]
+                        nseg: 7
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_83:
+                        id: L5PCtemplate[0].dend[83]
+                        nseg: 1
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.dend_9:
+                        id: L5PCtemplate[0].dend[9]
+                        nseg: 1
+                        values:
+                            '*': 4.67e-05
+                    L5PCtemplate_0_.soma_0:
+                        id: L5PCtemplate[0].soma[0]
+                        nseg: 1
+                        values:
+                            '*': 3.38e-05
+        present_on_secs: 196
+na_ion:
+    avg_rev_pot: NA
+    ext_conc: NA
+    int_conc: NA
+    nsecs: 0
+num_sections: 196
+temperature: 6.3
+total_Cm: 389.0
+total_L: 12657.567343505087
+total_Ra: 19600.0
+total_diam: 169.41026430546952
+total_nseg: 642
+

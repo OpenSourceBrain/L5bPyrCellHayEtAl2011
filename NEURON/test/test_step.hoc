@@ -1,6 +1,7 @@
 // Based on ../simulationcode/Step_current_firing.hoc
 
-load_file("nrngui.hoc")
+/*load_file("nrngui.hoc")*/
+load_file("stdrun.hoc")
 
 //objref cvode
 //cvode = new CVode()
@@ -26,7 +27,7 @@ objref L5PC
 strdef morphology_file
 morphology_file = "../morphologies/cell1.asc"
 
-load_file("../models/L5PCbiophys3.hoc")
+load_file("../models/L5PCbiophys_pas.hoc")
 load_file("../models/L5PCtemplate.hoc")
 L5PC = new L5PCtemplate(morphology_file)
 
@@ -42,35 +43,35 @@ st1.amp = step_amp
 L5PC.soma st1
 
 //==================== recording settings ==========================
-objref vvec, tvec
-
-vvec = new Vector()
-tvec = new Vector()
-
-access L5PC.soma
-cvode.record(&v(0.5),vvec,tvec)
-
-objref apcvec, apc
-apcvec = new Vector()
-apc = new APCount(0.5)
-apc.thresh= -10
-apc.record(apcvec)
-
-
-objref v_time
-objref f_time
-
-v_time = new Vector()
-{ v_time.record(&t) }
-f_time = new File()
-
-objref Soma_v
-{ Soma_v = new Vector() }
-{ Soma_v.record(&L5PC.soma.v(0.5))}
-objref Soma_ca
-{ Soma_ca = new Vector() }
-{ Soma_ca.record(&L5PC.soma.cai(0.5))}
-
+/*objref vvec, tvec*/
+/**/
+/*vvec = new Vector()*/
+/*tvec = new Vector()*/
+/**/
+/*access L5PC.soma*/
+/*cvode.record(&v(0.5),vvec,tvec)*/
+/**/
+/*objref apcvec, apc*/
+/*apcvec = new Vector()*/
+/*apc = new APCount(0.5)*/
+/*apc.thresh= -10*/
+/*apc.record(apcvec)*/
+/**/
+/**/
+/*objref v_time*/
+/*objref f_time*/
+/**/
+/*v_time = new Vector()*/
+/*{ v_time.record(&t) }*/
+/*f_time = new File()*/
+/**/
+/*objref Soma_v*/
+/*{ Soma_v = new Vector() }*/
+/*{ Soma_v.record(&L5PC.soma.v(0.5))}*/
+/*objref Soma_ca*/
+/*{ Soma_ca = new Vector() }*/
+/*{ Soma_ca.record(&L5PC.soma.cai(0.5))}*/
+/**/
 //======================= plot settings ============================
 
 //objref gV
@@ -84,31 +85,31 @@ objref Soma_ca
 
 //============================= simulation ================================
 
+/**/
+/*nrnpython("from neuron import h")*/
+/*nrnpython("import time")*/
+/*nrnpython("print('Starting simulation of %s ms (dt: %s ms)'%(h.tstop,h.dt))")*/
+/*nrnpython("start_time = time.time()")*/
+/*init()*/
+/*run()*/
+/*nrnpython("end_time = time.time()")*/
+/*nrnpython("print('Finished simulation in %s s'%(end_time-start_time))")*/
 
-nrnpython("from neuron import h")
-nrnpython("import time")
-nrnpython("print('Starting simulation of %s ms (dt: %s ms)'%(h.tstop,h.dt))")
-nrnpython("start_time = time.time()")
-init()
-run()
-nrnpython("end_time = time.time()")
-nrnpython("print('Finished simulation in %s s'%(end_time-start_time))")
-
-print "spike count = ", apcvec.size()
-
-objref f_Soma_si
-f_Soma_si = new File()
-{ f_Soma_si.wopen("Soma.si.dat") }
-for i=0, Soma_v.size()-1 {
-   f_Soma_si.printf("%f\t%f\n", v_time.x[i]/1000, Soma_v.x[i]/1000)
-}
-{ f_Soma_si.close() }
-
-
-objref f_Soma_ca
-f_Soma_ca = new File()
-{ f_Soma_ca.wopen("Soma.ca.dat") }
-for i=0, Soma_ca.size()-1 {
-   f_Soma_ca.printf("%f\t%f\n", v_time.x[i]/1000, Soma_ca.x[i])
-}
-{ f_Soma_ca.close() }
+/*print "spike count = ", apcvec.size()*/
+/**/
+/*objref f_Soma_si*/
+/*f_Soma_si = new File()*/
+/*{ f_Soma_si.wopen("Soma.si.dat") }*/
+/*for i=0, Soma_v.size()-1 {*/
+/*   f_Soma_si.printf("%f\t%f\n", v_time.x[i]/1000, Soma_v.x[i]/1000)*/
+/*}*/
+/*{ f_Soma_si.close() }*/
+/**/
+/**/
+/*objref f_Soma_ca*/
+/*f_Soma_ca = new File()*/
+/*{ f_Soma_ca.wopen("Soma.ca.dat") }*/
+/*for i=0, Soma_ca.size()-1 {*/
+/*   f_Soma_ca.printf("%f\t%f\n", v_time.x[i]/1000, Soma_ca.x[i])*/
+/*}*/
+/*{ f_Soma_ca.close() }*/

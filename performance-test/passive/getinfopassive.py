@@ -18,14 +18,14 @@ from pyneuroml.neuron import morphinfo, getinfo, load_hoc_or_python_file
 from neuron import h
 
 
-load_hoc_or_python_file("L5PC.hoc")
+load_hoc_or_python_file("L5PC_passive_cell.hoc")
 h("objectvar mycell")
 h("strdef reference")
 h('reference = "acell"')
-h('mycell = new L5PC(reference, "L5PC", "A cell")')
-with open("NeuroML-morphinfo.yaml", "w") as f:
+h('mycell = new L5PC_passive_cell(reference, "L5PC", "A cell")')
+with open("NeuroML-passive-morphinfo.yaml", "w") as f:
     retval = morphinfo()
     print(yaml.dump(retval, sort_keys=True, indent=4), file=f, flush=True)
-with open("NeuroML-info.yaml", "w") as f:
+with open("NeuroML-passive-info.yaml", "w") as f:
     retval = getinfo(h.allsec())
     print(yaml.dump(retval, sort_keys=True, indent=4), file=f, flush=True)
