@@ -21,7 +21,7 @@ from pyneuroml.plot import PlotMorphology
 from pyneuroml.utils import component_factory
 from pyneuroml.pynml import write_neuroml2_file, run_lems_with_jneuroml_neuron
 from pyneuroml.lems.LEMSSimulation import LEMSSimulation
-from pyneuroml.plot.Plot import generate_interactive_plot
+from pyneuroml.plot.Plot import generate_plot
 
 
 # Set up a logger
@@ -66,9 +66,8 @@ def model(show_cell_morph: bool = False) -> None:
     # is perhaps cleaner (and leaner)
     newdoc = component_factory("NeuroMLDocument", id="L5PC_passive")
 
-    # TODO: IncludeType does not extend BaseWithoutId
-    pass_include = neuroml.IncludeType(href="pas.channel.nml")
-    newdoc.includes.append(pass_include)
+    include = component_factory("IncludeType", href="pas.channel.nml")
+    newdoc.add(include)
 
     newdoc.add(l5pc_cell)
 
@@ -116,9 +115,9 @@ def sim() -> None:
     fname = sim.save_to_file()
     run_lems_with_jneuroml_neuron(fname, nogui=True)
     data = np.loadtxt("l5pc_passive_output.dat")
-    generate_interactive_plot(xvalues=[data[:, 0]], yvalues=[data[:, 1]],
-                              labels=["v(soma)"],
-                              show_interactive=True, title="v(soma)")
+    generate_plot(xvalues=[data[:, 0]], yvalues=[data[:, 1]],
+                  labels=["v(soma)"],
+                  title="v(soma)")
 
 
 if __name__ == "__main__":
