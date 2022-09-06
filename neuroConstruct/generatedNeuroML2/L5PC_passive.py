@@ -29,7 +29,7 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
 
-def model(show_cell_morph: bool = False) -> None:
+def model(show_cell_morph: bool = False) -> bool:
     """Main model function
 
     :param show_cell_morph: toggle to display cell morphology
@@ -58,9 +58,12 @@ def model(show_cell_morph: bool = False) -> None:
         if "pas_" in cd.id:
             passive_cds.append(cd)
     l5pc_cell.biophysical_properties.membrane_properties.channel_densities = passive_cds
-    l5pc_cell.info(show_contents=True)
-    l5pc_cell.biophysical_properties.membrane_properties.info(show_contents=True)
-    l5pc_cell.biophysical_properties.intracellular_properties.info(show_contents=True)
+    # l5pc_cell.morphology.info(show_contents=True)
+    # print(l5pc_cell.get_all_segments_in_group("soma_0"))
+    # print(l5pc_cell.get_ordered_segments_in_groups("soma_0",
+    #                                                include_path_lengths=True))
+    # l5pc_cell.biophysical_properties.membrane_properties.info(show_contents=True)
+    # l5pc_cell.biophysical_properties.intracellular_properties.info(show_contents=True)
 
     # could also have replaced the cell in the original doc with this one, but this
     # is perhaps cleaner (and leaner)
@@ -93,17 +96,25 @@ def model(show_cell_morph: bool = False) -> None:
                                   component="IClamp",
                                   populations="L5PC_passive_pop")
     input_ = component_factory("Input", id=0,
-                               target="../L5PC_passive_pop[0]",
+                               target="../L5PC_passive_pop/0/L5PC_passive_cell",
+                               segment_id="10", haha="lol",
                                destination="synapses")
+    # input_.info(show_contents=True)
+    # return False
     inputlist.add(input_)
     newnet.add(inputlist)
 
     print(newdoc.summary())
     write_neuroml2_file(newdoc, "l5pc_passive_test.nml", validate=True)
 
+    return True
 
-def sim() -> None:
+
+def sim(run=False) -> None:
     """Simulate model"""
+
+    if run is False:
+        return
     sim = LEMSSimulation("L5PC_passive_sim", 3000, 0.01,
                          target="L5PC_passive_net")
     sim.include_neuroml2_file("l5pc_passive_test.nml")
@@ -111,7 +122,7 @@ def sim() -> None:
     sim.create_output_file("l5pc_passive_output", "l5pc_passive_output.dat")
     sim.add_column_to_output_file("l5pc_passive_output",
                                   "pop[0]_v",
-                                  "L5PC_passive_pop/0/L5PC_passive_cell/0/v")
+                                  "L5PC_passive_pop/0/soma_0/11/v")
     fname = sim.save_to_file()
     run_lems_with_jneuroml_neuron(fname, nogui=True)
     data = np.loadtxt("l5pc_passive_output.dat")
@@ -121,5 +132,4 @@ def sim() -> None:
 
 
 if __name__ == "__main__":
-    model()
-    sim()
+    sim(model())

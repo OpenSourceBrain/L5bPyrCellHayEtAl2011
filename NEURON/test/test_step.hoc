@@ -3,9 +3,9 @@
 /*load_file("nrngui.hoc")*/
 load_file("stdrun.hoc")
 
-//objref cvode
-//cvode = new CVode()
-//cvode.active(1)
+/*objref cvode*/
+/*cvode = new CVode()*/
+/*cvode.active(1)*/
 
 dt = 0.01
 
@@ -44,10 +44,10 @@ L5PC.soma st1
 
 //==================== recording settings ==========================
 /*objref vvec, tvec*/
-/**/
+
 /*vvec = new Vector()*/
 /*tvec = new Vector()*/
-/**/
+
 /*access L5PC.soma*/
 /*cvode.record(&v(0.5),vvec,tvec)*/
 /**/
@@ -58,52 +58,52 @@ L5PC.soma st1
 /*apc.record(apcvec)*/
 /**/
 /**/
-/*objref v_time*/
+objref v_time
 /*objref f_time*/
 /**/
-/*v_time = new Vector()*/
-/*{ v_time.record(&t) }*/
+v_time = new Vector()
+{ v_time.record(&t) }
 /*f_time = new File()*/
 /**/
-/*objref Soma_v*/
-/*{ Soma_v = new Vector() }*/
-/*{ Soma_v.record(&L5PC.soma.v(0.5))}*/
+objref Soma_v
+{ Soma_v = new Vector() }
+{ Soma_v.record(&L5PC.soma.v(0.5))}
 /*objref Soma_ca*/
 /*{ Soma_ca = new Vector() }*/
 /*{ Soma_ca.record(&L5PC.soma.cai(0.5))}*/
 /**/
 //======================= plot settings ============================
 
-//objref gV
-
-//gV = new Graph()
-//gV.size(0,tstop,-80,40)
-//graphList[0].append(gV)
-//access L5PC.axon
-//access L5PC.soma
-//gV.addvar("soma","v(0.5)",1,1)
-
+/*objref gV*/
+/**/
+/*gV = new Graph()*/
+/*gV.size(0,tstop,-80,40)*/
+/*graphList[0].append(gV)*/
+/*access L5PC.axon*/
+/*access L5PC.soma*/
+/*gV.addvar("soma","v(0.5)",1,1)*/
+/**/
 //============================= simulation ================================
 
-/**/
-/*nrnpython("from neuron import h")*/
-/*nrnpython("import time")*/
-/*nrnpython("print('Starting simulation of %s ms (dt: %s ms)'%(h.tstop,h.dt))")*/
-/*nrnpython("start_time = time.time()")*/
-/*init()*/
-/*run()*/
-/*nrnpython("end_time = time.time()")*/
-/*nrnpython("print('Finished simulation in %s s'%(end_time-start_time))")*/
+
+nrnpython("from neuron import h")
+nrnpython("import time")
+nrnpython("print('Starting simulation of %s ms (dt: %s ms)'%(h.tstop,h.dt))")
+nrnpython("start_time = time.time()")
+init()
+run()
+nrnpython("end_time = time.time()")
+nrnpython("print('Finished simulation in %s s'%(end_time-start_time))")
 
 /*print "spike count = ", apcvec.size()*/
 /**/
-/*objref f_Soma_si*/
-/*f_Soma_si = new File()*/
-/*{ f_Soma_si.wopen("Soma.si.dat") }*/
-/*for i=0, Soma_v.size()-1 {*/
-/*   f_Soma_si.printf("%f\t%f\n", v_time.x[i]/1000, Soma_v.x[i]/1000)*/
-/*}*/
-/*{ f_Soma_si.close() }*/
+objref f_Soma_si
+f_Soma_si = new File()
+{ f_Soma_si.wopen("Soma.si.dat") }
+for i=0, Soma_v.size()-1 {
+  f_Soma_si.printf("%f\t%f\n", v_time.x[i]/1000, Soma_v.x[i]/1000)
+}
+{ f_Soma_si.close() }
 /**/
 /**/
 /*objref f_Soma_ca*/
