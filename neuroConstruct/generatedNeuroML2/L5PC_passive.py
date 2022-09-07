@@ -74,7 +74,8 @@ def model(show_cell_morph: bool = False) -> bool:
 
     newdoc.add(l5pc_cell)
 
-    newnet = component_factory("Network", id="L5PC_passive_net")
+    # Do not validate now because it does not contain populations etc.
+    newnet = component_factory("Network", id="L5PC_passive_net", validate=False)
     newdoc.add(newnet)
     pop = component_factory("Population", id="L5PC_passive_pop",
                             component="L5PC_passive_cell",
@@ -97,7 +98,7 @@ def model(show_cell_morph: bool = False) -> bool:
                                   populations="L5PC_passive_pop")
     input_ = component_factory("Input", id=0,
                                target="../L5PC_passive_pop/0/L5PC_passive_cell",
-                               segment_id="10", haha="lol",
+                               segment_id="10",
                                destination="synapses")
     # input_.info(show_contents=True)
     # return False
