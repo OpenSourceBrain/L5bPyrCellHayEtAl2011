@@ -1,8 +1,10 @@
+// As simple script to create a soma and add the set of ion channels to it,
+// with a reasonable conductance to enable testing of the channels and
+// comparison to the NeuroML equivalents
 usegui = 1
 
 {load_file("stdlib.hoc")}
 {load_file("stdgui.hoc")}
-
 
 create Soma
 access Soma
