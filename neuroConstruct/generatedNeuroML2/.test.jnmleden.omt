@@ -2,7 +2,7 @@
 
 target: LEMS_L5bPyrCellHayEtAl2011_LowDt.xml
 engine: jNeuroML_EDEN
-mep: .test.mep
+mep: ../../NEURON/test/.test.soma.mep
 experiments:
   Current clamp:
     observables:
@@ -14,4 +14,4 @@ experiments:
         spike detection:
           method: threshold
           threshold: 0
-        tolerance: 0.00020152256455791017
+        tolerance: 0.0003640389658481228

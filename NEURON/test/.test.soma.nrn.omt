@@ -4,7 +4,7 @@ target: Test_Soma.hoc
 engine: NEURON
 mep: .test.soma.mep
 experiments:
-  step:
+  Current clamp:
     observables:
       spike times:
         file:
