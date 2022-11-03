@@ -6,7 +6,6 @@ load_file("nrngui.hoc")
 //cvode = new CVode()
 //cvode.active(1)
 
-dt = 0.01
 
 //======================== settings ===================================
 
@@ -40,6 +39,9 @@ st1.del = 700
 st1.amp = step_amp
 
 L5PC.soma st1
+
+
+dt = 0.01
 
 //==================== recording settings ==========================
 objref vvec, tvec

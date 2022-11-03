@@ -1,0 +1,6 @@
+system: Testing a detailed cell
+
+experiments:
+  step:
+    expected:
+      spike times: [306.588, 320.963, 336.28799999999995, 352.375, 368.77500000000003, 385.288]
