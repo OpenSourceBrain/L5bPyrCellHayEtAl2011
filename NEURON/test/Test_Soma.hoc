@@ -120,7 +120,7 @@ if (usegui==1) {
     {GraphWin_0.view(0, -110.0, tstop, 160.0, 80, 330, 330, 250)}
     {
         GraphWin_0.addexpr("Soma.v", "Soma.v(0.5)", 1, 1, 0.8, 0.9, 2)
-        //graphList[0].append(GraphWin_0)
+        graphList[0].append(GraphWin_0)
     }
 
     GraphWin_1 = new Graph(0)
@@ -129,11 +129,11 @@ if (usegui==1) {
     {
         GraphWin_1.addexpr("m_Ih", "m_Ih", 1, 1, 0.8, 0.9, 2)
         GraphWin_1.addexpr("m_Im", "m_Im", 2, 1, 0.8, 0.9, 2)
-        GraphWin_1.addexpr("m_KdShu2007", "m_KdShu2007", 3, 1, 0.8, 0.9, 2)
-        GraphWin_1.addexpr("h_KdShu2007", "h_KdShu2007", 4, 1, 0.8, 0.9, 2)
+        //GraphWin_1.addexpr("m_KdShu2007", "m_KdShu2007", 3, 1, 0.8, 0.9, 2)
+        //GraphWin_1.addexpr("h_KdShu2007", "h_KdShu2007", 4, 1, 0.8, 0.9, 2)
         GraphWin_1.addexpr("m_Ca", "m_Ca", 5, 1, 0.8, 0.9, 2)
         GraphWin_1.addexpr("h_Ca", "h_Ca", 6, 1, 0.8, 0.9, 2)
-        //graphList[0].append(GraphWin_1)
+        graphList[0].append(GraphWin_1)
     }
 
     GraphWin_2 = new Graph(0)
@@ -141,7 +141,7 @@ if (usegui==1) {
     {GraphWin_2.view(0, 0, tstop, 0.005, 80, 330, 330, 250)}
     {
         GraphWin_2.addexpr("cai", "cai", 1, 1, 0.8, 0.9, 2)
-        //graphList[0].append(GraphWin_2)
+        graphList[0].append(GraphWin_2)
     }
 
     GraphWin_3 = new Graph(0)
@@ -149,7 +149,7 @@ if (usegui==1) {
     {GraphWin_3.view(0, 70, tstop, 60, 80, 330, 330, 250)}
     {
         GraphWin_3.addexpr("eca", "eca", 1, 1, 0.8, 0.9, 2)
-        //graphList[0].append(GraphWin_3)
+        graphList[0].append(GraphWin_3)
     }
 }
 
@@ -160,7 +160,7 @@ strdef timeFilename
 
 f_Soma_v = new File()
 strdef filename
-{sprint(filename, "Soma.dat")}
+{sprint(filename, "SomaOnly.dat")}
 f_Soma_v.wopen(filename)
 Soma_v.printf(f_Soma_v)
 f_Soma_v.close()
@@ -174,7 +174,7 @@ f_Soma_v.close()
 
 objref f_Soma_si
 f_Soma_si = new File()
-{ f_Soma_si.wopen("Soma.si.dat") }
+{ f_Soma_si.wopen("SomaOnly.si.dat") }
 for i=0, Soma_v.size()-1 {
    f_Soma_si.printf("%f\t%f\n", v_time.x[i]/1000, Soma_v.x[i]/1000)
 }
@@ -183,7 +183,7 @@ for i=0, Soma_v.size()-1 {
 
 objref f_Soma_ca
 f_Soma_ca = new File()
-{ f_Soma_ca.wopen("Soma.ca.dat") }
+{ f_Soma_ca.wopen("SomaOnly.ca.dat") }
 for i=0, Soma_ca.size()-1 {
    f_Soma_ca.printf("%f\t%f\n", v_time.x[i]/1000, Soma_ca.x[i])
 }
