@@ -16,3 +16,14 @@ experiments:
           method: threshold
           threshold: 0
         tolerance: 0.0001624836571669216
+  cond dens nat:
+    observables:
+      spike times:
+        file:
+          path: cond_dens.dat
+          columns: [0,1]
+          scaling: [1000, 1000]
+        spike detection:
+          method: threshold
+          threshold: 2
+        tolerance: 0.00014628587853671317

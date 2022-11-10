@@ -110,6 +110,10 @@ objref Soma_ca
 { Soma_ca = new Vector() }
 { Soma_ca.record(&Soma.cai(0.5))}
 
+objref Soma_g_nat
+{ Soma_g_nat = new Vector() }
+{ Soma_g_nat.record(&Soma.gNaTa_t_NaTa_t(0.5))}
+
 objref f_Soma_v
 
 
@@ -192,6 +196,15 @@ for i=0, Soma_ca.size()-1 {
    f_Soma_ca.printf("%f\t%f\n", v_time.x[i]/1000, Soma_ca.x[i])
 }
 { f_Soma_ca.close() }
+
+objref f_Soma_g
+
+f_Soma_g = new File()
+{ f_Soma_g.wopen("SomaOnly.g.nat.dat") }
+for i=0, Soma_g_nat.size()-1 {
+   f_Soma_g.printf("%f\t%f\n", v_time.x[i]/1000, Soma_g_nat.x[i]*10000) // convert to SI - (S/cm2) -> S/m2
+}
+{ f_Soma_g.close() }
 
 
 
