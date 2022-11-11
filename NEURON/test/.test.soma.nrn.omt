@@ -18,7 +18,7 @@ experiments:
     observables:
       spike times:
         file:
-          path: SomaOnly.g.nat.dat
+          path: SomaOnly.g.dat
           columns: [0,1]
           scaling: [1000, 1000]
         spike detection:
