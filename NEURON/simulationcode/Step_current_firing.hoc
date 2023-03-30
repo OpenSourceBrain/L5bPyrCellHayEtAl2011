@@ -1,12 +1,12 @@
 //Author: Etay Hay, 2011
 //  Models of Neocortical Layer 5b Pyramidal Cells Capturing a Wide Range of
 //  Dendritic and Perisomatic Active Properties
-//  (Hay et al., PLoS Computational Biology, 2011) 
+//  (Hay et al., PLoS Computational Biology, 2011)
 //
 // A simulation of L5 Pyramidal Cell under a prolonged step current
 
 load_file("nrngui.hoc")
-
+ 
 objref cvode
 cvode = new CVode()
 cvode.active(1)
@@ -74,7 +74,3 @@ init()
 run()
 
 print "spike count = ", apcvec.size()
-
-
-
-
