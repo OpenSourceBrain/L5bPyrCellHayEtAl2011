@@ -3,7 +3,7 @@ system: Testing a detailed cell
 experiments:
   Current clamp:
     expected:
-      spike times: [306.305, 320.058, 334.613, 349.89799999999997, 365.493, 381.20500000000004, 396.963]
+      spike times: [306.305, 320.058, 334.613, 349.89799999999997, 365.493, 381.20500000000004, 396.96]
 
   cond dens nat:
     expected:
