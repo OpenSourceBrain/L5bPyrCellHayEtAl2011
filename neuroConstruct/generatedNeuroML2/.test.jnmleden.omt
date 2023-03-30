@@ -1,10 +1,10 @@
 # Script for running automated tests on OSB using Travis-CI, see https://github.com/borismarin/osb-model-validation
 
-target: LEMS_L5bPyrCellHayEtAl2011_LowDt.xml
+target: LEMS_L5bPyrCellHayEtAl2011.xml # Note: not using low dt, since that records channel cond densities...
 engine: jNeuroML_EDEN
 mep: ../../NEURON/test/.test.soma.mep
 experiments:
-  step:
+  Current clamp:
     observables:
       spike times:
         file:
@@ -14,4 +14,4 @@ experiments:
         spike detection:
           method: threshold
           threshold: 0
-        tolerance: 0.0003715991535671381
+        tolerance: 0.0017885933091496282 # should be closer if low dt version used...

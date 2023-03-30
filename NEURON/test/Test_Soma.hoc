@@ -110,6 +110,37 @@ objref Soma_ca
 { Soma_ca = new Vector() }
 { Soma_ca.record(&Soma.cai(0.5))}
 
+objref Soma_g_nat
+{ Soma_g_nat = new Vector() }
+{ Soma_g_nat.record(&Soma.gNaTa_t_NaTa_t(0.5))}
+objref Soma_g_nap
+{ Soma_g_nap = new Vector() }
+{ Soma_g_nap.record(&Soma.gNap_Et2_Nap_Et2(0.5))}
+objref Soma_g_kat
+{ Soma_g_kat = new Vector() }
+{ Soma_g_kat.record(&Soma.gK_Tst_K_Tst(0.5))}
+objref Soma_g_kap
+{ Soma_g_kap = new Vector() }
+{ Soma_g_kap.record(&Soma.gK_Pst_K_Pst(0.5))}
+objref Soma_g_ih
+{ Soma_g_ih = new Vector() }
+{ Soma_g_ih.record(&Soma.gIh_Ih(0.5))}
+objref Soma_g_im
+{ Soma_g_im = new Vector() }
+{ Soma_g_im.record(&Soma.gIm_Im(0.5))}
+objref Soma_g_sk
+{ Soma_g_sk = new Vector() }
+{ Soma_g_sk.record(&Soma.gSK_E2_SK_E2(0.5))}
+objref Soma_g_kv3
+{ Soma_g_kv3 = new Vector() }
+{ Soma_g_kv3.record(&Soma.gSKv3_1_SKv3_1(0.5))}
+objref Soma_g_cahva
+{ Soma_g_cahva = new Vector() }
+{ Soma_g_cahva.record(&Soma.gCa_HVA_Ca_HVA(0.5))}
+objref Soma_g_calva
+{ Soma_g_calva = new Vector() }
+{ Soma_g_calva.record(&Soma.gCa_LVAst_Ca_LVAst(0.5))}
+
 objref f_Soma_v
 
 
@@ -192,6 +223,20 @@ for i=0, Soma_ca.size()-1 {
    f_Soma_ca.printf("%f\t%f\n", v_time.x[i]/1000, Soma_ca.x[i])
 }
 { f_Soma_ca.close() }
+
+objref f_Soma_g
+
+f_Soma_g = new File()
+{ f_Soma_g.wopen("SomaOnly.g.dat") }
+for i=0, Soma_g_nat.size()-1 {
+   f_Soma_g.printf("%f\t%g\t%g\t%g\t%g\t%g\t%g\t%g\t%g\t%g\t%g\n", v_time.x[i]/1000, \
+        Soma_g_nat.x[i]*10000, Soma_g_nap.x[i]*10000, \
+        Soma_g_kap.x[i]*10000, Soma_g_kat.x[i]*10000, \
+        Soma_g_ih.x[i]*10000, Soma_g_im.x[i]*10000, \
+        Soma_g_sk.x[i]*10000, Soma_g_kv3.x[i]*10000, \
+        Soma_g_cahva.x[i]*10000, Soma_g_calva.x[i]*10000) // convert to SI - (S/cm2) -> S/m2
+}
+{ f_Soma_g.close() }
 
 
 
