@@ -37,9 +37,11 @@ insert K_Tst
 //{ gkbar_KdShu2007=0.0002 }    ////    NOTE: gKdShu2007bar_KdShu2007 not gkbar_KdShu2007
 
 insert NaTa_t
-{ gNaTa_tbar_NaTa_t=0.2 }
-insert NaTs2_t
-{ gNaTs2_tbar_NaTs2_t=0.1 }
+{ gNaTa_tbar_NaTa_t=0.3 }
+
+//insert NaTs2_t                 /// NaTs2_t not used in L5PCbiophys3 in Hay 2011...
+//{ gNaTs2_tbar_NaTs2_t=0.1 }
+
 insert Nap_Et2
 { gNap_Et2bar_Nap_Et2=0.00172 }
 
@@ -89,7 +91,7 @@ Soma {
 
 
 tstop = 600.0
-dt = 0.01
+dt = 0.0025
 
 
 objref v_time
@@ -205,7 +207,7 @@ if (usegui==1) {
     xvalue("t","t", 2 )
     tstop = 700.0
     xvalue("Tstop","tstop", 1,"tstop_changed()", 0, 1 )
-    dt = 0.01
+    dt = 0.0025
      xvalue("dt","dt", 1,"setdt()", 0, 1 )
     xpanel(80,80)
     }
