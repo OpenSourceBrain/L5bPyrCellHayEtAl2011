@@ -32,3 +32,4 @@ LEMS_Test*.xml
 *_code.gen.c
 *code.gen.so
 *_eden.py
+arm64
