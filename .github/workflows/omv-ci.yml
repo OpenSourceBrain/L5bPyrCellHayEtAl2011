@@ -3,9 +3,9 @@ name: Continuous build using OMV
 
 on:
   push:
-    branches: [ master, development, experimental ]
+    branches: [ master, development, experimental, test* ]
   pull_request:
-    branches: [ master, development, experimental ]
+    branches: [ master, development, experimental, test*  ]
 
 jobs:
   build:
@@ -14,14 +14,26 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        python-version: [ 3.7, 3.9 ]
-        engine: [ jNeuroML, jNeuroML_NEURON, jNeuroML_NetPyNE, jNeuroML_validate, "NEURON:7.6", "NEURON:8.0", jNeuroML_EDEN ]
+        python-version: [ 3.9 ]
+        engine: 
+          - jNeuroML
+          - jNeuroML_NEURON
+          - jNeuroML_NetPyNE
+          - jNeuroML_validate
+          # - "NEURON:7.6"
+          # - "NEURON:7.7"
+          # - "NEURON:7.8.2"
+          - "NEURON:8.0.0"
+          - "NEURON:8.1.0"
+          - "NEURON:8.2.0"
+          - jNeuroML_EDEN
+          - Py_neuroConstruct
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
 
     - name: Set up Python  ${{ matrix.python-version }}
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v3
       with:
         python-version:  ${{ matrix.python-version }}
 
@@ -32,7 +44,7 @@ jobs:
 
     - name: Compile some mod files, required for NEURON tests
       run: |
-        if [[  ${{ matrix.engine }} == *"NEURON"* ]]; then omv install NEURON; cd NEURON/test ; nrnivmodl ../mod ; fi
+        if [[  ${{ matrix.engine }} == *"NEURON"* && ${{ matrix.engine }} != *"jNeuroML"* ]]; then omv install ${{ matrix.engine }}; export PATH=$PATH:/home/runner/neuron/nrn/x86_64/bin; env; cd NEURON/test ; nrnivmodl ../mod ; fi
 
     - name: Run OMV tests on engine ${{ matrix.engine }}
       run: |

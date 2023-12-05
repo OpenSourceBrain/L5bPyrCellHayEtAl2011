@@ -1,0 +1,10 @@
+system: Testing a detailed cell
+
+experiments:
+  Current clamp:
+    expected:
+      spike times: [306.305, 320.058, 334.613, 349.89799999999997, 365.493, 381.20500000000004, 396.96]
+
+  cond dens nat:
+    expected:
+      spike times: [302.543, 313.96299999999997, 327.928, 342.813, 358.255, 373.913, 389.64799999999997]
