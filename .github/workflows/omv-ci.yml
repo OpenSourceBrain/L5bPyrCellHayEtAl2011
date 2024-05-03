@@ -40,7 +40,7 @@ jobs:
 
     - name: Install OMV
       run: |
-        pip install git+https://github.com/OpenSourceBrain/osb-model-validation
+        pip install git+https://github.com/OpenSourceBrain/osb-model-validation@test_pynn011
         pip install scipy sympy matplotlib cython pandas tables
 
     - name: Compile some mod files, required for NEURON tests
