@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<neuroml xmlns="http://www.neuroml.org/schema/neuroml2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2  https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta3.xsd" id="network_L5bPyrCellHayEtAl2011">
+<neuroml xmlns="http://www.neuroml.org/schema/neuroml2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2  https://raw.githubusercontent.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2.3.xsd" id="network_L5bPyrCellHayEtAl2011">
 
     <notes>
 
-Network structure (NeuroML 2beta3) for project: L5bPyrCellHayEtAl2011 saved with neuroConstruct v1.7.1 on: 13:38:55, 18-Mar-14
+Network structure (NeuroML 2.3) for project: L5bPyrCellHayEtAl2011 saved with neuroConstruct v1.7.4 on: 12:17:15, 11-Aug-23
 
 Cell Group: CG_TestCML contains 1 cells
 
@@ -25,19 +25,18 @@ Cell Group: CG_TestCML contains 1 cells
     <include href="SK_E2.channel.nml"/>
     <include href="SKv3_1.channel.nml"/>
     <include href="Soma_AllCML.cell.nml"/>
-
     <pulseGenerator id="Input_4" delay="300.0ms" duration="100.0ms" amplitude="5.0E-5uA"/>
-
     
-
     <pulseGenerator id="Input_3" delay="100.0ms" duration="100.0ms" amplitude="-1.0E-5uA"/>
-
     
     <network id="network_L5bPyrCellHayEtAl2011" type="networkWithTemperature" temperature="6.3 degC">
 
         
 
         <population id="CG_TestCML" component="Soma_AllCML" type="populationList" size="1">
+           <annotation>
+                <property tag="color" value="0.66015625 0.98046875 0.5546875"/>
+            </annotation>
             <instance id="0">
                 <location x="105.841934" y="19.6415" z="55.338722"/>
             </instance>
